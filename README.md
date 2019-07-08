@@ -1,5 +1,7 @@
 # `@scipe/workers`
 
+[![CircleCI](https://circleci.com/gh/science-periodicals/workers.svg?style=svg&circle-token=20a8bbea4fe6a650c8b9aa9ddfefcfb3dedee004)](https://circleci.com/gh/science-periodicals/workers)
+
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Multi-threaded workers processing
