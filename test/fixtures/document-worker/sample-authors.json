@@ -1,0 +1,416 @@
+[
+  {
+    "@id": "scienceai:0579a551-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAction": [
+      {
+        "@id": "scienceai:057a68a0-e618-11e5-9720-af317e65127e",
+        "@type": "ContributeAction",
+        "noteIdentifier": 1,
+        "description": "Authors contributed equally."
+      }
+    ],
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": [
+          {
+            "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+            "@type": "FunderRole",
+            "roleOffer": {
+              "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+              "@type": "FundingSource",
+              "alternateName": "ARRA",
+              "name": "American Recovery and Reinvestment Act award",
+              "serialNumber": "3R01TW005869-06S1"
+            },
+            "funder": [
+              {
+                "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                "sameAs": ["http://www.fic.nih.gov/"],
+                "@type": "Organization",
+                "name": "Fogarty International Center",
+                "parentOrganization": {
+                  "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                  "sameAs": ["http://www.nih.gov/"],
+                  "@type": "Organization",
+                  "name": "National Institutes of Health",
+                  "alternateName": "NIH",
+                  "location": {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressCountry": "USA",
+                      "addressLocality": "Bethesda",
+                      "addressRegion": "MD"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "author": [
+      {
+        "@id": "scienceai:0579a550-e618-11e5-9720-af317e65127e",
+        "@type": "Person",
+        "familyName": "Levinson",
+        "givenName": "Jordan",
+        "name": "Ms. Jordan Levinson, MSc"
+      }
+    ]
+  },
+
+  {
+    "@id": "scienceai:057a8fb0-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAction": [
+      {
+        "@id": "scienceai:057b04e0-e618-11e5-9720-af317e65127e",
+        "@type": "ContributeAction",
+        "noteIdentifier": 1,
+        "description": "Authors contributed equally."
+      }
+    ],
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": [
+          {
+            "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+            "@type": "FunderRole",
+            "roleOffer": {
+              "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+              "@type": "FundingSource",
+              "alternateName": "ARRA",
+              "name": "American Recovery and Reinvestment Act award",
+              "serialNumber": "3R01TW005869-06S1"
+            },
+            "funder": [
+              {
+                "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                "sameAs": ["http://www.fic.nih.gov/"],
+                "@type": "Organization",
+                "name": "Fogarty International Center",
+                "parentOrganization": {
+                  "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                  "sameAs": ["http://www.nih.gov/"],
+                  "@type": "Organization",
+                  "name": "National Institutes of Health",
+                  "alternateName": "NIH",
+                  "location": {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressCountry": "USA",
+                      "addressLocality": "Bethesda",
+                      "addressRegion": "MD"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@id": "scienceai:05793022-e618-11e5-9720-af317e65127e",
+        "@type": "Organization",
+        "alternateName": "EEB",
+        "name": "Department of Ecology and Evolutionary Biology",
+        "parentOrganization": {
+          "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+          "sameAs": ["http://www.princeton.edu/main/"],
+          "@type": "Organization",
+          "location": {
+            "@id": "scienceai:05793021-e618-11e5-9720-af317e65127e",
+            "@type": "Place",
+            "address": {
+              "@id": "scienceai:05793020-e618-11e5-9720-af317e65127e",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Princeton",
+              "addressRegion": "NJ"
+            }
+          },
+          "name": "Princeton University"
+        }
+      },
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.fic.nih.gov/"],
+        "@type": "Organization",
+        "name": "Fogarty International",
+        "parentOrganization": {
+          "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+          "sameAs": ["http://www.nih.gov/"],
+          "@type": "Organization",
+          "name": "National Institutes of Health",
+          "alternateName": "NIH",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Bethesda",
+              "addressRegion": "Maryland"
+            }
+          }
+        }
+      }
+    ],
+
+    "author": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://orcid.org/0000-0002-8143-5289"],
+        "@type": "Person",
+        "additionalName": "L",
+        "familyName": "Bogich",
+        "givenName": "Tiffany",
+        "name": "Dr. Tiffany L Bogich, PhD",
+        "funder": [
+          {
+            "@id": "scienceai:08b32573-e618-11e5-9720-af317e65127e",
+            "@type": "FunderRole",
+            "funder": [
+              {
+                "@id": "scienceai:08b2fe61-e618-11e5-9720-af317e65127e",
+                "@type": "Organization",
+                "alternateName": "RAPIDD",
+                "name": "Research and Policy for Infectious Disease Dynamics program",
+                "parentOrganization": {
+                  "@id": "scienceai:08b2fe60-e618-11e5-9720-af317e65127e",
+                  "@type": "Organization",
+                  "name": "Science and Technology Directorate",
+                  "parentOrganization": {
+                    "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                    "sameAs": ["http://www.dhs.gov/"],
+                    "@type": "Organization",
+                    "alternateName": "DHS",
+                    "name": "U.S. Department of Homeland Security"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "@id": "scienceai:03b32573-e618-11e5-9720-af317e65127f",
+            "@type": "FunderRole",
+            "funder": [
+              {
+                "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                "sameAs": ["http://www.fic.nih.gov/"],
+                "@type": "Organization",
+                "name": "Fogarty International Center",
+                "parentOrganization": {
+                  "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                  "sameAs": ["http://www.nih.gov/"],
+                  "@type": "Organization",
+                  "name": "National Institutes of Health",
+                  "alternateName": "NIH",
+                  "location": {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressCountry": "USA",
+                      "addressLocality": "Bethesda",
+                      "addressRegion": "MD"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "@id": "scienceai:057b2bf0-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAction": [
+      {
+        "@id": "scienceai:057d4ed0-e618-11e5-9720-af317e65127e",
+        "@type": "ContributeAction",
+        "description": "Senior author.",
+        "noteIdentifier": 3
+      }
+    ],
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": [
+          {
+            "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+            "@type": "FunderRole",
+            "roleOffer": {
+              "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+              "@type": "FundingSource",
+              "alternateName": "ARRA",
+              "name": "American Recovery and Reinvestment Act award",
+              "serialNumber": "3R01TW005869-06S1"
+            },
+            "funder": [
+              {
+                "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                "sameAs": ["http://www.fic.nih.gov/"],
+                "@type": "Organization",
+                "name": "Fogarty International Center",
+                "parentOrganization": {
+                  "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                  "sameAs": ["http://www.nih.gov/"],
+                  "@type": "Organization",
+                  "name": "National Institutes of Health",
+                  "alternateName": "NIH",
+                  "location": {
+                    "@type": "Place",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "addressCountry": "USA",
+                      "addressLocality": "Bethesda",
+                      "addressRegion": "MD"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "roleContactPointNoteIdentifier": 2,
+    "roleContactPoint": [
+      {
+        "@id": "scienceai:057cb290-e618-11e5-9720-af317e65127e",
+        "@type": "ContactPoint",
+        "description": "daszak@ecohealthalliance.org",
+        "email": "mailto:daszak@ecohealthalliance.org",
+        "name": "Email",
+        "url": "mailto:daszak@ecohealthalliance.org"
+      },
+      {
+        "@id": "scienceai:057cb291-e618-11e5-9720-af317e65127e",
+        "@type": "ContactPoint",
+        "description": "@PeterDaszak",
+        "name": "Twitter",
+        "url": "https://twitter.com/peterdaszak"
+      },
+      {
+        "@id": "scienceai:057cb292-e618-11e5-9720-af317e65127e",
+        "@type": "ContactPoint",
+        "description": "+1-212-380-4460",
+        "name": "Tel",
+        "telephone": "tel:+1-212-380-4460",
+        "url": "tel:+1-212-380-4460"
+      },
+      {
+        "@id": "scienceai:057cb293-e618-11e5-9720-af317e65127e",
+        "@type": "ContactPoint",
+        "description": "+1-212-380-4465",
+        "faxNumber": "fax:+1-212-380-4465",
+        "name": "Fax",
+        "url": "fax:+1-212-380-4465"
+      },
+      {
+        "@id": "scienceai:057cb294-e618-11e5-9720-af317e65127e",
+        "@type": "ContactPoint",
+        "address": "EcoHealth Alliance, 460 West 34th Street, 17th Floor, New York, NY 10001",
+        "name": "Address"
+      }
+    ],
+    "author": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://orcid.org/0000-0002-2046-5695"],
+        "@type": "Person",
+        "familyName": "Daszak",
+        "givenName": "Peter",
+        "name": "Peter Daszak, PhD",
+        "funder": [
+          {
+            "@id": "scienceai:08b129a0-e618-11e5-9720-af317e65127e",
+            "@type": "FunderRole",
+            "roleOffer": {
+              "@id": "scienceai:08b10292-e618-11e5-9720-af317e65127e",
+              "@type": "FundingSource",
+              "name": "Non-biodefense emerging infectious disease research opportunities award",
+              "serialNumber": "R01 AI079231"
+            },
+            "funder": [
+              {
+                "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+                "sameAs": ["http://www.niaid.nih.gov/"],
+                "@type": "Organization",
+                "alternateName": "NIAID",
+                "location": {
+                  "@id": "scienceai:08b10291-e618-11e5-9720-af317e65127e",
+                  "@type": "Place",
+                  "address": {
+                    "@id": "scienceai:08b10290-e618-11e5-9720-af317e65127e",
+                    "@type": "PostalAddress",
+                    "addressCountry": "USA",
+                    "addressLocality": "Bethesda",
+                    "addressRegion": "MD"
+                  }
+                },
+                "name": "National Institute of Allergy and Infectious Diseases"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

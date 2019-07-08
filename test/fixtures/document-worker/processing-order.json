@@ -1,0 +1,1068 @@
+{
+  "@id": "node:1f767f93-3efd-400a-8716-350a88110da2",
+  "@type": "ScholarlyArticle",
+  "detailedDescription": {
+    "@id": "node:4b3bb2db-e9fb-4ca0-82f8-7996326e62ca",
+    "@type": "WPAbstract",
+    "name": "Abstract",
+    "text": {
+      "@type": "rdf:HTML",
+      "@value": "<p>Lorem ipsum dolor sit amet<sup><a role=\"doc-noteref\" href=\"#node:b3907871-77f6-44dc-9646-0f1e9a819a47\" rel=\"footnote\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"sa:note\" resource=\"node:b3907871-77f6-44dc-9646-0f1e9a819a47\">3</a></sup>, elit<sup><a role=\"doc-noteref\" href=\"#node:baade659-3afd-4dca-888e-166bea734def\" rel=\"endnote\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"sa:note\" resource=\"node:baade659-3afd-4dca-888e-166bea734def\">1</a></sup>, incididunt (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>) magna (<abbr title=\"science periodicals\">scipe</abbr>). </p>"
+    }
+  },
+  "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+  "author": [
+    {
+      "@id": "role:12585de0-ffb5-44ef-84fd-4d06180acc56",
+      "@type": "ContributorRole",
+      "roleAction": [
+        {
+          "@id": "_:8282a4e6-ffb8-48e2-9ef9-56bb3380e393",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Author contribution note with abbreviation <a href=\"#scipe\" role=\"doc-anchorlink\">scipe</a>.</p>"
+          }
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "_:c21557a1-44a1-439e-abf4-63c1bf1f98ec",
+          "@type": "Organization",
+          "name": "Department of Biology",
+          "parentOrganization": {
+            "@id": "_:bf07f82f-9327-4fcf-9ba9-e5d48d53816d",
+            "@type": "Organization",
+            "alternateName": "Bryn Mawr",
+            "location": {
+              "@id": "_:edd116ab-5d06-42cf-b230-f1329709aa01",
+              "@type": "Place",
+              "address": {
+                "@id": "_:59cb673d-1e27-4ae1-896f-d9ac78ee00b2",
+                "@type": "PostalAddress",
+                "addressCountry": "USA",
+                "addressLocality": "Bryn Mawr",
+                "addressRegion": "PA"
+              }
+            },
+            "name": "Bryn Mawr College",
+            "sameAs": [
+              "https://www.brynmawr.edu/"
+            ]
+          }
+        },
+        {
+          "@id": "_:37b20243-0409-4249-b666-d876870a4107",
+          "@type": "Organization",
+          "name": "Department of Mathematics",
+          "parentOrganization": {
+            "@id": "_:ffb9d7ef-aaf5-48e9-8f9a-8a95a15511c5",
+            "@type": "Organization",
+            "alternateName": "ENS",
+            "location": {
+              "@id": "_:864f2b07-f544-438d-962c-f01be44371e8",
+              "@type": "Place",
+              "address": {
+                "@id": "_:0d7bbf31-11c9-4929-9994-55ff6a29ad56",
+                "@type": "PostalAddress",
+                "addressCountry": "France",
+                "addressLocality": "Paris"
+              }
+            },
+            "name": "École normale supérieure",
+            "sameAs": [
+              "http://www.ens.fr/en"
+            ]
+          }
+        }
+      ],
+      "roleContactPointNoteIdentifier": 2,
+      "roleContactPoint": [
+        {
+          "@id": "_:13959db6-b261-4884-809b-e045ceff72aa",
+          "@type": "ContactPoint",
+          "contactType": "home",
+          "description": "emmy1@example.com",
+          "name": "Email",
+          "url": "mailto:emmy1@example.com",
+          "email": "mailto:emmy1@example.com"
+        },
+        {
+          "@id": "_:54019687-b9c2-442f-a2cb-23783ea4920f",
+          "@type": "ContactPoint",
+          "contactType": "work",
+          "description": "enoether@example.com",
+          "name": "Email",
+          "url": "mailto:enoether@example.com",
+          "email": "mailto:enoether@example.com"
+        },
+        {
+          "@id": "_:1f4f89d2-7769-4c94-af78-afb4517acd36",
+          "@type": "ContactPoint",
+          "address": "1 Main Street, Bryn Mawr College, Bryn Mawr, PA",
+          "name": "Address"
+        },
+        {
+          "@id": "_:b683d9f6-5eec-4ab5-af7c-e0549d6436ba",
+          "@type": "ContactPoint",
+          "description": "+16105265000",
+          "name": "Tel",
+          "telephone": "tel:+16105265000",
+          "url": "tel:+16105265000"
+        },
+        {
+          "@id": "_:bc9872c2-c0de-4cbb-a2e5-9062831be401",
+          "@type": "ContactPoint",
+          "description": "@emmy",
+          "name": "Twitter",
+          "url": "https://twitter.com/emmy"
+        }
+      ],
+      "author": [
+        {
+          "@id": "_:9e49c748-19cc-4ae6-91d6-6231cfff9840",
+          "@type": "Person",
+          "familyName": "Noether",
+          "givenName": "Emmy",
+          "name": "Emmy Noether, PhD"
+        }
+      ],
+      "roleName": "author"
+    }
+  ],
+  "citation": [
+    {
+      "@id": "node:f945d2f5-1dd2-4a39-8b17-eb482aacd648",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1017/S0031182000055360",
+      "author": [
+        {
+          "@id": "_:71a11c02-f9ba-4029-a383-bf92a76f6618",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Anderson",
+          "givenName": "Roy"
+        },
+        {
+          "@id": "_:bd8bf762-de97-43a1-892d-1e65bcefd0e0",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "May",
+          "givenName": "Robert"
+        }
+      ],
+      "comment": [
+        {
+          "@id": "_:0f1f9392-3846-4387-bf12-8ea1301f3fae",
+          "@type": "Comment",
+          "text": "Canonical reference, see also May and Anderson 1982"
+        }
+      ],
+      "datePublished": {
+        "@type": "xsd:gYearMonth",
+        "@value": "1982-10"
+      },
+      "identifier": "And821",
+      "isPartOf": {
+        "@id": "_:a755d529-fade-42d4-a0e2-bcddc4b07ce0",
+        "@type": "PublicationIssue",
+        "isPartOf": {
+          "@id": "_:bddf7c8e-8f3a-4317-82ab-0d2c6254ae7c",
+          "@type": "PublicationVolume",
+          "isPartOf": {
+            "@id": "_:16c38bcf-8fee-44ca-9e43-16f2aced047d",
+            "@type": "Periodical",
+            "name": "Parasitology"
+          },
+          "volumeNumber": 85
+        },
+        "issueNumber": 2
+      },
+      "name": "Coevolution of hosts and parasites",
+      "pageEnd": 426,
+      "pageStart": 411,
+      "publisher": {
+        "@id": "_:83d49340-275b-47dc-83ab-535cad8e35e4",
+        "@type": "Organization",
+        "location": {
+          "@id": "_:2c4dafc6-66bc-43da-9537-ddf2e54d357c",
+          "@type": "PostalAddress",
+          "addressLocality": "Cambridge"
+        },
+        "name": "Cambridge University Press"
+      }
+    }
+  ],
+  "note": [
+    {
+      "@id": "node:b3907871-77f6-44dc-9646-0f1e9a819a47",
+      "@type": "Footnote",
+      "about": [
+        "node:1f767f93-3efd-400a-8716-350a88110da2"
+      ],
+      "noteIdentifier": 3,
+      "text": {
+        "@type": "rdf:HTML",
+        "@value": "<p> Footnote in abstract with abbreviation <abbr title=\"science periodicals\">scipe</abbr></p>"
+      }
+    },
+    {
+      "@id": "node:76a0c4c2-5603-44b7-a787-a28113a76350",
+      "@type": "Footnote",
+      "about": [
+        "node:1f767f93-3efd-400a-8716-350a88110da2"
+      ],
+      "noteIdentifier": 4,
+      "text": {
+        "@type": "rdf:HTML",
+        "@value": "<p> Footnote in text with citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+      }
+    },
+    {
+      "@id": "node:baade659-3afd-4dca-888e-166bea734def",
+      "@type": "Endnote",
+      "about": [
+        "node:1f767f93-3efd-400a-8716-350a88110da2"
+      ],
+      "noteIdentifier": 1,
+      "text": {
+        "@type": "rdf:HTML",
+        "@value": "<p> Endnote in abstract with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+      }
+    },
+    {
+      "@id": "node:89b03951-3645-4d55-90a0-e4aabc963f5d",
+      "@type": "Endnote",
+      "about": [
+        "node:1f767f93-3efd-400a-8716-350a88110da2"
+      ],
+      "noteIdentifier": 2,
+      "text": {
+        "@type": "rdf:HTML",
+        "@value": "<p> Endnote in text with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+      }
+    }
+  ],
+  "creator": "bot:DocumentWorker",
+  "dateCreated": "2019-03-25T23:10:31.131Z",
+  "encoding": [
+    {
+      "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+      "@type": "DocumentObject",
+      "contentChecksum": [
+        {
+          "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+          "@type": "Checksum",
+          "checksumAlgorithm": "sha256",
+          "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+        }
+      ],
+      "contentSize": 594336,
+      "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+      "creator": "bot:BlobStore",
+      "dateCreated": "2019-03-25T23:10:29.726Z",
+      "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+      "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "processing-order.ds3.docx"
+    },
+    {
+      "@id": "node:ee858893-de0f-4d34-8dfe-00075b83b56d",
+      "@type": "DocumentObject",
+      "contentChecksum": [
+        {
+          "@id": "_:9be0ec25-3dba-4d34-816c-8d38cae017b8",
+          "@type": "Checksum",
+          "checksumAlgorithm": "sha256",
+          "checksumValue": "+ynlVA/3jw+0240dSf5zyCGjx0LKz0VI27L4cvQ2NBs="
+        }
+      ],
+      "contentSize": 3074,
+      "contentUrl": "/encoding/ee858893-de0f-4d34-8dfe-00075b83b56d",
+      "creator": "bot:BlobStore",
+      "dateCreated": "2019-03-25T23:10:31.058Z",
+      "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+      "fileFormat": "text/html",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "encodingFormat": "gzip"
+        }
+      ],
+      "isBasedOn": [
+        {
+          "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+          "@type": "DocumentObject",
+          "contentChecksum": [
+            {
+              "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+            }
+          ],
+          "contentSize": 594336,
+          "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-25T23:10:29.726Z",
+          "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+          "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "name": "processing-order.ds3.docx"
+        }
+      ],
+      "name": "processing-order.ds3.html"
+    }
+  ],
+  "hasPart": [
+    {
+      "@id": "node:493b7998-e615-4691-84d7-a1448c214b4c",
+      "@type": "TextBox",
+      "isSupportingResource": false,
+      "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+      "alternateName": "Text Box 1",
+      "caption": "Testing processing order text box.",
+      "creator": "bot:DocumentWorker",
+      "dateCreated": "2019-03-25T23:10:31.132Z",
+      "encoding": [
+        {
+          "@id": "node:3eb061ac-ad43-4fe4-89c9-2740a3eee669",
+          "@type": "TextBoxObject",
+          "contentChecksum": [
+            {
+              "@id": "_:d7db1150-b44c-4d44-bf10-ef47afa35d6d",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "ckEiXO0h5xtUprs5fl3h+QNODBbQ1CeJI1fAnBM1alE="
+            }
+          ],
+          "contentSize": 329,
+          "contentUrl": "/encoding/3eb061ac-ad43-4fe4-89c9-2740a3eee669",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-25T23:10:31.051Z",
+          "encodesCreativeWork": "node:493b7998-e615-4691-84d7-a1448c214b4c",
+          "fileFormat": "text/html",
+          "encoding": [
+            {
+              "@type": "MediaObject",
+              "encodingFormat": "gzip"
+            }
+          ],
+          "isBasedOn": [
+            {
+              "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+              "@type": "DocumentObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+                }
+              ],
+              "contentSize": 594336,
+              "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-25T23:10:29.726Z",
+              "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+              "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "name": "processing-order.ds3.docx"
+            }
+          ],
+          "name": "text-box-1.html"
+        }
+      ],
+      "isPartOf": "node:1f767f93-3efd-400a-8716-350a88110da2"
+    },
+
+    {
+      "@id": "node:74668cd8-2081-4f93-98c6-87403b9fbacf",
+      "@type": "Table",
+      "isSupportingResource": false,
+      "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+      "alternateName": "Table 1",
+      "author": [
+        {
+          "@id": "role:6903e6d5-0b40-45d3-ba23-2a39cd562da8",
+          "@type": "ContributorRole",
+          "roleAction": [
+            {
+              "@id": "_:e89b268f-e86b-4219-a7d7-a781152adf35",
+              "@type": "ContributeAction",
+              "noteIdentifier": 7,
+              "description": "Collected the data"
+            }
+          ],
+          "roleAffiliation": [
+            {
+              "@id": "_:c21557a1-44a1-439e-abf4-63c1bf1f98ec",
+              "@type": "Organization",
+              "name": "Department of Biology",
+              "parentOrganization": {
+                "@id": "_:bf07f82f-9327-4fcf-9ba9-e5d48d53816d",
+                "@type": "Organization",
+                "alternateName": "Bryn Mawr",
+                "location": {
+                  "@id": "_:edd116ab-5d06-42cf-b230-f1329709aa01",
+                  "@type": "Place",
+                  "address": {
+                    "@id": "_:59cb673d-1e27-4ae1-896f-d9ac78ee00b2",
+                    "@type": "PostalAddress",
+                    "addressCountry": "USA",
+                    "addressLocality": "Bryn Mawr",
+                    "addressRegion": "PA"
+                  }
+                },
+                "name": "Bryn Mawr College",
+                "sameAs": [
+                  "https://www.brynmawr.edu/"
+                ]
+              }
+            },
+            {
+              "@id": "_:d6ed278f-9190-47ae-9147-85b3b2ece387",
+              "@type": "Organization",
+              "name": "Eberly College of Science",
+              "parentOrganization": {
+                "@id": "_:f7ab934d-aa33-48fe-8d25-a1bc2f448366",
+                "@type": "Organization",
+                "alternateName": "PSU",
+                "location": {
+                  "@id": "_:1f1cef9e-a31d-47b8-b0a3-b38b9cffa03e",
+                  "@type": "Place",
+                  "address": {
+                    "@id": "_:5ebf046c-e33d-4d2e-af7d-c29934d9060f",
+                    "@type": "PostalAddress",
+                    "addressCountry": "USA",
+                    "addressLocality": "University Park",
+                    "addressRegion": "PA"
+                  }
+                },
+                "name": "Pennsylvania State University",
+                "sameAs": [
+                  "https://psu.edu/"
+                ]
+              }
+            }
+          ],
+          "roleContactPointNoteIdentifier": 6,
+          "roleContactPoint": [
+            {
+              "@id": "_:45cb58b0-1775-42e5-bcf3-7897bf2d3296",
+              "@type": "ContactPoint",
+              "description": "emmy@example.com",
+              "name": "Email",
+              "url": "mailto:emmy@example.com",
+              "email": "mailto:emmy@example.com"
+            },
+            {
+              "@id": "_:0bf61970-f23e-4f1c-9d2a-ee3cb55a377d",
+              "@type": "ContactPoint",
+              "address": "1 Main Street, Bryn Mawr College, Bryn Mawr, PA",
+              "name": "Address"
+            },
+            {
+              "@id": "_:814e4412-e09c-43c7-bce7-8eeee6258923",
+              "@type": "ContactPoint",
+              "description": "+19178825422",
+              "name": "Tel",
+              "telephone": "tel:19178825422",
+              "url": "tel:19178825422"
+            },
+            {
+              "@id": "_:4128c64a-1ab3-4341-8931-0f0f1789b765",
+              "@type": "ContactPoint",
+              "description": "emmy",
+              "name": "Github",
+              "url": "https://github.com/emmy"
+            }
+          ],
+          "author": [
+            {
+              "@id": "_:9e49c748-19cc-4ae6-91d6-6231cfff9840",
+              "@type": "Person",
+              "familyName": "Noether",
+              "givenName": "Emmy",
+              "name": "Emmy Noether, PhD"
+            }
+          ],
+          "roleName": "author"
+        },
+        {
+          "@id": "role:8544cba2-c052-4392-9c00-03ae1ad72fd4",
+          "@type": "ContributorRole",
+          "roleAction": [
+            {
+              "@id": "_:8951eaad-8edc-46cf-ba2c-abf6882930c4",
+              "@type": "ContributeAction",
+              "noteIdentifier": 9,
+              "description": "Designed the table"
+            }
+          ],
+          "roleAffiliation": [
+            {
+              "@id": "_:37b20243-0409-4249-b666-d876870a4107",
+              "@type": "Organization",
+              "name": "Department of Mathematics",
+              "parentOrganization": {
+                "@id": "_:ffb9d7ef-aaf5-48e9-8f9a-8a95a15511c5",
+                "@type": "Organization",
+                "alternateName": "ENS",
+                "location": {
+                  "@id": "_:864f2b07-f544-438d-962c-f01be44371e8",
+                  "@type": "Place",
+                  "address": {
+                    "@id": "_:0d7bbf31-11c9-4929-9994-55ff6a29ad56",
+                    "@type": "PostalAddress",
+                    "addressCountry": "France",
+                    "addressLocality": "Paris"
+                  }
+                },
+                "name": "École normale supérieure",
+                "sameAs": [
+                  "http://www.ens.fr/en"
+                ]
+              }
+            },
+            {
+              "@id": "_:f4f5afdc-0e96-4f44-a9d6-8fbbb4b98de9",
+              "@type": "Organization",
+              "name": "Geophysics Division",
+              "parentOrganization": {
+                "@id": "_:815b606c-28d4-4853-aed9-cf33f54160b7",
+                "@type": "Organization",
+                "location": {
+                  "@id": "_:d5aed68d-b147-4cde-b7a5-09ab7a0621e1",
+                  "@type": "Place",
+                  "address": {
+                    "@id": "_:2e38d748-a9d5-489d-851e-c6a6ac85b9b6",
+                    "@type": "PostalAddress",
+                    "addressCountry": "UK",
+                    "addressLocality": "London"
+                  }
+                },
+                "name": "Royal Astronomical Society",
+                "sameAs": [
+                  "https://ras.ac.uk/"
+                ]
+              }
+            }
+          ],
+          "roleContactPointNoteIdentifier": 8,
+          "roleContactPoint": [
+            {
+              "@id": "_:467e3ae8-6fd3-4cde-b2d1-1d006e0c2d1d",
+              "@type": "ContactPoint",
+              "description": "caroline@example.com",
+              "name": "Email",
+              "url": "mailto:caroline@example.com",
+              "email": "mailto:caroline@example.com"
+            },
+            {
+              "@id": "_:35a6f290-75e9-4ffc-a0b4-4c9533389e4e",
+              "@type": "ContactPoint",
+              "address": "45 Rue d'Ulm, 75005 Paris, France",
+              "name": "Address"
+            },
+            {
+              "@id": "_:3bb9281d-e0e3-4fc1-a706-90d17b1cd0c8",
+              "@type": "ContactPoint",
+              "description": "+33144323000",
+              "name": "Tel",
+              "telephone": "tel:+33144323000",
+              "url": "tel:+33144323000"
+            },
+            {
+              "@id": "_:38da3f6a-d5b8-4cba-9133-fadc0393de22",
+              "@type": "ContactPoint",
+              "description": "caroline.",
+              "name": "Github",
+              "url": "https://github.com/caroline"
+            }
+          ],
+          "author": [
+            {
+              "@id": "_:90431158-7cc3-400b-a10f-486bc8164f44",
+              "@type": "Person",
+              "familyName": "Herschel",
+              "givenName": "Caroline",
+              "name": "Caroline Herschel"
+            }
+          ],
+          "roleName": "author"
+        }
+      ],
+      "caption": {
+        "@type": "rdf:HTML",
+        "@value": "Caption for table with abbreviation <abbr title=\"science periodicals\">scipe</abbr>, citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>) and<sup><a role=\"doc-noteref\" href=\"#node:989e79be-2f8f-4af4-a5fa-6470aba7968a\" rel=\"footnote\" about=\"node:74668cd8-2081-4f93-98c6-87403b9fbacf\" property=\"sa:note\" resource=\"node:989e79be-2f8f-4af4-a5fa-6470aba7968a\">5</a></sup> notes<sup><a role=\"doc-noteref\" href=\"#node:91e2d4ea-b3cf-45e0-ad00-19d56ec273bb\" rel=\"endnote\" about=\"node:74668cd8-2081-4f93-98c6-87403b9fbacf\" property=\"sa:note\" resource=\"node:91e2d4ea-b3cf-45e0-ad00-19d56ec273bb\">3</a></sup>."
+      },
+      "note": [
+        {
+          "@id": "node:989e79be-2f8f-4af4-a5fa-6470aba7968a",
+          "@type": "Footnote",
+          "about": [
+            "node:74668cd8-2081-4f93-98c6-87403b9fbacf"
+          ],
+          "noteIdentifier": 5,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Footnote in table caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        },
+        {
+          "@id": "node:891b5108-230f-4317-b941-33249624df23",
+          "@type": "Footnote",
+          "about": [
+            "node:74668cd8-2081-4f93-98c6-87403b9fbacf"
+          ],
+          "noteIdentifier": 10,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Footnote in table with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        },
+        {
+          "@id": "node:91e2d4ea-b3cf-45e0-ad00-19d56ec273bb",
+          "@type": "Endnote",
+          "about": [
+            "node:74668cd8-2081-4f93-98c6-87403b9fbacf"
+          ],
+          "noteIdentifier": 3,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Endnote in table caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        },
+        {
+          "@id": "node:e061d905-a00c-4f33-aed4-8a0fba8939cd",
+          "@type": "Endnote",
+          "about": [
+            "node:74668cd8-2081-4f93-98c6-87403b9fbacf"
+          ],
+          "noteIdentifier": 4,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Endnote in table with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        }
+      ],
+      "creator": "bot:DocumentWorker",
+      "dateCreated": "2019-03-25T23:10:31.132Z",
+      "encoding": [
+        {
+          "@id": "node:8cf9f364-3eea-46e5-9af5-03d4555a5903",
+          "@type": "TableObject",
+          "contentChecksum": [
+            {
+              "@id": "_:737f009a-afbf-4430-ad65-86d09b6bd4f1",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "iBmpKvEgDxSxXKC03S4lmOcB5tLSB8M2yZ1ckPp3D5E="
+            }
+          ],
+          "contentSize": 964,
+          "contentUrl": "/encoding/8cf9f364-3eea-46e5-9af5-03d4555a5903",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-25T23:10:31.050Z",
+          "encodesCreativeWork": "node:74668cd8-2081-4f93-98c6-87403b9fbacf",
+          "fileFormat": "text/html",
+          "encoding": [
+            {
+              "@type": "MediaObject",
+              "encodingFormat": "gzip"
+            }
+          ],
+          "isBasedOn": [
+            {
+              "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+              "@type": "DocumentObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+                }
+              ],
+              "contentSize": 594336,
+              "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-25T23:10:29.726Z",
+              "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+              "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "name": "processing-order.ds3.docx"
+            }
+          ],
+          "name": "table-1.html"
+        }
+      ],
+      "isPartOf": "node:1f767f93-3efd-400a-8716-350a88110da2"
+    },
+
+    {
+      "@id": "node:320c426b-f1e8-4454-b11e-7f51c501798d",
+      "@type": "Image",
+      "isSupportingResource": false,
+      "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+      "alternateName": "Figure 1",
+      "caption": {
+        "@type": "rdf:HTML",
+        "@value": "Super bloom 2019 <abbr title=\"science periodicals\">scipe</abbr> retreat<sup><a role=\"doc-noteref\" href=\"#node:d669dbf3-b03f-46cc-bbc4-f4681328886c\" rel=\"footnote\" about=\"node:320c426b-f1e8-4454-b11e-7f51c501798d\" property=\"sa:note\" resource=\"node:d669dbf3-b03f-46cc-bbc4-f4681328886c\">11</a></sup> locations<sup><a role=\"doc-noteref\" href=\"#node:d332acc7-c9d4-4fa9-ac29-46788fcecf96\" rel=\"endnote\" about=\"node:320c426b-f1e8-4454-b11e-7f51c501798d\" property=\"sa:note\" resource=\"node:d332acc7-c9d4-4fa9-ac29-46788fcecf96\">5</a></sup> (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)"
+      },
+      "note": [
+        {
+          "@id": "node:d669dbf3-b03f-46cc-bbc4-f4681328886c",
+          "@type": "Footnote",
+          "about": [
+            "node:320c426b-f1e8-4454-b11e-7f51c501798d"
+          ],
+          "noteIdentifier": 11,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Footnote in multipart figure global caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        },
+        {
+          "@id": "node:d332acc7-c9d4-4fa9-ac29-46788fcecf96",
+          "@type": "Endnote",
+          "about": [
+            "node:320c426b-f1e8-4454-b11e-7f51c501798d"
+          ],
+          "noteIdentifier": 5,
+          "text": {
+            "@type": "rdf:HTML",
+            "@value": "<p> Endnote in multipart figure global caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+          }
+        }
+      ],
+      "creator": "bot:DocumentWorker",
+      "dateCreated": "2019-03-25T23:10:31.131Z",
+      "hasPart": [
+        {
+          "@id": "node:b9e7a95d-9ecc-4bc4-8233-43b7953c3e05",
+          "@type": "Image",
+          "isSupportingResource": false,
+          "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+          "alternateName": "a",
+          "caption": "Flowers blooming in Anza-Borrego Desert State Park",
+          "creator": "bot:DocumentWorker",
+          "dateCreated": "2019-03-25T23:10:31.132Z",
+          "encoding": [
+            {
+              "@id": "node:29098b36-a21b-4932-a780-6e695368c73c",
+              "@type": "ImageObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:9cbf991c-5a90-4890-bb6a-2b6065284440",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "324ItJiUGpI/srn+kqroPbV73xvP5N8XEuFnspabnps="
+                },
+                {
+                  "@id": "_:e0cccb32-d6a7-4110-8fb1-682bff52e910",
+                  "@type": "PerceptualHash",
+                  "checksumAlgorithm": "pHash",
+                  "checksumValue": "004000400142014004470302044203200997064305200391088706480028000601150069032402880400033308780647046003980762068300300032012301250317042003030406061308330370049507590835"
+                }
+              ],
+              "contentSize": 203297,
+              "contentUrl": "/encoding/29098b36-a21b-4932-a780-6e695368c73c",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-25T23:10:30.437Z",
+              "encodesCreativeWork": "node:b9e7a95d-9ecc-4bc4-8233-43b7953c3e05",
+              "exifData": [
+                {
+                  "@id": "_:2236851a-7505-4c82-acd1-a2a84c1f5965",
+                  "@type": "PropertyValue",
+                  "propertyID": "resolution",
+                  "unitText": "ppi",
+                  "value": "96x96"
+                },
+                {
+                  "@id": "_:015d1e3b-e89a-48a5-91a1-13df5db25e50",
+                  "@type": "PropertyValue",
+                  "propertyID": "colorType",
+                  "value": "TrueColor"
+                }
+              ],
+              "fileFormat": "image/jpeg",
+              "height": 600,
+              "isBasedOn": [
+                {
+                  "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+                  "@type": "DocumentObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+                    }
+                  ],
+                  "contentSize": 594336,
+                  "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:29.726Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                  "name": "processing-order.ds3.docx"
+                }
+              ],
+              "name": "a.jpeg",
+              "thumbnail": [
+                {
+                  "@id": "node:2b1d40d4-9cb8-4082-89d2-863f02c3e503",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:e290a6f7-5869-49c3-a424-81054b46926f",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "smXac2e63lGkeZ08l99/CuOcENmIgE4UwjdZRCoPf2E="
+                    }
+                  ],
+                  "contentSize": 135630,
+                  "contentUrl": "/encoding/2b1d40d4-9cb8-4082-89d2-863f02c3e503",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.614Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 528,
+                  "isBasedOn": [
+                    "node:29098b36-a21b-4932-a780-6e695368c73c"
+                  ],
+                  "name": "a-940w.jpeg",
+                  "width": 940
+                },
+                {
+                  "@id": "node:ec94acee-cbc7-4c74-8fdd-7408c20c37d2",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:04d8b463-1db1-4922-8a21-407051c5f8f5",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "8m1GE5Hbq4G2i4D6ChhMiVfAtyg64ItDvFY7Ykj6exk="
+                    }
+                  ],
+                  "contentSize": 62835,
+                  "contentUrl": "/encoding/ec94acee-cbc7-4c74-8fdd-7408c20c37d2",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.597Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 360,
+                  "isBasedOn": [
+                    "node:29098b36-a21b-4932-a780-6e695368c73c"
+                  ],
+                  "name": "a-640w.jpeg",
+                  "width": 640
+                },
+                {
+                  "@id": "node:c6013270-d8e6-4922-81eb-f638e81bb394",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:95720e4a-5146-4c28-8837-9018af08de5a",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "mI85oDNHNP5WBP+VwUxatIHTIDlYGKuFVqQLAeeZ/J0="
+                    }
+                  ],
+                  "contentSize": 16781,
+                  "contentUrl": "/encoding/c6013270-d8e6-4922-81eb-f638e81bb394",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.583Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 180,
+                  "isBasedOn": [
+                    "node:29098b36-a21b-4932-a780-6e695368c73c"
+                  ],
+                  "name": "a-320w.jpeg",
+                  "width": 320
+                }
+              ],
+              "width": 1068
+            }
+          ],
+          "isPartOf": "node:320c426b-f1e8-4454-b11e-7f51c501798d"
+        },
+        {
+          "@id": "node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093",
+          "@type": "Image",
+          "isSupportingResource": false,
+          "resourceOf": "graph:940531e0-4ecd-4270-99f6-709b7291cae4",
+          "alternateName": "b",
+          "caption": {
+            "@type": "rdf:HTML",
+            "@value": "Flowers blooming in Lake Elsinore<sup><a role=\"doc-noteref\" href=\"#node:b04cc55a-b683-4340-8942-052cae11c0e4\" rel=\"footnote\" about=\"node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093\" property=\"sa:note\" resource=\"node:b04cc55a-b683-4340-8942-052cae11c0e4\">12</a></sup> region <abbr title=\"science periodicals\">scipe</abbr> retreat<sup><a role=\"doc-noteref\" href=\"#node:9c7a1e8e-b752-43c1-a8a0-bb0e3773d7c8\" rel=\"endnote\" about=\"node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093\" property=\"sa:note\" resource=\"node:9c7a1e8e-b752-43c1-a8a0-bb0e3773d7c8\">6</a></sup> candidate 2 (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)"
+          },
+          "note": [
+            {
+              "@id": "node:b04cc55a-b683-4340-8942-052cae11c0e4",
+              "@type": "Footnote",
+              "about": [
+                "node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093"
+              ],
+              "noteIdentifier": 12,
+              "text": {
+                "@type": "rdf:HTML",
+                "@value": "<p> Footnote in multipart figure part caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+              }
+            },
+            {
+              "@id": "node:9c7a1e8e-b752-43c1-a8a0-bb0e3773d7c8",
+              "@type": "Endnote",
+              "about": [
+                "node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093"
+              ],
+              "noteIdentifier": 6,
+              "text": {
+                "@type": "rdf:HTML",
+                "@value": "<p> Endnote in multipart figure part caption with abbreviation <abbr title=\"science periodicals\">scipe</abbr> and citation (<a href=\"#node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" role=\"doc-biblioref\" about=\"node:1f767f93-3efd-400a-8716-350a88110da2\" property=\"schema:citation\" resource=\"node:f945d2f5-1dd2-4a39-8b17-eb482aacd648\" rel=\"doc-biblioref\">Anderson and May 1982</a>)</p>"
+              }
+            }
+          ],
+          "creator": "bot:DocumentWorker",
+          "dateCreated": "2019-03-25T23:10:31.132Z",
+          "encoding": [
+            {
+              "@id": "node:54ec7b91-41c2-4f95-982f-5150e1f58c4f",
+              "@type": "ImageObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:5bb5b37f-5287-4009-9eb6-ce227a4ef638",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "0e7eWN1libL4M9G+tiBhI0i976BWaiOyXjoLWTKf15w="
+                },
+                {
+                  "@id": "_:050a93a5-ad7b-4530-b859-8d004a4dd0ef",
+                  "@type": "PerceptualHash",
+                  "checksumAlgorithm": "pHash",
+                  "checksumValue": "0056-0120187009105520218051603091100058106190359105105940042004001720141045003370422037208690766051104430878073000070044012101730244048602720497053510470476061005640989"
+                }
+              ],
+              "contentSize": 354952,
+              "contentUrl": "/encoding/54ec7b91-41c2-4f95-982f-5150e1f58c4f",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-25T23:10:30.450Z",
+              "encodesCreativeWork": "node:96211ef1-4778-4cf3-8fa0-ccf17d3b8093",
+              "exifData": [
+                {
+                  "@id": "_:ac136fc8-8cf6-40cc-ac06-57de4d1143e2",
+                  "@type": "PropertyValue",
+                  "propertyID": "colorType",
+                  "value": "TrueColor"
+                }
+              ],
+              "fileFormat": "image/jpeg",
+              "height": 802,
+              "isBasedOn": [
+                {
+                  "@id": "node:8b15587d-6ecd-4429-84c3-6b00a53db29f",
+                  "@type": "DocumentObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:b30272fc-7dd2-4e7f-b03f-1f98d0584f8c",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "JlsUZTPKkYaqLZOs3LkAIsEopM58H3qQXesDlZcz2Wg="
+                    }
+                  ],
+                  "contentSize": 594336,
+                  "contentUrl": "/encoding/8b15587d-6ecd-4429-84c3-6b00a53db29f",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:29.726Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                  "name": "processing-order.ds3.docx"
+                }
+              ],
+              "name": "b.jpeg",
+              "thumbnail": [
+                {
+                  "@id": "node:4e8f6ce6-2d89-4f47-bc1f-0f99e44fc2d8",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:1a7f7ec4-6efd-4524-a0d5-39b37334efe1",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "8uERNnxdCf4gDlbLqrTDfCM3XH2O8HTinCPYn4mZC7M="
+                    }
+                  ],
+                  "contentSize": 185360,
+                  "contentUrl": "/encoding/4e8f6ce6-2d89-4f47-bc1f-0f99e44fc2d8",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.662Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 628,
+                  "isBasedOn": [
+                    "node:54ec7b91-41c2-4f95-982f-5150e1f58c4f"
+                  ],
+                  "name": "b-940w.jpeg",
+                  "width": 940
+                },
+                {
+                  "@id": "node:14afb073-755e-4160-a27b-5d482888614f",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:070bb0a6-7872-4097-9e5b-e326490c9ecf",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "56fyBpaOkcWF7qNdnEAFpqt/f3kOYq/N7tKVdA3PCyg="
+                    }
+                  ],
+                  "contentSize": 92361,
+                  "contentUrl": "/encoding/14afb073-755e-4160-a27b-5d482888614f",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.640Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 428,
+                  "isBasedOn": [
+                    "node:54ec7b91-41c2-4f95-982f-5150e1f58c4f"
+                  ],
+                  "name": "b-640w.jpeg",
+                  "width": 640
+                },
+                {
+                  "@id": "node:705f586b-1235-4981-84ce-834371a871cd",
+                  "@type": "ImageObject",
+                  "contentChecksum": [
+                    {
+                      "@id": "_:39c19586-5dc3-43b2-94d3-6aa6d0ecdde5",
+                      "@type": "Checksum",
+                      "checksumAlgorithm": "sha256",
+                      "checksumValue": "v/9eV1kgqtYo6lJvqfKKGYV4IEHV5PJ4o7GN2XrW0mU="
+                    }
+                  ],
+                  "contentSize": 26837,
+                  "contentUrl": "/encoding/705f586b-1235-4981-84ce-834371a871cd",
+                  "creator": "bot:BlobStore",
+                  "dateCreated": "2019-03-25T23:10:30.635Z",
+                  "encodesCreativeWork": "node:1f767f93-3efd-400a-8716-350a88110da2",
+                  "fileFormat": "image/jpeg",
+                  "height": 214,
+                  "isBasedOn": [
+                    "node:54ec7b91-41c2-4f95-982f-5150e1f58c4f"
+                  ],
+                  "name": "b-320w.jpeg",
+                  "width": 320
+                }
+              ],
+              "width": 1200
+            }
+          ],
+          "isPartOf": "node:320c426b-f1e8-4454-b11e-7f51c501798d"
+        }
+      ],
+      "isPartOf": "node:1f767f93-3efd-400a-8716-350a88110da2"
+    }
+
+  ],
+  "name": "Processing order test sample"
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "@id": "scienceai:057d75e1-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": {
+          "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+          "@type": "FunderRole",
+          "roleOffer": {
+            "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+            "@type": "FundingSource",
+            "alternateName": "ARRA",
+            "name": "American Recovery and Reinvestment Act award",
+            "serialNumber": "3R01TW005869-06S1"
+          },
+          "funder": {
+            "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+            "sameAs": ["http://www.fic.nih.gov/"],
+            "@type": "Organization",
+            "name": "Fogarty International Center",
+            "parentOrganization": {
+              "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+              "sameAs": ["http://www.nih.gov/"],
+              "@type": "Organization",
+              "name": "National Institutes of Health",
+              "alternateName": "NIH",
+              "location": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "USA",
+                  "addressLocality": "Bethesda",
+                  "addressRegion": "MD"
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "scienceai:057d75e0-e618-11e5-9720-af317e65127e",
+        "@type": "Person",
+        "additionalName": "J",
+        "familyName": "Olival",
+        "givenName": "Kevin",
+        "name": "Kevin J Olival, PhD"
+      }
+    ]
+  },
+  {
+    "@id": "scienceai:057d9cf1-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": {
+          "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+          "@type": "FunderRole",
+          "roleOffer": {
+            "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+            "@type": "FundingSource",
+            "alternateName": "ARRA",
+            "name": "American Recovery and Reinvestment Act award",
+            "serialNumber": "3R01TW005869-06S1"
+          },
+          "funder": {
+            "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+            "sameAs": ["http://www.fic.nih.gov/"],
+            "@type": "Organization",
+            "name": "Fogarty International Center",
+            "parentOrganization": {
+              "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+              "sameAs": ["http://www.nih.gov/"],
+              "@type": "Organization",
+              "name": "National Institutes of Health",
+              "alternateName": "NIH",
+              "location": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "USA",
+                  "addressLocality": "Bethesda",
+                  "addressRegion": "MD"
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "scienceai:057d9cf0-e618-11e5-9720-af317e65127e",
+        "@type": "Person",
+        "additionalName": "H",
+        "familyName": "Epstein",
+        "givenName": "Jonathan",
+        "name": "Jonathan H Epstein, DVM, MPH"
+      }
+    ]
+  },
+  {
+    "@id": "scienceai:057dc400-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:05793025-e618-11e5-9720-af317e65127e",
+        "@type": "Organization",
+        "name": "School of Veterinary Medicine",
+        "parentOrganization": {
+          "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+          "sameAs": ["http://ucdavis.edu/"],
+          "@type": "Organization",
+          "alternateName": "UCDavis",
+          "location": {
+            "@id": "scienceai:05793024-e618-11e5-9720-af317e65127e",
+            "@type": "Place",
+            "address": {
+              "@id": "scienceai:05793023-e618-11e5-9720-af317e65127e",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Davis",
+              "addressRegion": "CA"
+            }
+          },
+          "name": "University of California Davis"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://orcid.org/0000-0001-6673-8743"],
+        "@type": "Person",
+        "additionalName": "K",
+        "familyName": "Johnson",
+        "givenName": "Christine",
+        "name": "Prof. Christine Kreuder Johnson, DVM, MPVM, PhD"
+      }
+    ]
+  },
+  {
+    "@id": "scienceai:057dc402-e618-11e5-9720-af317e65127e",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.ecohealthalliance.org/"],
+        "@type": "Organization",
+        "alternateName": "EHA",
+        "location": {
+          "@id": "scienceai:0578e201-e618-11e5-9720-af317e65127e",
+          "@type": "Place",
+          "address": {
+            "@id": "scienceai:0578e200-e618-11e5-9720-af317e65127e",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          }
+        },
+        "name": "EcoHealth Alliance",
+        "funder": {
+          "@id": "scienceai:08b37394-e618-11e5-9720-af317e65127e",
+          "@type": "FunderRole",
+          "roleOffer": {
+            "@id": "scienceai:08b37393-e618-11e5-9720-af317e65127e",
+            "@type": "FundingSource",
+            "alternateName": "ARRA",
+            "name": "American Recovery and Reinvestment Act award",
+            "serialNumber": "3R01TW005869-06S1"
+          },
+          "funder": {
+            "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+            "sameAs": ["http://www.fic.nih.gov/"],
+            "@type": "Organization",
+            "name": "Fogarty International Center",
+            "parentOrganization": {
+              "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+              "sameAs": ["http://www.nih.gov/"],
+              "@type": "Organization",
+              "name": "National Institutes of Health",
+              "alternateName": "NIH",
+              "location": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressCountry": "USA",
+                  "addressLocality": "Bethesda",
+                  "addressRegion": "MD"
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "scienceai:057dc401-e618-11e5-9720-af317e65127e",
+        "@type": "Person",
+        "familyName": "Karesh",
+        "givenName": "William",
+        "name": "Billy Karesh, DVM"
+      }
+    ]
+  }
+]

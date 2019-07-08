@@ -1,0 +1,47 @@
+[
+  {
+    "@type": "FunderRole",
+    "funder": [
+      {
+        "@type": "Organization",
+        "alternateName": "RAPIDD",
+        "name": "Research and Policy for Infectious Disease Dynamics program",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "Science and Technology Directorate",
+          "parentOrganization": {
+            "@type": "Organization",
+            "alternateName": "DHS",
+            "name": "U.S. Department of Homeland Security",
+            "sameAs": ["http://www.dhs.gov/"]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "@type": "FunderRole",
+    "funder": [
+      {
+        "@type": "Organization",
+        "name": "Fogarty International Center",
+        "parentOrganization": {
+          "@type": "Organization",
+          "alternateName": "NIH",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Bethesda",
+              "addressRegion": "MD"
+            }
+          },
+          "name": "National Institutes of Health",
+          "sameAs": ["http://www.nih.gov/"]
+        },
+        "sameAs": ["http://www.fic.nih.gov/"]
+      }
+    ]
+  }
+]

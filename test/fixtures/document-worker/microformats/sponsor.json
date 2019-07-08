@@ -1,0 +1,27 @@
+[
+  {
+    "@type": "FunderRole",
+    "funder": {
+      "@type": "Organization",
+      "name": "Collaborative systems",
+      "@id": ".d39938d0-becf-11e5-9967-7be26372df58",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Division of Information & Intelligent Systems",
+        "alternateName": "IIS",
+        "@id": ".d39938d1-becf-11e5-9967-7be26372df58",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "National Science Foundation",
+          "alternateName": "NSF",
+          "@id": ".d39938d2-becf-11e5-9967-7be26372df58"
+        }
+      }
+    },
+    "roleOffer": {
+      "@type": "FundingSource",
+      "serialNumber": "award number 0553202",
+      "name": "SGER: First Stages of Exploratory Development of HyperScope"
+    }
+  }
+]

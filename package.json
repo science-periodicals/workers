@@ -1,0 +1,133 @@
+{
+  "name": "@scipe/workers",
+  "version": "0.0.0",
+  "description": "Multi-threaded workers processing schema.org Actions",
+  "main": "dist/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "run-workers": "dist/bin/run-workers.js"
+  },
+  "scripts": {
+    "init": "npm run delete-auth-db && npm run create-auth-db && npm run push-auth-db && npm run delete-db && npm run create-db && npm run push-ddoc && npm run set-couchdb-auth && npm run reset-redis",
+    "redis": "$(brew info redis | tail -1)",
+    "reset-redis": "librarian reset-redis",
+    "set-couchdb-auth": "librarian secure",
+    "pretest": "cross-env DB_NAME=test-workers npm run create-auth-db && cross-env DB_NAME=test-workers npm run push-auth-db && cross-env DB_NAME=test-workers npm run delete-db && cross-env DB_NAME=test-workers npm run create-db && cross-env DB_NAME=test-workers npm run push-ddoc && cross-env DB_NAME=test-workers npm run set-couchdb-auth && cross-env DB_NAME=test-workers npm run reset-redis",
+    "just-test-docx": "cross-env DB_NAME=test-workers mocha test/docx-tests/*.js --require @babel/register --exit",
+    "just-test-db-worker": "cross-env DB_NAME=test-workers mocha test/test-db-worker.js --require @babel/register --exit",
+    "just-test-audio-video-worker": "cross-env DB_NAME=test-workers mocha test/test-audio-video-worker.js --require @babel/register --exit",
+    "just-test-document-worker": "cross-env DB_NAME=test-workers mocha test/test-document-worker.js --require @babel/register --exit",
+    "just-test-image-worker": "cross-env DB_NAME=test-workers mocha test/test-image-worker.js --require @babel/register --exit",
+    "just-test-worker": "npm run build && cross-env DB_NAME=test-workers mocha test/test-worker.js --require @babel/register --exit",
+    "just-test-broker": "npm run build && cross-env DB_NAME=test-workers mocha test/test-broker.js --require @babel/register --exit",
+    "just-test": "npm run just-test-broker && npm run just-test-db-worker && npm run just-test-audio-video-worker && npm run just-test-image-worker && npm run just-test-worker && npm run just-test-document-worker && npm run just-test-docx",
+    "test": "npm run just-test",
+    "format": "prettier --single-quote --write \"{src,test}/**/*.js\"",
+    "watch": "babel --watch src --out-dir dist",
+    "build": "rm -rf dist && babel src --out-dir dist",
+    "prepublish": "npm run build",
+    "cloudant": "docker restart cloudant-developer",
+    "create-auth-db": "curl -XPUT ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${COUCH_AUTH_DB:=_users}",
+    "delete-auth-db": "curl -XDELETE ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${COUCH_AUTH_DB:=_users}",
+    "push-auth-db": "./node_modules/.bin/couchapp push ./node_modules/@scipe/ddoc-auth/ddoc.js ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${COUCH_AUTH_DB:=_users}",
+    "create-db": "curl -XPUT ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${DB_NAME:=scienceai}",
+    "delete-db": "curl -XDELETE ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${DB_NAME:=scienceai}",
+    "push-ddoc": "./node_modules/.bin/couchapp push ./node_modules/@scipe/ddoc/ddoc.js ${COUCH_PROTOCOL:=http:}//${COUCH_ADMIN_USERNAME:=admin}:${COUCH_ADMIN_PASSWORD:=pass}@${COUCH_HOST:=127.0.0.1}:${COUCH_PORT:=5984}/${DB_NAME:=scienceai}",
+    "postversion": "git push && git push --tags"
+  },
+  "eslintConfig": {
+    "extends": "@scipe"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-transform-async-to-generator",
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/science-periodicals/workers.git"
+  },
+  "keywords": [
+    "worker"
+  ],
+  "author": "Sebastien Ballesteros",
+  "license": "See README.md",
+  "bugs": {
+    "url": "https://github.com/science-periodicals/workers/issues"
+  },
+  "homepage": "https://github.com/science-periodicals/workers",
+  "dependencies": {
+    "@babel/runtime": "^7.5.1",
+    "@scipe/blob-store": "^1.0.0",
+    "@scipe/create-error": "^1.0.0",
+    "@scipe/dedocx": "^1.0.1",
+    "@scipe/ds3-mime": "^1.0.0",
+    "@scipe/jsonld": "^1.0.0",
+    "@scipe/librarian": "^1.0.0",
+    "@scipe/ontology": "^23.0.0",
+    "async": "^2.6.2",
+    "bunyan": "^1.8.12",
+    "clone": "^2.1.2",
+    "colors": "^1.3.3",
+    "dom-node-types": "^1.0.1",
+    "escape-string-regexp": "^1.0.5",
+    "fast-levenshtein": "^2.0.6",
+    "findit": "^2.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^7.0.1",
+    "gm": "^1.23.1",
+    "is-url": "^1.2.4",
+    "jsdom": "^13.2.0",
+    "list-of-programming-languages": "^2.0.2",
+    "lodash": "^4.17.11",
+    "mathjax-node-page": "^3.2.0",
+    "mime-types": "^2.1.24",
+    "mmmagic": "^0.5.3",
+    "moment": "^2.23.0",
+    "once": "^1.4.0",
+    "phash-imagemagick": "^1.0.1",
+    "request": "^2.88.0",
+    "rimraf": "^2.6.3",
+    "shortid": "^2.2.14",
+    "slug": "^1.1.0",
+    "spdx-license-list": "^3.0.1",
+    "tmp": "^0.1.0",
+    "url-regex": "^4.1.0",
+    "uuid": "^3.3.2",
+    "web-verse": "^2.1.2",
+    "which": "^1.3.1",
+    "xmldom": "^0.1.27",
+    "yargs": "^13.2.4",
+    "zeromq": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.1",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/register": "^7.4.4",
+    "@scipe/ddoc": "^1.0.0",
+    "@scipe/ddoc-auth": "^1.0.0",
+    "@scipe/eslint-config": "^1.0.0",
+    "couchapp": "^0.11.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "prettier": "^1.18.2",
+    "pretty": "^2.0.0",
+    "selectron-test": "^2.0.0"
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "@id": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+  "@type": "ScholarlyArticle",
+  "resourceOf": "graph:0251365f-d2ba-4056-8a96-0bda55dbd78a",
+  "author": [
+    {
+      "@id": "role:d4d8833b-722b-46c2-afcb-719eb7d46d71",
+      "@type": "ContributorRole",
+      "roleAffiliation": [
+        {
+          "@id": "_:1c990859-9403-4628-a7ff-17812917abe4",
+          "@type": "Organization",
+          "alternateName": "LabEx IBEID",
+          "funder": [
+            {
+              "@id": "_:47f4cb0d-e070-46fa-9003-86e3b36b9cd7",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:d29080b8-4c1c-471d-8061-19fdb01a7057",
+                "@type": "FundingSource",
+                "serialNumber": "grant number ANR-10-LABX-62-IBEID"
+              },
+              "description": {
+                "@type": "rdf:HTML",
+                "@value": "Awarded to <a href=\"#_:faff60bc-2a3e-4632-ada7-5501b95da16a\" role=\"doc-anchorlink\" about=\"role:36aaad13-b9bb-448c-89b3-1004019a630f\" property=\"schema:contributor\" resource=\"_:faff60bc-2a3e-4632-ada7-5501b95da16a\">Sir Steve Jones</a>"
+              },
+              "funder": [
+                {
+                  "@id": "_:14a561b0-6a89-49de-b66b-6f0457917b5e",
+                  "@type": "Organization",
+                  "name": "Investissement d'Avenir program",
+                  "parentOrganization": {
+                    "@id": "_:f8c6cf1b-ea61-42b6-8d46-cc66c07bbca9",
+                    "@type": "Organization",
+                    "alternateName": "ANR",
+                    "location": {
+                      "@id": "_:19d25187-4dac-4f6b-863e-005a604638ee",
+                      "@type": "Place",
+                      "address": {
+                        "@id": "_:ad6d957f-eee4-4f08-bcc0-f048365086f9",
+                        "@type": "PostalAddress",
+                        "addressCountry": "France",
+                        "addressLocality": "Paris"
+                      }
+                    },
+                    "name": "Agence nationale de la recherche"
+                  }
+                }
+              ]
+            }
+          ],
+          "location": {
+            "@id": "_:19d25187-4dac-4f6b-863e-005a604638ee",
+            "@type": "Place",
+            "address": {
+              "@id": "_:ad6d957f-eee4-4f08-bcc0-f048365086f9",
+              "@type": "PostalAddress",
+              "addressCountry": "France",
+              "addressLocality": "Paris"
+            }
+          },
+          "name": "Laboratoire d'Excellence \"Integrative Biology of Emerging Infectious Diseases\""
+        },
+        {
+          "@id": "_:08dfd16c-520b-4403-b4da-bbb47842b26a",
+          "@type": "Organization",
+          "alternateName": "NYU",
+          "location": {
+            "@id": "_:91961cd7-b2b6-446e-be6b-b4b3bb4b1cbf",
+            "@type": "Place",
+            "address": {
+              "@id": "_:65c301e9-5d46-4392-87ed-ccb92c232b35",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "New York",
+              "addressRegion": "NY"
+            }
+          },
+          "name": "New York University"
+        }
+      ],
+      "author": [
+        {
+          "@id": "_:05369cf8-41f5-4560-b858-69a744c081e9",
+          "@type": "Person",
+          "familyName": "Smith",
+          "funder": [
+            {
+              "@id": "_:bc91a5cb-41ed-48bd-8f70-040ec8915aec",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:ec0b18af-9736-4b74-ad99-208fc7ffd9d3",
+                "@type": "FundingSource",
+                "alternateName": "CAVD",
+                "name": "Collaboration for AIDS Vaccine Discovery Grant"
+              },
+              "description": {
+                "@type": "rdf:HTML",
+                "@value": "Awarded to <a href=\"#_:08dfd16c-520b-4403-b4da-bbb47842b26a\" role=\"doc-anchorlink\" about=\"role:d4d8833b-722b-46c2-afcb-719eb7d46d71\" property=\"sa:roleAffiliation\" resource=\"_:08dfd16c-520b-4403-b4da-bbb47842b26a\">NYU</a>"
+              },
+              "funder": [
+                {
+                  "@id": "_:78688add-2a62-48fa-8ba1-0336f1140182",
+                  "@type": "Organization",
+                  "location": {
+                    "@id": "_:1e9c9ba2-3c13-4fdf-b382-13d698b2c7e4",
+                    "@type": "Place",
+                    "address": {
+                      "@id": "_:811d9877-9673-464e-afb7-4bf772ef0f97",
+                      "@type": "PostalAddress",
+                      "addressCountry": "USA",
+                      "addressLocality": "Seattle",
+                      "addressRegion": "WA"
+                    }
+                  },
+                  "name": "Bill & Melinda Gates Foundation"
+                }
+              ]
+            },
+            {
+              "@id": "_:c2440dd1-7d01-470d-8e6f-a9e44dd79a5f",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:e9f0922a-11e1-4130-918e-678aadcf5509",
+                "@type": "FundingSource",
+                "serialNumber": "Grant agreement number 611383"
+              },
+              "funder": [
+                {
+                  "@id": "_:3801c0b0-486b-4c09-bf73-e32c53b1ab5f",
+                  "@type": "Organization",
+                  "name": "Programme FP7-ICT-2013.8.1",
+                  "parentOrganization": {
+                    "@id": "_:1a1d8632-a165-4676-a6d7-be3a72cea5ec",
+                    "@type": "Organization",
+                    "alternateName": "ICT",
+                    "name": "Information and Communication Technologies",
+                    "parentOrganization": {
+                      "@id": "_:512b29c6-f398-4a41-9122-e7153fd60174",
+                      "@type": "Organization",
+                      "alternateName": "FP7",
+                      "name": "European Commission' Seventh Framework Programme"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "_:86e44e3c-74fb-4e7d-b166-c6dfd08e701e",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:e35cbcfd-a90c-4c3b-a1df-9290c3da173c",
+                "@type": "FundingSource",
+                "alternateName": "ARRA",
+                "name": "American Recovery and Reinvestment Act award",
+                "serialNumber": "3R01TW005869-06S1",
+                "url": "https://science.energy.gov/sbir/awards/american-recovery-and-reinvestment-act-awards/"
+              },
+              "funder": [
+                {
+                  "@id": "_:3bdfb737-aa93-4860-8374-4274726ea888",
+                  "@type": "Organization",
+                  "name": "Science and Technology Directorate",
+                  "parentOrganization": {
+                    "@id": "_:8427f55a-3152-4ae0-8e76-6a07f069c752",
+                    "@type": "Organization",
+                    "alternateName": "DHS",
+                    "name": "Department of Homeland Security"
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "_:c104e6ef-db6b-46e1-8c84-fcafb4a68a22",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:88f321cb-4c0f-4040-b270-ff00ed1cb4cd",
+                "@type": "FundingSource",
+                "serialNumber": "award TW005869-22"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            }
+          ],
+          "givenName": "Peter",
+          "name": "Dr. Peter Smith"
+        }
+      ],
+      "roleName": "author"
+    },
+    {
+      "@id": "role:ddbee23f-9017-4d69-9f24-df2aa190d83e",
+      "@type": "ContributorRole",
+      "roleAffiliation": [
+        {
+          "@id": "_:08dfd16c-520b-4403-b4da-bbb47842b26a",
+          "@type": "Organization",
+          "alternateName": "NYU",
+          "location": {
+            "@id": "_:91961cd7-b2b6-446e-be6b-b4b3bb4b1cbf",
+            "@type": "Place",
+            "address": {
+              "@id": "_:65c301e9-5d46-4392-87ed-ccb92c232b35",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "New York",
+              "addressRegion": "NY"
+            }
+          },
+          "name": "New York University"
+        }
+      ],
+      "author": [
+        {
+          "@id": "_:6c113a70-b461-4e19-a037-4395528aa02c",
+          "@type": "Person",
+          "familyName": "O’Bryan",
+          "funder": [
+            {
+              "@id": "_:b59d8901-6e28-4f24-938a-a9a230f5b2b7",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:e35cbcfd-a90c-4c3b-a1df-9290c3da173c",
+                "@type": "FundingSource",
+                "alternateName": "ARRA",
+                "name": "American Recovery and Reinvestment Act award",
+                "serialNumber": "3R01TW005869-06S1",
+                "url": "https://science.energy.gov/sbir/awards/american-recovery-and-reinvestment-act-awards/"
+              },
+              "funder": [
+                {
+                  "@id": "_:3bdfb737-aa93-4860-8374-4274726ea888",
+                  "@type": "Organization",
+                  "name": "Science and Technology Directorate",
+                  "parentOrganization": {
+                    "@id": "_:8427f55a-3152-4ae0-8e76-6a07f069c752",
+                    "@type": "Organization",
+                    "alternateName": "DHS",
+                    "name": "Department of Homeland Security"
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "_:b006ebc1-7700-4da0-b343-3411790da598",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:88f321cb-4c0f-4040-b270-ff00ed1cb4cd",
+                "@type": "FundingSource",
+                "serialNumber": "award TW005869-22"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            }
+          ],
+          "givenName": "Edward",
+          "name": "Dr. Edward O’Bryan, MD"
+        }
+      ],
+      "roleName": "author"
+    }
+  ],
+  "contributor": [
+    {
+      "@id": "role:36aaad13-b9bb-448c-89b3-1004019a630f",
+      "@type": "ContributorRole",
+      "roleAffiliation": [
+        {
+          "@id": "_:08dfd16c-520b-4403-b4da-bbb47842b26a",
+          "@type": "Organization",
+          "alternateName": "NYU",
+          "location": {
+            "@id": "_:91961cd7-b2b6-446e-be6b-b4b3bb4b1cbf",
+            "@type": "Place",
+            "address": {
+              "@id": "_:65c301e9-5d46-4392-87ed-ccb92c232b35",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "New York",
+              "addressRegion": "NY"
+            }
+          },
+          "name": "New York University"
+        }
+      ],
+      "contributor": [
+        {
+          "@id": "_:faff60bc-2a3e-4632-ada7-5501b95da16a",
+          "@type": "Person",
+          "familyName": "Jones",
+          "funder": [
+            {
+              "@id": "_:ba6281ed-4ad2-4a21-bda6-563cbd41a5c9",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:e9f0922a-11e1-4130-918e-678aadcf5509",
+                "@type": "FundingSource",
+                "serialNumber": "Grant agreement number 611383"
+              },
+              "funder": [
+                {
+                  "@id": "_:3801c0b0-486b-4c09-bf73-e32c53b1ab5f",
+                  "@type": "Organization",
+                  "name": "Programme FP7-ICT-2013.8.1",
+                  "parentOrganization": {
+                    "@id": "_:1a1d8632-a165-4676-a6d7-be3a72cea5ec",
+                    "@type": "Organization",
+                    "alternateName": "ICT",
+                    "name": "Information and Communication Technologies",
+                    "parentOrganization": {
+                      "@id": "_:512b29c6-f398-4a41-9122-e7153fd60174",
+                      "@type": "Organization",
+                      "alternateName": "FP7",
+                      "name": "European Commission' Seventh Framework Programme"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "@id": "_:794811fc-d6fd-4739-a60c-95e152bf6f4f",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:47c09740-cdcd-4693-b2f0-3667d8e80262",
+                "@type": "FundingSource",
+                "serialNumber": "R01DC014479"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            },
+            {
+              "@id": "_:d8ee74f5-2eea-4354-9516-b582e484d9e1",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:88f321cb-4c0f-4040-b270-ff00ed1cb4cd",
+                "@type": "FundingSource",
+                "serialNumber": "award TW005869-22"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            }
+          ],
+          "givenName": "Steve",
+          "name": "Sir Steve Jones"
+        }
+      ],
+      "roleName": "author"
+    },
+    {
+      "@id": "role:c9a5af6a-b7ce-4f08-aff3-a56fc248560d",
+      "@type": "ContributorRole",
+      "roleAffiliation": [
+        {
+          "@id": "_:08dfd16c-520b-4403-b4da-bbb47842b26a",
+          "@type": "Organization",
+          "alternateName": "NYU",
+          "location": {
+            "@id": "_:91961cd7-b2b6-446e-be6b-b4b3bb4b1cbf",
+            "@type": "Place",
+            "address": {
+              "@id": "_:65c301e9-5d46-4392-87ed-ccb92c232b35",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "New York",
+              "addressRegion": "NY"
+            }
+          },
+          "name": "New York University"
+        }
+      ],
+      "contributor": [
+        {
+          "@id": "_:51fc1dc3-b99d-45af-b9b5-5eeb38343f8e",
+          "@type": "Person",
+          "familyName": "Arnold",
+          "funder": [
+            {
+              "@id": "_:309a8bc0-f5e0-4dd3-8316-a51166cdbe96",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:47c09740-cdcd-4693-b2f0-3667d8e80262",
+                "@type": "FundingSource",
+                "serialNumber": "R01DC014479"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            },
+            {
+              "@id": "_:aa86592a-06a5-4659-bb09-e7e1c496a588",
+              "@type": "FunderRole",
+              "roleOffer": {
+                "@id": "_:88f321cb-4c0f-4040-b270-ff00ed1cb4cd",
+                "@type": "FundingSource",
+                "serialNumber": "award TW005869-22"
+              },
+              "funder": [
+                {
+                  "@id": "_:827c42d7-8bfd-47cf-b42d-26257d3d94ea",
+                  "@type": "Organization",
+                  "alternateName": "NIH",
+                  "name": "National Institutes of Health"
+                }
+              ]
+            }
+          ],
+          "givenName": "Jason",
+          "name": "Dr. Jason Arnold, MD"
+        }
+      ],
+      "roleName": "author"
+    }
+  ],
+  "creator": "bot:DocumentWorker",
+  "dateCreated": "2019-03-26T18:38:00.949Z",
+  "encoding": [
+    {
+      "@id": "node:629f6634-64c1-4649-bc13-992e75cb2e77",
+      "@type": "DocumentObject",
+      "contentChecksum": [
+        {
+          "@id": "_:404733da-2ed2-42a6-8410-f09737556ebf",
+          "@type": "Checksum",
+          "checksumAlgorithm": "sha256",
+          "checksumValue": "Wvn+2Gp/HYEEKSYJr2e3MIbj7rEjOuS1eZQimnyMNdI="
+        }
+      ],
+      "contentSize": 594071,
+      "contentUrl": "/encoding/629f6634-64c1-4649-bc13-992e75cb2e77",
+      "creator": "bot:BlobStore",
+      "dateCreated": "2019-03-26T18:38:00.139Z",
+      "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+      "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "name": "funding-example.ds3.docx"
+    },
+    {
+      "@id": "node:f6dafccb-e950-4fe9-947b-707a18080043",
+      "@type": "DocumentObject",
+      "contentChecksum": [
+        {
+          "@id": "_:afaf1af8-4de1-4da1-9d5e-8c7cfc6bc108",
+          "@type": "Checksum",
+          "checksumAlgorithm": "sha256",
+          "checksumValue": "nJlM8DtoRkzEGVOdClalLFz0oojuGKbIZvqj4npfHJA="
+        }
+      ],
+      "contentSize": 6181,
+      "contentUrl": "/encoding/f6dafccb-e950-4fe9-947b-707a18080043",
+      "creator": "bot:BlobStore",
+      "dateCreated": "2019-03-26T18:38:00.892Z",
+      "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+      "fileFormat": "text/html",
+      "encoding": [
+        {
+          "@type": "MediaObject",
+          "encodingFormat": "gzip"
+        }
+      ],
+      "isBasedOn": [
+        {
+          "@id": "node:629f6634-64c1-4649-bc13-992e75cb2e77",
+          "@type": "DocumentObject",
+          "contentChecksum": [
+            {
+              "@id": "_:404733da-2ed2-42a6-8410-f09737556ebf",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "Wvn+2Gp/HYEEKSYJr2e3MIbj7rEjOuS1eZQimnyMNdI="
+            }
+          ],
+          "contentSize": 594071,
+          "contentUrl": "/encoding/629f6634-64c1-4649-bc13-992e75cb2e77",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-26T18:38:00.139Z",
+          "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+          "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "name": "funding-example.ds3.docx"
+        }
+      ],
+      "name": "funding-example.ds3.html"
+    }
+  ],
+  "funder": [
+    {
+      "@id": "_:1c923dc5-c6c5-43d5-8b03-8b2df2e42888",
+      "@type": "FunderRole",
+      "roleOffer": {
+        "@id": "_:464ed8d8-86a3-4822-a6ad-a3ab2c073afe",
+        "@type": "FundingSource",
+        "alternateName": "EDH",
+        "name": "SGER: First Stages of Exploratory Development of HyperScope",
+        "serialNumber": "award number 0553202",
+        "url": "https://example.com/"
+      },
+      "funder": [
+        {
+          "@id": "_:8e47c8be-cafa-49e7-b8f7-ede84449d278",
+          "@type": "Organization",
+          "name": "Collaborative systems",
+          "parentOrganization": {
+            "@id": "_:48ea3162-397c-4342-a44b-c9f6cf34a876",
+            "@type": "Organization",
+            "alternateName": "IIS",
+            "name": "Division of Information & Intelligent Systems",
+            "parentOrganization": {
+              "@id": "_:957fc6c8-e0cb-483b-8bae-63d5482747a0",
+              "@type": "Organization",
+              "alternateName": "NSF",
+              "location": {
+                "@id": "_:1533a03b-bdc2-4058-aa60-05f4fc386d53",
+                "@type": "Place",
+                "address": {
+                  "@id": "_:948f0da6-023d-4f9e-a1ec-7cb3a7ac8de0",
+                  "@type": "PostalAddress",
+                  "addressCountry": "USA",
+                  "addressLocality": "Alexandria",
+                  "addressRegion": "VA"
+                }
+              },
+              "name": "National Science Foundation",
+              "sameAs": [
+                "https://nsf.gov/"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@id": "_:c52832f0-58ea-4ec3-9383-13a61e8c3f96",
+      "@type": "FunderRole",
+      "roleOffer": {
+        "@id": "_:d1eb38fd-a439-4e64-8a41-586214e49e28",
+        "@type": "FundingSource",
+        "name": "Researcher Project Award"
+      },
+      "funder": [
+        {
+          "@id": "_:c3a96f9d-21e8-42c9-ab53-05dadce99dda",
+          "@type": "Organization",
+          "name": "University of Cambridge"
+        }
+      ]
+    }
+  ],
+  "hasPart": [
+    {
+      "@id": "node:d3551a48-d849-4229-8275-5616aadfd99b",
+      "@type": "Image",
+      "isSupportingResource": false,
+      "resourceOf": "graph:0251365f-d2ba-4056-8a96-0bda55dbd78a",
+      "alternateName": "Figure 1",
+      "caption": "Smooth operator.",
+      "creator": "bot:DocumentWorker",
+      "dateCreated": "2019-03-26T18:38:00.949Z",
+      "encoding": [
+        {
+          "@id": "node:afff0f77-db18-4443-9ff9-ee3f55ec2f1f",
+          "@type": "ImageObject",
+          "contentChecksum": [
+            {
+              "@id": "_:7f3e70fd-5a82-442c-aa49-7f9b2fdcc082",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "KnpXqmk8EdipaRPtarRsn5NHsBeAzdteu5wYAhoonaE="
+            },
+            {
+              "@id": "_:064c6bb3-fa1f-4e45-af5e-aa0dab273bbe",
+              "@type": "PerceptualHash",
+              "checksumAlgorithm": "pHash",
+              "checksumValue": "005700310332040103490285034702620695056705140462075605410054-03002900192033200750332016506640288047802610777033000520055028903020321033503260335065006710472048807540767"
+            }
+          ],
+          "contentSize": 574028,
+          "contentUrl": "/encoding/afff0f77-db18-4443-9ff9-ee3f55ec2f1f",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-26T18:38:00.533Z",
+          "encodesCreativeWork": "node:d3551a48-d849-4229-8275-5616aadfd99b",
+          "exifData": [
+            {
+              "@id": "_:72c3b491-41da-4456-8738-7cfc830cebf4",
+              "@type": "PropertyValue",
+              "propertyID": "colorType",
+              "value": "TrueColorAlpha"
+            }
+          ],
+          "fileFormat": "image/png",
+          "height": 595,
+          "isBasedOn": [
+            {
+              "@id": "node:629f6634-64c1-4649-bc13-992e75cb2e77",
+              "@type": "DocumentObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:404733da-2ed2-42a6-8410-f09737556ebf",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "Wvn+2Gp/HYEEKSYJr2e3MIbj7rEjOuS1eZQimnyMNdI="
+                }
+              ],
+              "contentSize": 594071,
+              "contentUrl": "/encoding/629f6634-64c1-4649-bc13-992e75cb2e77",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-26T18:38:00.139Z",
+              "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+              "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "name": "funding-example.ds3.docx"
+            }
+          ],
+          "name": "figure-1.png",
+          "thumbnail": [
+            {
+              "@id": "node:d8a2c0a4-18c6-400c-bc6a-f2dce6d5bdc8",
+              "@type": "ImageObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:e0189bc1-4e09-41ea-8431-f09430c9b861",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "74x+ImdSHWB9kemE0htfJQ70B5PYT/7n+ieklhgNOJI="
+                }
+              ],
+              "contentSize": 174226,
+              "contentUrl": "/encoding/d8a2c0a4-18c6-400c-bc6a-f2dce6d5bdc8",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-26T18:38:00.881Z",
+              "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+              "fileFormat": "image/png",
+              "height": 318,
+              "isBasedOn": [
+                "node:afff0f77-db18-4443-9ff9-ee3f55ec2f1f"
+              ],
+              "name": "figure-1-320w.png",
+              "width": 320
+            }
+          ],
+          "width": 598
+        }
+      ],
+      "funder": [
+        {
+          "@id": "_:1add3cca-45ad-4080-b301-45854d8ac266",
+          "@type": "FunderRole",
+          "funder": [
+            {
+              "@id": "_:e922c4d7-c982-444e-bbed-88a4abc36660",
+              "@type": "Organization",
+              "location": {
+                "@id": "_:c7e9db0d-e3ca-469e-8102-e926edf41459",
+                "@type": "Place",
+                "address": {
+                  "@id": "_:d849f126-1a85-4995-9f80-f0dd3ca88831",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Singapore"
+                }
+              },
+              "name": "Ministry of Health"
+            }
+          ]
+        },
+        {
+          "@id": "_:980017c0-76c2-407f-bceb-dfa04101d507",
+          "@type": "FunderRole",
+          "roleOffer": {
+            "@id": "_:83ea14d6-203d-4c21-b644-c36adba748fd",
+            "@type": "FundingSource",
+            "serialNumber": "contract HSHQDC-12-C-00058"
+          },
+          "funder": [
+            {
+              "@id": "_:3bdfb737-aa93-4860-8374-4274726ea888",
+              "@type": "Organization",
+              "name": "Science and Technology Directorate",
+              "parentOrganization": {
+                "@id": "_:8427f55a-3152-4ae0-8e76-6a07f069c752",
+                "@type": "Organization",
+                "alternateName": "DHS",
+                "name": "Department of Homeland Security"
+              }
+            }
+          ]
+        }
+      ],
+      "isPartOf": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+      "url": "#_Ref501055756"
+    },
+    {
+      "@id": "node:2288e00a-44fb-4884-8a56-5d44067a1372",
+      "@type": "Table",
+      "isSupportingResource": false,
+      "resourceOf": "graph:0251365f-d2ba-4056-8a96-0bda55dbd78a",
+      "alternateName": "Table 1",
+      "caption": "data table.",
+      "creator": "bot:DocumentWorker",
+      "dateCreated": "2019-03-26T18:38:00.949Z",
+      "encoding": [
+        {
+          "@id": "node:9bba3981-c306-482f-99fe-fd90e108dfc8",
+          "@type": "TableObject",
+          "contentChecksum": [
+            {
+              "@id": "_:94c5e885-087a-444b-83fb-5de271f45afd",
+              "@type": "Checksum",
+              "checksumAlgorithm": "sha256",
+              "checksumValue": "g8kDBkpbYu3BAI5I0PGnK4PZs3Zn9G3R/P4mMaTosgk="
+            }
+          ],
+          "contentSize": 190,
+          "contentUrl": "/encoding/9bba3981-c306-482f-99fe-fd90e108dfc8",
+          "creator": "bot:BlobStore",
+          "dateCreated": "2019-03-26T18:38:00.884Z",
+          "encodesCreativeWork": "node:2288e00a-44fb-4884-8a56-5d44067a1372",
+          "fileFormat": "text/html",
+          "encoding": [
+            {
+              "@type": "MediaObject",
+              "encodingFormat": "gzip"
+            }
+          ],
+          "isBasedOn": [
+            {
+              "@id": "node:629f6634-64c1-4649-bc13-992e75cb2e77",
+              "@type": "DocumentObject",
+              "contentChecksum": [
+                {
+                  "@id": "_:404733da-2ed2-42a6-8410-f09737556ebf",
+                  "@type": "Checksum",
+                  "checksumAlgorithm": "sha256",
+                  "checksumValue": "Wvn+2Gp/HYEEKSYJr2e3MIbj7rEjOuS1eZQimnyMNdI="
+                }
+              ],
+              "contentSize": 594071,
+              "contentUrl": "/encoding/629f6634-64c1-4649-bc13-992e75cb2e77",
+              "creator": "bot:BlobStore",
+              "dateCreated": "2019-03-26T18:38:00.139Z",
+              "encodesCreativeWork": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+              "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "name": "funding-example.ds3.docx"
+            }
+          ],
+          "name": "table-1.html"
+        }
+      ],
+      "funder": [
+        {
+          "@id": "_:9b93943a-beee-48e1-a195-78e1eb637372",
+          "@type": "FunderRole",
+          "roleOffer": {
+            "@id": "_:83ea14d6-203d-4c21-b644-c36adba748fd",
+            "@type": "FundingSource",
+            "serialNumber": "contract HSHQDC-12-C-00058"
+          },
+          "funder": [
+            {
+              "@id": "_:3bdfb737-aa93-4860-8374-4274726ea888",
+              "@type": "Organization",
+              "name": "Science and Technology Directorate",
+              "parentOrganization": {
+                "@id": "_:8427f55a-3152-4ae0-8e76-6a07f069c752",
+                "@type": "Organization",
+                "alternateName": "DHS",
+                "name": "Department of Homeland Security"
+              }
+            }
+          ]
+        }
+      ],
+      "isPartOf": "node:fbcd4cba-b8f0-434a-aea2-41919731ba9c",
+      "url": "#_Ref501462116"
+    }
+  ],
+  "name": "Funding format example"
+}

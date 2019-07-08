@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head><meta charset="utf-8"></head>
+  <body>
+    <article>
+      <h1>Targeting surveillance in apparently healthy versus diseased wild mammals for zoonotic virus discovery</h1>
+      <section>
+        <h2>Abstract</h2>
+        <section>
+          <h3>Methods:</h3>
+          <p>We analyzed a database of mammal-virus associations to ask whether zoonotic disease surveillance targeting diseased animals is the best strategy to identify potentially zoonotic pathogens.</p>
+        </section>
+        <section>
+          <h3>Conclusion:</h3>
+          <p>Though a mixed healthy and diseased surveillance strategy is generally best, surveillance of apparently healthy bats and rodents would likely maximize discovery potential for most zoonotic viruses.</p>
+        </section>
+      </section>
+      <section>
+        <h2>
+          The Study</h2>
+        <p>Nearly two-thirds of emerging infectious diseases (EIDs) (<a href="#_ENREF_1">1</a>) that affect humans are zoonotic, and three-quarters of these originate in wildlife, making surveillance of wildlife for novel pathogens part of a logical strategy to prevent future zoonotic EIDs (<a href="#_ENREF_2">2-5</a>). Wildlife are thought to harbor a high diversity of unknown pathogens, but global characterization of this diversity would be costly and logistically challenging (<a href="#_ENREF_6">6</a>). Given limited resources for pandemic prevention, there is public health benefit in focusing pathogen discovery on those species most likely to harbor novel zoonoses (<a href="#_ENREF_4">4</a>, <a href="#_ENREF_5">5</a>). One strategy to maximize the likelihood of discovering novel pathogens is surveillance of animal die-offs, outbreaks in wildlife, or diseased wildlife. Here, we analyze a database of known zoonotic viruses in mammal hosts to answer the driving question of whether we should stratify surveillance strategies (i.e. visibly diseased versus apparently healthy animals) by wildlife host groups to best detect novel pathogens with zoonotic potential. In answering this question, we can better determine how host and virus taxonomy might influence our decisions about applying limited surveillance resources to a growing global health problem.</p>
+        <p>We focused our analysis on mammalian hosts and viruses as they are more likely to be associated with human EIDs than any other host-pathogen type (<a href="#_ENREF_4">4</a>, <a href="#_ENREF_7">7</a>). We constructed a database of all human emerging viruses previously identified as originating in wildlife (<a href="#_ENREF_3">3</a>), supplemented with all zoonotic viruses from the International Committee on the Taxonomy of Viruses (ICTV) database (<a href="http://www.ictvdb.org">www.ictvdb.org</a>) with non-human, mammalian hosts. For each zoonotic virus, we conducted a literature search for reports of infection in any mammalian host, using virus name and relevant synonyms (<a href="http://www.ictvdb.org">www.ictvdb.org</a>) as keywords in ISI Web of Knowledge, Wildlife Disease Association Meeting Abstracts, Google Scholar, and the Global Mammal Parasites Database (<a href="http://www.mammalparasites.org">www.mammalparasites.org</a>). The resulting 605 host-pathogen relationships included 56 unique viruses from 17 viral families and 325 unique mammals from 15 orders. We excluded rabies from our analysis because the intense research effort on this virus and its high pathogenicity in almost all of its wide range of hosts (<a href="#_ENREF_8">8</a>) would skew the data disproportionately.</p>
+        <p>We then conducted a secondary literature search to determine whether viruses in our database cause signs of disease in their wildlife hosts, using an aggregate of all publications available on PubMed, ISI Web of Science, BIOSIS Previews, and Biological and Agricultural Index Plus, with search terms consisting of virus names and ICTV synonyms, host genus and species names and common names (reconciled to the 2005 version of Mammal Species of the World (<a href="#_ENREF_9">9</a>)). All resulting abstracts and available full text reports were examined until the first ‘robust’ report of visible disease was encountered. A report was considered ‘robust’ only if infections were confirmed by PCR analysis or virus isolation and clinical signs were explicitly recorded to have occurred during active infection. We excluded studies only reporting serology because of potential cross-reactivity among related viruses and poor correlation between serologic status and concurrent infection. For mammal-virus pairs without visible disease the search was exhaustive.</p>
+        <p>Viruses were identified as causing visible disease in a host if individual or epizootic mortality, or grossly visible or otherwise observable signs of morbidity such as high fever, loss of mobility, or severe reduction in body condition were reported. We considered diseases to be nonpathogenic in their hosts only if actively infected animals were explicitly reported to be free of visible disease. Animals with less clear signs such as nasal discharge or neonatal mortality were not considered ‘asymptomatic’ because of the low detection probability associated with these traits in wild mammal surveillance. We rejected reports of experimentally induced disease because of the risk that dosage and inoculation technique would not be consistent with naturally occurring infections. However, we included experimental studies if actively infected animals remained asymptomatic, with the assumption that clinical signs of infection were most likely to be seen in animals monitored in laboratory settings than in the wild, and that stressful conditions in captivity would heighten the likelihood of a normally benign pathogen leading to clinical signs (<a href="#_ENREF_10">10</a>). Furthermore, experimental infections often involve more direct routes of inoculation than naturally occurring infections, and are therefore more likely to induce disease.</p>
+        <p>We conducted a logistic regression analysis of host apparent disease as a function of host taxonomic group and virus taxonomy for the subset of mammal-virus pairs for which the host order or virus family had at least 3 records in the database using Firth’s bias reduction procedure (<a href="#_ENREF_11">11</a>) in R statistical software package ‘brglm’ (R v2.15-2). We then calculated odds ratios for each host order and virus family relative to the reference categories (Flaviviridae and Artiodactyla) and the predicted probability of being symptomatic for all species order-virus family combinations.</p>
+      </section>
+      <section>
+        <h2>Results</h2>
+        <figure resource="a5059810-3f7c-11e5-8544-fd6579b3a53e"><img src="/r/5b13d7702f7fb4105ccb1f2f55fcf80c774f8bd2" alt=""><figcaption>Percentage of reports of host-virus pairs in which observable disease was described, ‘Symptomatic’, no observable disease was described, ‘Asymptomatic’, or no description of disease was included, ‘No data’ (A). The proportion of hosts symptomatic by mammal order (B) and the proportion of virus families for which hosts are reported symptomatic (C) are given, both with standard error bars, calculated assuming binomial error structure. The total number of each host order or virus family included in the database is given above each bar. Note, all host orders and virus families in the database are included here, but analyses are limited to those host orders or virus families with at least three entries in the database. See Supplementary Material for the full database of host-virus pairs and disease state.</figcaption></figure>
+
+        <p>Our search of 605 mammal-virus associations investigated yielded explicit information on host health in 52% of the 312 mammal-virus pairs. Of these, approximately 28% of infected wildlife hosts were reported to present with visible disease (n = 88) and 72% (n = 224) were reported without evidence of visible disease (<a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig. 1A</a>). The proportion of hosts that were symptomatic differed across host order (<a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig 1B</a>) and virus family (<a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig 1C</a>).</p>
+        <p>We found that virus family and host order were significant predictors of disease status (χ<sup>2</sup>=88.70, <em>p</em>&lt;0.001 and χ<sup>2</sup>=59.45, <em>p</em>&lt;0.001, respectively). Species infected with paramyxoviruses, poxviruses, and reoviruses were more likely to be visibly diseased whereas species infected with bunyaviruses were less likely to be visibly diseased relative to the reference category. Hosts infected with filoviruses were marginally more likely to be visibly diseased (<a href="a51cc990-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Table 1</a>).</p>
+
+        <table resource="a51cc990-3f7c-11e5-8544-fd6579b3a53e"><caption>Logistic regression analysis with bias reduction of whether or not a host presents with disease for 234 mammal-virus pairs from 5 orders of mammals and 10 families of viruses. The subset of data used was selected using a cutoff of at least 3 records in the database to avoid making inference about host orders or virus families for which we had very little information. The table shows the coefficients (Coef.), standard errors of coefficients (SE), degrees of freedom (DF), odds ratios (OR) and 95% confidence intervals (CI) for categorical predictors relative to the reference level, which is given on the row of the predictor name. Virus and host reference groups were selected as those for which sample size was sufficiently large and symptomatic infection was moderate (per <a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Figure 1</a>). € All pairs were symptomatic among Chiroptera</caption>
+          <thead>
+            <tr>
+              <th>Predictor</th>
+              <th>Coefficient</th>
+              <th>SE</th>
+              <th>Test statistic (Z)</th>
+              <th>p-value</th>
+              <th>OR</th>
+              <th>95% CI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Constant</td>
+              <td>-0.33</td>
+              <td>0.58</td>
+              <td>-0.56</td>
+              <td>0.58</td>
+              <td>0.72</td>
+              <td>(0.23, 2.26)</td>
+            </tr>
+            <tr>
+              <td>Virus Family (Reference category: Flaviviridae)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Bunyaviridae</p>
+              </blockquote></td>
+              <td>-1.74</td>
+              <td>0.64</td>
+              <td>-2.71</td>
+              <td>0.01</td>
+              <td>0.18</td>
+              <td>(0.05, 0.62)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Filoviridae</p>
+              </blockquote></td>
+              <td>3.26</td>
+              <td>1.83</td>
+              <td>1.78</td>
+              <td>0.08</td>
+              <td>26.07</td>
+              <td>(0.72, 944.49)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Herpesviridae</p>
+              </blockquote></td>
+              <td>0.10</td>
+              <td>0.65</td>
+              <td>0.16</td>
+              <td>0.87</td>
+              <td>1.11</td>
+              <td>(0.31, 3.94)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Paramyxoviridae</p>
+              </blockquote></td>
+              <td>3.43</td>
+              <td>1.42</td>
+              <td>2.41</td>
+              <td>0.02</td>
+              <td>30.95</td>
+              <td>(1.90, 503.52)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Picornaviridae</p>
+              </blockquote></td>
+              <td>1.12</td>
+              <td>0.76</td>
+              <td>1.48</td>
+              <td>0.14</td>
+              <td>3.08</td>
+              <td>(0.69, 13.68)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Poxviridae</p>
+              </blockquote></td>
+              <td>2.29</td>
+              <td>0.81</td>
+              <td>2.82</td>
+              <td>&lt;0.001</td>
+              <td>9.90</td>
+              <td>(2.01, 48.72)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Reoviridae</p>
+              </blockquote></td>
+              <td>2.13</td>
+              <td>1.05</td>
+              <td>2.02</td>
+              <td>0.04</td>
+              <td>8.39</td>
+              <td>(1.07, 66.12)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Rhabdoviridae</p>
+              </blockquote></td>
+              <td>9.20</td>
+              <td>2.39</td>
+              <td>3.85</td>
+              <td>&lt;0.001</td>
+              <td>€</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Togaviridae</p>
+              </blockquote></td>
+              <td>-0.36</td>
+              <td>0.63</td>
+              <td>-0.58</td>
+              <td>0.56</td>
+              <td>0.70</td>
+              <td>(0.20, 2.38)</td>
+            </tr>
+            <tr>
+              <td>Species Order (Reference category: Artiodactyla)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Chiroptera</p>
+              </blockquote></td>
+              <td>-6.47</td>
+              <td>1.81</td>
+              <td>-3.57</td>
+              <td>&lt;0.001</td>
+              <td>0.00</td>
+              <td>(0.00, 0.05)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Perissodactyla</p>
+              </blockquote></td>
+              <td>0.58</td>
+              <td>0.76</td>
+              <td>0.77</td>
+              <td>0.44</td>
+              <td>1.79</td>
+              <td>(0.40, 8.03)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Primates</p>
+              </blockquote></td>
+              <td>-0.16</td>
+              <td>0.68</td>
+              <td>-0.24</td>
+              <td>0.81</td>
+              <td>0.85</td>
+              <td>(0.22, 3.24)</td>
+            </tr>
+            <tr>
+              <td><blockquote>
+                <p>Rodentia</p>
+              </blockquote></td>
+              <td>-1.12</td>
+              <td>0.67</td>
+              <td>-1.66</td>
+              <td>0.10</td>
+              <td>0.33</td>
+              <td>(0.09, 1.22)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>Species in the order Chiroptera were less likely to be visibly diseased and species in the order Rodentia were marginally less likely to be visibly diseased, relative to the reference category (<a href="a51cc990-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Table 1</a>). Species in the order Chiroptera have a lower probability of visible disease than in other orders (<a href="a505bf20-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig 2</a>), though all Chiroptera infected with non-rabies rhabdoviruses have a high probability of visible disease. In the dataset, all host-pairs with rhabdoviruses were found in Chiroptera and were reported with visible disease in that host (<a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig 1</a>).</p>
+        <figure resource="a505bf20-3f7c-11e5-8544-fd6579b3a53e"><img src="/r/7d8b98de7cbe4e9123944c4fda5f73559da7f9ba" alt=""><figcaption>The probability of being symptomatic based on a logistic regression analysis with bias reduction of whether or not a host presents with disease for 234 mammal-virus pairs from 5 orders of mammals and 10 families of viruses, including the lower 95% confidence interval (left), mean (center), and upper 95% confidence interval (right). Probabilities are based on the predicted values of the logistic regression and are given on a five-point gray scale from white (0.0 – 0.2) to black (0.8 - 1.0). Confidence values were calculated as the coefficient plus 1.96 times the standard error (from <a href="a51cc990-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Table 1</a>). For detailed results of the regression analysis, see <a href="a51cc990-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Table 1</a>.</figcaption></figure>
+
+      </section>
+      <section>
+        <h2>Conclusions</h2>
+        <p>Our data suggest that Chiroptera and Rodentia, two of the three main mammalian orders often targeted for zoonotic disease surveillance (the third being non-human primates (<a href="#_ENREF_12">12-14</a>)) are less likely to present with visible disease than other orders (<a href="a5059810-3f7c-11e5-8544-fd6579b3a53e" property="schema:hasPart">Fig 1</a>). The mechanism behind this relationship is an important area for additional research. Generally, we found that the probability of presenting with visible disease depends on the host and virus taxonomy, and the only host order for which a single strategy (in this case healthy animal surveillance) can be applied across nearly all virus families (excluding Rhabdoviridae) is for Chiroptera. Therefore, particularly for the case of novel virus detection, our results point to a mixed strategy of targeted syndromic and healthy animal surveillance across host and virus taxonomies. A mixed strategy could combine apparently healthy animal surveillance (particularly in Chiroptera) with syndromic surveillance in other wildlife and domestic animal hosts, as syndromic surveillance has previously proven useful where secondary animal hosts are involved (e.g. surveillance for West Nile virus (<a href="#_ENREF_1">1</a>), henipaviruses (<a href="#_ENREF_15">15</a>, <a href="#_ENREF_16">16</a>), and Ebolavirus (<a href="#_ENREF_17">17</a>)).</p>
+        <p>There are limitations to our study, particularly ascertainment and reporting biases, as acknowledged in previous studies of EIDs (<a href="#_ENREF_3">3</a>, <a href="#_ENREF_4">4</a>). In addition, differences in the number of species belonging to each order, the difficulty of testing inaccessible species and limits to reliable diagnoses of emerging viruses have an impact, especially in resource-poor settings. Further, many disease states are not recognizable in free-ranging mammalian species under field conditions. Lastly, there is a risk that an animal may be co-infected with a number of agents, only one of which causes disease; or that co-infection may have an additive or synergistic effect on clinical signs, and that anthropozoonotic viruses artificially inflate the ‘disease’ count of some mammalian orders over others. However, our findings are based on an aggregation of the best data available to date on host health as it relates to zoonotic viruses and have useful implications for public health.</p>
+        <p>Our analysis supports a holistic, probability-based approach to zoonotic virus discovery, specifically, continued analysis of passively- and actively-reported mortality events and increased investment in broad surveillance of healthy wildlife. The latter could be targeted geographically to those regions most likely to generate novel EIDs (<a href="#_ENREF_3">3</a>) or taxonomically to those groups which are reservoirs for the highest proportion of zoonoses (<a href="#_ENREF_4">4</a>, <a href="#_ENREF_18">18</a>). These efforts could be envisaged as part of a strategy for ‘smart surveillance’, heightening the opportunity for discovery of novel zoonoses, particularly if wildlife are sampled at key interfaces where contact with people or domestic animals and thus the opportunity for spillover is highest.</p>
+      </section>
+      <section>
+        <h2>Funding</h2>
+        <p>This study was funded in part by the generous support of the American people through the United States Agency for International Development (USAID) Emerging Pandemic Threats PREDICT program, a NIAID non-biodefense emerging infectious disease research opportunities award R01 AI079231 (PD), the Research and Policy for Infectious Disease Dynamics (RAPIDD) program of the Science and Technology Directorate, U.S. Department of Homeland Security, and the Fogarty International Center, NIH (TLB), and an NIH Fogarty ARRA award 3R01TW005869-06S1 (KJO).</p>
+      </section>
+      <section>
+        <h2>Acknowledgements</h2>
+        <p>We acknowledge two anonymous reviewers and A. M. Kilpatrick (UC Santa Cruz) for comments on this manuscript. The contents are the responsibility of the authors and do not necessarily reflect the views of USAID or the United States Government.</p>
+      </section>
+      <section>
+        <h2>References</h2>
+        <p id="_ENREF_1">1. Eidson M, Komar N, Sorhage F, Nelson R, Talbot T, Mostashari F, et al. Crow deaths as a sentinel surveillance system for West Nile virus in the Northeastern United States, 1999. Emerg Infect Dis. 2001 Jul-Aug;7(4):615-20.</p>
+        <p id="_ENREF_2">2. Taylor LH, Latham SM, Woolhouse MEJ. Risk factors for human disease emergence. Phil Trans Roy Soc Lond, B. 2001;356:983-9.</p>
+        <p id="_ENREF_3">3. Jones KE, Patel N, Levy M, Storeygard A, Balk D, Gittleman JL, et al. Global trends in emerging infectious diseases. Nature. 2008;451:990-4.</p>
+        <p id="_ENREF_4">4. Woolhouse MEJ, Gowtage-Sequeria S. Host range and emerging and re-emerging pathogens. Emerg Infect Dis. 2005;11.</p>
+        <p id="_ENREF_5">5. USAID. USAID launches Emerging Pandemic Threats program. 2009 [cited 2012 July 2nd]; Available from: <a href="http://www1.usaid.gov/press/releases/2009/pr091021_1.html">http://www1.usaid.gov/press/releases/2009/pr091021_1.html</a>.</p>
+        <p id="_ENREF_6">6. Morse SS. Emerging Viruses. New York: Oxford University Press; 1993.</p>
+        <p id="_ENREF_7">7. Cleaveland S, Laurenson MK, Taylor LH. Diseases of humans and their domestic mammals: pathogen characteristics, host range and the risk of emergence. Philosophical Transactions of the Royal Society of London Series B-Biological Sciences. 2001 Jul 29;356(1411):991-9.</p>
+        <p id="_ENREF_8">8. The Center for Food Security &amp; Public Health, Institute for International Cooperation in Animal Biologics, World Organisation for Animal Health. Rabies Factsheet2009.</p>
+        <p id="_ENREF_9">9. Wilson DE, Reeder DM, editors. Mammal Species of the World. 3rd ed. Baltimore, MD: Johns Hopkins University Press; 2005.</p>
+        <p id="_ENREF_10">10. Williams ES, Barker IK, editors. Infectious Diseases of Wild Mammals. 3rd ed. Ames, Iowa: Iowa State Press; 2001.</p>
+        <p id="_ENREF_11">11. Firth D. Bias reduction of maximum likelihood estimates. Biometrika. 1993;80:27-38.</p>
+        <p id="_ENREF_12">12. Leendertz FH, Pauli G, Maetz-Rensing K, Boardman W, Nunn C, Ellerbrok H, et al. Pathogens as drivers of population declines: The importance of systematic monitoring in great apes and other threatened mammals. Biological Conservation. 2006 Aug;131(2):325-37.</p>
+        <p>13. Wolfe ND, Daszak P, Kilpatrick AM, Burke DS. Bushmeat hunting, deforestation and prediction of zoonotic emergence. Emerg Infect Dis. 2005;11:1822-7.</p>
+        <p>14. Wolfe ND, Escalante AA, Karesh WB, Kilbourn A, Spielman A, Lal AA. Wild primate populations in emerging infectious disease research: The missing link? Emerg Infect Dis. 1998 Apr-Jun;4(2):149-58.</p>
+        <p id="_ENREF_15">15. Nor MNM, Gan CH, Ong BL. Nipah virus infection of pigs in peninsular Malaysia. Revue Scientifique Et Technique De L Office International Des Epizooties. 2000;19(1):160-5.</p>
+        <p id="_ENREF_16">16. Selvey L, Wells RM, McCormack JG, Ansford AJ, Murray PK, Rogers RJ, et al. Infection of humans and horses by a newly described morbillivirus. Med J Aust. 1995;162:642-5.</p>
+        <p id="_ENREF_17">17. Leroy EM. Multiple Ebola virus transmission events and rapid decline of central African wildlife (vol 303, pg 387, 2004). Science. 2004 Jan;303(5658):628-.</p>
+        <p id="_ENREF_18">18. Cooper N, Griffin R, Franz M, Omotayo M, Nunn CL. Phylogenetic host specificity and understanding parasite sharing in primates. Ecology Letters. 2012;15(12):1370-7.</p>
+      </section>
+    </article>
+
+  </body>
+</html>

@@ -1,0 +1,166 @@
+[
+  {
+    "@id": "node:cdf8a553-e643-11e5-8b73-11e46f2f4bad",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "node:cdf87e43-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "Organization",
+        "name": "Team DocX",
+        "parentOrganization": {
+          "@id": "node:cdf87e42-e643-11e5-8b73-11e46f2f4bad",
+          "@type": "Organization",
+          "alternateName": "SA",
+          "location": {
+            "@id": "node:cdf87e41-e643-11e5-8b73-11e46f2f4bad",
+            "@type": "Place",
+            "address": {
+              "@id": "node:cdf87e40-e643-11e5-8b73-11e46f2f4bad",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "New York",
+              "addressRegion": "NY"
+            }
+          },
+          "name": "Standard Analytics"
+        }
+      },
+      {
+        "@id": "node:cdf8a552-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "Organization",
+        "alternateName": "SHCG",
+        "name": "Scholarly HTML Community Group",
+        "parentOrganization": {
+          "@id": "node:670fc2a0-ba34-11e5-9d8e-5fd97fe79c4f",
+          "sameAs": ["https://www.w3.org/"],
+          "@type": "Organization",
+          "alternateName": "W3C",
+          "location": {
+            "@id": "node:cdf8a551-e643-11e5-8b73-11e46f2f4bad",
+            "@type": "Place",
+            "address": {
+              "@id": "node:cdf8a550-e643-11e5-8b73-11e46f2f4bad",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Boston",
+              "addressRegion": "MA"
+            }
+          },
+          "name": "World Wide Web Consortium"
+        }
+      },
+      {
+        "@id": "node:cdf7baf2-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "Organization",
+        "name": "Cryptozoology",
+        "parentOrganization": {
+          "@id": "node:cdf7baf1-e643-11e5-8b73-11e46f2f4bad",
+          "@type": "Organization",
+          "location": {
+            "@id": "node:cdf7baf0-e643-11e5-8b73-11e46f2f4bad",
+            "@type": "Place",
+            "address": {
+              "@id": "node:cdf793e0-e643-11e5-8b73-11e46f2f4bad",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Union",
+              "addressRegion": "New Jersey"
+            }
+          },
+          "name": "Kean University"
+        }
+      }
+    ],
+    "roleContactPointNoteIdentifier": 1,
+    "roleContactPoint": [
+      {
+        "@id": "node:cdfb3d60-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "ContactPoint",
+        "contactType": "personal",
+        "description": "robin@berjon.com",
+        "email": "mailto:robin@berjon.com",
+        "name": "Email",
+        "url": "mailto:robin@berjon.com"
+      },
+      {
+        "@id": "node:cdfb3d61-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "ContactPoint",
+        "description": "robin@standardanalytics.io",
+        "email": "mailto:robin@standardanalytics.io",
+        "name": "Email",
+        "url": "mailto:robin@standardanalytics.io"
+      },
+      {
+        "@id": "node:cdfb3d62-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "ContactPoint",
+        "description": "@robinberjon",
+        "name": "Twitter",
+        "url": "https://twitter.com/robinberjon"
+      },
+      {
+        "@id": "node:cdfb3d63-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "ContactPoint",
+        "description": "robinberjon",
+        "name": "Skype"
+      },
+      {
+        "@id": "node:cdfb6470-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "ContactPoint",
+        "contactType": "old",
+        "description": "+33.6.81.75.45.41",
+        "name": "Tel",
+        "telephone": "tel:+33.6.81.75.45.41",
+        "url": "tel:+33.6.81.75.45.41"
+      }
+    ],
+    "author": [
+      {
+        "@id": "node:670fc2a0-ba34-11e5-9d8e-5fd97fe79c4f",
+        "sameAs": ["http://berjon.com/"],
+        "@type": "Person",
+        "additionalName": "M",
+        "familyName": "Berjon",
+        "givenName": "Robin",
+        "name": "Robin Berjon"
+      }
+    ]
+  },
+  {
+    "@id": "node:cdfb6472-e643-11e5-8b73-11e46f2f4bad",
+    "@type": "ContributorRole",
+    "roleName": "author",
+    "roleAffiliation": [
+      {
+        "@id": "node:cdf7baf2-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "Organization",
+        "name": "Cryptozoology",
+        "parentOrganization": {
+          "@id": "node:cdf7baf1-e643-11e5-8b73-11e46f2f4bad",
+          "@type": "Organization",
+          "location": {
+            "@id": "node:cdf7baf0-e643-11e5-8b73-11e46f2f4bad",
+            "@type": "Place",
+            "address": {
+              "@id": "node:cdf793e0-e643-11e5-8b73-11e46f2f4bad",
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Union",
+              "addressRegion": "New Jersey"
+            }
+          },
+          "name": "Kean University"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "node:cdfb6471-e643-11e5-8b73-11e46f2f4bad",
+        "@type": "Person",
+        "familyName": "Regal",
+        "givenName": "Brian",
+        "name": "Dr. Brian Regal"
+      }
+    ]
+  }
+]

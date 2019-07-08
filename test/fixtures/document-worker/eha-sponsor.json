@@ -1,0 +1,36 @@
+[
+  {
+    "@type": "FunderRole",
+    "funder": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.fic.nih.gov/"],
+        "@type": "Organization",
+        "name": "Fogarty International Center",
+        "parentOrganization": {
+          "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+          "sameAs": ["http://www.nih.gov/"],
+          "@type": "Organization",
+          "name": "National Institutes of Health",
+          "alternateName": "NIH",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Bethesda",
+              "addressRegion": "MD"
+            }
+          }
+        }
+      }
+    ],
+    "roleOffer": {
+      "@id": "cb7642c0-a993-11e5-b5c8-31096288da54",
+      "@type": "FundingSource",
+      "name": "American Recovery and Reinvestment Act award",
+      "serialNumber": "3R01TW005869-06S1",
+      "alternateName": "ARRA"
+    }
+  }
+]

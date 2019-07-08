@@ -1,0 +1,29 @@
+[
+  {
+    "@type": "FunderRole",
+    "funder": [
+      {
+        "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+        "sameAs": ["http://www.niaid.nih.gov/"],
+        "@type": "Organization",
+        "name": "National Institute of Allergy and Infectious Diseases",
+        "alternateName": "NIAID",
+        "location": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "Bethesda",
+            "addressRegion": "MD"
+          }
+        }
+      }
+    ],
+    "roleOffer": {
+      "@id": "cb75f4a0-a993-11e5-b5c8-31096288da54",
+      "@type": "FundingSource",
+      "name": "Non-biodefense emerging infectious disease research opportunities award",
+      "serialNumber": "R01 AI079231"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+.git
+.gitignore
+circle.yml
+test/
+src/
+config/
+
+blobs/
+ffmpeg-release-64bit-static.tar.xz
+ffmpeg-static/

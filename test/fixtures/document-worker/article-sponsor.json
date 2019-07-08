@@ -1,0 +1,29 @@
+[
+  {
+    "@type": "FunderRole",
+    "funder": [
+      {
+        "@id": "cb75a680-a993-11e5-b5c8-31096288da54",
+        "@type": "Organization",
+        "name": "Emerging Pandemic Threats PREDICT program",
+        "alternateName": "PREDICT",
+        "parentOrganization": {
+          "@id": "scienceai:cb7642c0-a993-11e5-b5c8-31096288da54",
+          "sameAs": ["https://www.usaid.gov/"],
+          "@type": "Organization",
+          "name": "United States Agency for International Development",
+          "alternateName": "USAID",
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "USA",
+              "addressLocality": "Washington",
+              "addressRegion": "D.C."
+            }
+          }
+        }
+      }
+    ]
+  }
+]

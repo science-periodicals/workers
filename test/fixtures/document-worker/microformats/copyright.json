@@ -1,0 +1,55 @@
+[
+  {
+    "@type": "Person",
+    "familyName": "Berjon",
+    "givenName": "Robin",
+    "additionalName": "M",
+    "name": "Robin Berjon",
+    "@id": "node:670fc2a0-ba34-11e5-9d8e-5fd97fe79c4f",
+    "sameAs": ["http://berjon.com/"]
+  },
+  {
+    "@type": "Organization",
+    "name": "Scholarly HTML Community Group",
+    "alternateName": "SHCG",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "World Wide Web Consortium",
+      "alternateName": "W3C",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "USA",
+          "addressLocality": "Boston",
+          "addressRegion": "MA"
+        }
+      },
+      "@id": "node:670fc2a0-ba34-11e5-9d8e-5fd97fe79c4f",
+      "sameAs": ["https://www.w3.org/"]
+    },
+    "@id": ".670fc2a0-ba34-11e5-9d8e-5fd97fe79c4f"
+  },
+  {
+    "@type": "Person",
+    "familyName": "Overlord",
+    "givenName": "Evil",
+    "additionalName": "Lizard",
+    "name": "Britney Spears",
+    "@id": ".67112230-ba34-11e5-9d8e-5fd97fe79c4f"
+  },
+  {
+    "@type": "Organization",
+    "name": "Jersey Devils Inc.",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "Pine Barrens",
+        "addressRegion": "NJ"
+      }
+    },
+    "@id": ".67114940-ba34-11e5-9d8e-5fd97fe79c4f"
+  }
+]

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 wp14">
+  <w:body>
+    <w:p w14:paraId="05E823B0" w14:textId="77777777" w:rsidR="005D5F58" w:rsidRDefault="00D737BB" w:rsidP="00D737BB">
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r w:rsidRPr="00D737BB">
+        <w:t>The Title</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68466A26" w14:textId="77777777" w:rsidR="00D737BB" w:rsidRDefault="00D737BB" w:rsidP="000238C8">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Authors</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="210CB49D" w14:textId="4620AAF5" w:rsidR="00945B30" w:rsidRDefault="00945B30" w:rsidP="00945B30">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:r>
+        Ms. <w:t>Levinson, Jordan “</w:t>
+      </w:r>
+      <w:r>
+        <w:bookmarkStart w:id="1" w:name="BOOKMARK"/><w:t>Ms. Jordan Levinson, MSc</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">” </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> REF EHA \h </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="Hyperlink"/>
+        </w:rPr>
+        <w:t>EHA</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r w:rsidR="006F32AE">
+        <w:rPr>
+          <w:rStyle w:val="FootnoteReference"/>
+        </w:rPr>
+        <w:footnoteReference w:id="1"/>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7F79A5B3" w14:textId="7AC0B012" w:rsidR="00945B30" w:rsidRDefault="00A66796" w:rsidP="00945B30">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="12"/>
+        </w:numPr>
+      </w:pPr>
+      <w:hyperlink r:id="rId8" w:history="1">
+        <w:r w:rsidR="00945B30" w:rsidRPr="00691C4D">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>Bogich</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r w:rsidR="00945B30">
+        <w:rPr>
+          <w:rStyle w:val="Hyperlink"/>
+        </w:rPr>
+        <w:t>, Tiffany (L)</w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t xml:space="preserve">  “</w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t>Dr. Tiffany L Bogich, PhD<w:bookmarkEnd w:id="1"/></w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t xml:space="preserve">” </w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:instrText xml:space="preserve"> REF EHA \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:rPr>
+          <w:rStyle w:val="Hyperlink"/>
+        </w:rPr>
+        <w:t>EHA</w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:instrText xml:space="preserve"> REF EEB \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t>EEB</w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:instrText xml:space="preserve"> REF NIH \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r w:rsidR="00945B30" w:rsidRPr="002D1F2E">
+        <w:rPr>
+          <w:rStyle w:val="Hyperlink"/>
+        </w:rPr>
+        <w:t>NIH</w:t>
+      </w:r>
+      <w:r w:rsidR="00945B30">
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r w:rsidR="006F32AE">
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r w:rsidR="006F32AE">
+        <w:instrText xml:space="preserve"> NOTEREF _Ref437253800 \f \h </w:instrText>
+      </w:r>
+      <w:r w:rsidR="006F32AE">
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r w:rsidR="006F32AE" w:rsidRPr="006F32AE">
+        <w:rPr>
+          <w:rStyle w:val="FootnoteReference"/>
+        </w:rPr>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r w:rsidR="006F32AE">
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00D737BB" w:rsidSect="003C1F6E">
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

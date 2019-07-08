@@ -1,0 +1,936 @@
+[
+  {
+    "@id": "node:36674638-96d8-4b70-a08d-23b6f42792d3",
+    "@type": "Image",
+    "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+    "alternateName": "Figure 1",
+    "isSupportingResource": false,
+    "author": [
+      {
+        "@id": "_:10504f58-2074-49ef-97cd-49f99db50d77",
+        "@type": "ContributorRole",
+        "roleName": "author",
+        "author": [
+          {
+            "@id": "_:90354520-78a4-4c04-83ee-297df7329db5",
+            "@type": "Person",
+            "familyName": "Regal",
+            "givenName": "Brian",
+            "name": "Dr. Brian Regal"
+          }
+        ]
+      }
+    ],
+    "caption": "Hop-less kangaroo.",
+    "contributor": [
+      {
+        "@id": "_:72e573ad-8a0e-4365-a31c-7d58cd83fa3a",
+        "@type": "ContributorRole",
+        "roleName": "author",
+        "roleContactPointNoteIdentifier": 2,
+        "roleContactPoint": [
+          {
+            "@id": "_:4cc1568f-395b-4217-9a49-a4d5e12a7a38",
+            "@type": "ContactPoint",
+            "description": "sebastien@standardanalytics.io",
+            "email": "mailto:sebastien@standardanalytics.io",
+            "name": "Email",
+            "url": "mailto:sebastien@standardanalytics.io"
+          },
+          {
+            "@id": "_:580f0994-8b03-4d2d-867c-5ccdc6446953",
+            "@type": "ContactPoint",
+            "description": "@sballesteros",
+            "name": "GitHub",
+            "url": "https://github.com/sballesteros"
+          },
+          {
+            "@id": "_:b8b3fc56-a32f-4190-aa02-00a3b65da7fd",
+            "@type": "ContactPoint",
+            "description": "sballesteros",
+            "name": "NPM",
+            "url": "https://www.npmjs.com/~sballesteros"
+          }
+        ],
+        "roleAffiliation": [
+          {
+            "@id": "_:f09e0d41-4f93-4fd1-b109-c9e08888cc30",
+            "@type": "Organization",
+            "location": {
+              "@id": "_:b035b316-4a97-428c-b414-635d8b6e1961",
+              "@type": "Place",
+              "address": {
+                "@id": "_:7e478e5d-ee9a-4db3-ac81-900791b2f95e",
+                "@type": "PostalAddress",
+                "addressCountry": "USA",
+                "addressLocality": "NYC",
+                "addressRegion": "NY"
+              }
+            },
+            "name": "Standard Analytics"
+          }
+        ],
+        "contributor": [
+          {
+            "@id": "_:c59f94cd-2ab1-4655-b0de-4392254ab972",
+            "@type": "Person",
+            "familyName": "Ballesteros",
+            "givenName": "Sébastien",
+            "name": "Sébastien Ballesteros"
+          }
+        ]
+      },
+      {
+        "@id": "_:0ab15bf2-b6ad-4b33-af97-0791272ffa4d",
+        "@type": "ContributorRole",
+        "roleName": "author",
+        "contributor": [
+          {
+            "@id": "_:fc7c7a0d-84f2-4f6c-a70c-5319cdeb1713",
+            "@type": "Person",
+            "additionalName": "M",
+            "familyName": "Berjon",
+            "givenName": "Robin",
+            "name": "Robin Berjon",
+            "sameAs": ["http://berjon.com/"]
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": {
+      "@id": "_:90354520-78a4-4c04-83ee-297df7329db5",
+      "@type": "Person",
+      "familyName": "Regal",
+      "givenName": "Brian",
+      "name": "Dr. Brian Regal"
+    },
+    "copyrightYear": "1977",
+    "creator": "bot:DocumentWorker",
+    "dateCreated": "2017-12-30T21:32:00.302Z",
+    "encoding": [
+      {
+        "@id": "node:e2699f14-cecc-46be-bdcc-a9f1912d4a0a",
+        "@type": "ImageObject",
+        "contentChecksum": [
+          {
+            "@id": "_:509879ed-f034-46d4-86e0-075eedd876ac",
+            "@type": "Checksum",
+            "checksumAlgorithm": "sha256",
+            "checksumValue": "4tCUFZ+rt538aIbq0DVA0QzW9AexcPnLFvbB1EdZqMI="
+          },
+          {
+            "@id": "_:3b33e99e-0259-4be3-8d0f-3f75d41fde3d",
+            "@type": "PerceptualHash",
+            "checksumAlgorithm": "pHash",
+            "checksumValue": "007300450255018105640288059004221100080407870604110007860074-1210255-1540563-2880588-2111100-4530797-1991100-43600740074025502550566056405910589110011000807079511001100"
+          }
+        ],
+        "contentSize": 725019,
+        "contentUrl": "/encoding/node:e2699f14-cecc-46be-bdcc-a9f1912d4a0a",
+        "creator": "bot:BlobStore",
+        "dateCreated": "2017-12-30T21:31:59.379Z",
+        "encodesCreativeWork": "node:36674638-96d8-4b70-a08d-23b6f42792d3",
+        "exifData": [
+          {
+            "@id": "_:190d8e39-c8c1-4094-abc0-2e77b0898017",
+            "@type": "PropertyValue",
+            "propertyID": "resolution",
+            "unitText": "ppi",
+            "value": "22.047256x22.047256"
+          },
+          {
+            "@id": "_:a2d90358-efc0-48dd-a7ff-f242d2fa4bea",
+            "@type": "PropertyValue",
+            "propertyID": "colorType",
+            "value": "TrueColorAlpha"
+          }
+        ],
+        "fileFormat": "image/png",
+        "height": 655,
+        "isBasedOn": [
+          {
+            "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+            "@type": "DocumentObject",
+            "contentSize": 1268925,
+            "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:58.765Z",
+            "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "name": "microformats.docx"
+          }
+        ],
+        "name": "figure-1.png",
+        "thumbnail": [
+          {
+            "@id": "node:41e47495-aeef-4f1b-b27d-3c6dd883a408",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:2c9b5fe6-c2d8-4edd-9ac6-be8ae8b62a83",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "4194WU4HA6rKj8VZH9POm/+gN6LroqlpiXtSTFQlI5k="
+              }
+            ],
+            "contentSize": 314890,
+            "contentUrl": "/encoding/node:41e47495-aeef-4f1b-b27d-3c6dd883a408",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:32:00.031Z",
+            "encodesCreativeWork": "node:36674638-96d8-4b70-a08d-23b6f42792d3",
+            "fileFormat": "image/png",
+            "height": 473,
+            "isBasedOn": ["node:e2699f14-cecc-46be-bdcc-a9f1912d4a0a"],
+            "name": "figure-1-640w.png",
+            "width": 640
+          },
+          {
+            "@id": "node:d01e56d5-0be1-45ee-b91d-98d74bcd0c68",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:e27914e3-ff99-4b29-90fd-601cff0de83e",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "mQnWGpJ4Wv/HWdaLgLEAZ1O95mIp0IJIWosXx+8qbuM="
+              }
+            ],
+            "contentSize": 84302,
+            "contentUrl": "/encoding/node:d01e56d5-0be1-45ee-b91d-98d74bcd0c68",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.901Z",
+            "encodesCreativeWork": "node:36674638-96d8-4b70-a08d-23b6f42792d3",
+            "fileFormat": "image/png",
+            "height": 236,
+            "isBasedOn": ["node:e2699f14-cecc-46be-bdcc-a9f1912d4a0a"],
+            "name": "figure-1-320w.png",
+            "width": 320
+          }
+        ],
+        "width": 880
+      }
+    ],
+    "exampleOfWork": [
+      {
+        "@id": "node:34f94164-b79b-4f94-8415-740f57082a03",
+        "@type": "CreativeWork",
+        "author": [
+          {
+            "@id": "_:80e8b7db-b3cf-4a24-b65a-e295a0dad8fe",
+            "@type": "Person",
+            "familyName": "Regal",
+            "givenName": "Brian"
+          }
+        ],
+        "copyrightHolder": {
+          "@id": "_:335e4ef9-2767-4459-b9c3-2cb1acfd993c",
+          "@type": "Organization",
+          "name": "New York University"
+        },
+        "copyrightYear": "2010",
+        "datePublished": {
+          "@type": "xsd:gYear",
+          "@value": 1977
+        },
+        "identifier": "Reg77",
+        "name": "The Coolest Science Picture Ever",
+        "potentialAction": [
+          {
+            "@id": "_:95bba4bc-5d40-400a-9369-a6c26320ecbb",
+            "@type": "AuthorizeSourceUsageAction",
+            "actionStatus": "CompletedActionStatus"
+          }
+        ]
+      }
+    ],
+    "isBasedOn": [
+      {
+        "@id": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+        "@type": "Image",
+        "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+        "alternateName": "Figure 2",
+        "isSupportingResource": false,
+        "caption": "Painting.",
+        "creator": "bot:DocumentWorker",
+        "dateCreated": "2017-12-30T21:32:00.303Z",
+        "encoding": [
+          {
+            "@id": "node:d444d114-b1e1-4406-8d2c-986b04724de8",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:df4b2a66-ddd1-4163-91f8-f4453300df1c",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "id7BMV0dpCfRD0QmREsEqltk1WjFGrODwtUEPjdxUS0="
+              },
+              {
+                "@id": "_:8f0e2c6a-938c-4da6-80df-a1cab69d9791",
+                "@type": "PerceptualHash",
+                "checksumAlgorithm": "pHash",
+                "checksumValue": "003900390167016404120318034803090746063704360399074106390035-01801560099035601110306020206450359038603490662061500360036015601590331036702840315060006650365039706150677"
+              }
+            ],
+            "contentSize": 33523,
+            "contentUrl": "/encoding/node:d444d114-b1e1-4406-8d2c-986b04724de8",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.318Z",
+            "encodesCreativeWork": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+            "exifData": [
+              {
+                "@id": "_:aa7e11eb-2de1-4bc0-b912-2e1489ccafae",
+                "@type": "PropertyValue",
+                "propertyID": "colorType",
+                "value": "TrueColor"
+              }
+            ],
+            "fileFormat": "image/jpeg",
+            "height": 450,
+            "isBasedOn": [
+              {
+                "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "@type": "DocumentObject",
+                "contentSize": 1268925,
+                "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:58.765Z",
+                "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+                "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "name": "microformats.docx"
+              }
+            ],
+            "name": "figure-2.jpeg",
+            "thumbnail": [
+              {
+                "@id": "node:fbe3d1f9-cd9f-4e6e-a17b-3af860b5f654",
+                "@type": "ImageObject",
+                "contentChecksum": [
+                  {
+                    "@id": "_:58606b81-c66e-4665-9aab-a703f5ec73c6",
+                    "@type": "Checksum",
+                    "checksumAlgorithm": "sha256",
+                    "checksumValue": "Uz4cMS+l3ul8ZKCWZEpJWcBEJFwDIY1zWvxqTgMrrcQ="
+                  }
+                ],
+                "contentSize": 13080,
+                "contentUrl": "/encoding/node:fbe3d1f9-cd9f-4e6e-a17b-3af860b5f654",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:59.489Z",
+                "encodesCreativeWork": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+                "fileFormat": "image/jpeg",
+                "height": 240,
+                "isBasedOn": ["node:d444d114-b1e1-4406-8d2c-986b04724de8"],
+                "name": "figure-2-320w.jpeg",
+                "width": 320
+              }
+            ],
+            "width": 600
+          }
+        ],
+        "funder": [
+          {
+            "@id": "_:2a3e6678-6da5-40d8-be6d-6118d19ea65a",
+            "@type": "FunderRole",
+            "roleOffer": {
+              "@id": "_:32d38156-e512-41dd-82d8-da482634ef20",
+              "@type": "FundingSource",
+              "serialNumber": "contract HSHQDC-12-C-00058"
+            },
+            "funder": [
+              {
+                "@id": "_:fc115d29-ef32-4d67-be81-75e022f183b3",
+                "@type": "Organization",
+                "name": "Science and Technology Directorate",
+                "parentOrganization": {
+                  "@id": "_:62b9600b-1a55-4bf7-8770-798f9f6849cb",
+                  "@type": "Organization",
+                  "alternateName": "DHS",
+                  "name": "Department of Homeland Security"
+                }
+              }
+            ]
+          }
+        ],
+        "isPartOf": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+        "provider": [
+          {
+            "@id": "_:7a0c13e2-b6f0-4c95-b612-7f39584ea3bc",
+            "@type": "Person",
+            "familyName": "Kardell",
+            "givenName": "Brian",
+            "name": "Brian Kardell"
+          }
+        ],
+        "url": "#_Ref440623569"
+      },
+      {
+        "@id": "node:5ae67ffb-6309-4910-abab-e40ca224c8e2",
+        "@type": "CreativeWork",
+        "author": [
+          {
+            "@id": "_:4f4107b4-cf42-43c0-baf2-80bc6adb1c52",
+            "@type": "Person",
+            "familyName": "Kardell",
+            "givenName": "Brian"
+          }
+        ],
+        "datePublished": {
+          "@type": "xsd:gYear",
+          "@value": 2015
+        },
+        "identifier": "Kar15",
+        "isPartOf": {
+          "@id": "_:19ac2071-021a-47a5-b564-1d009d71875b",
+          "@type": "CreativeWork",
+          "name": "Technical Architecture Group"
+        },
+        "name": "Collected Works"
+      }
+    ],
+    "isPartOf": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+    "license": "spdx:CC-BY-4.0"
+  },
+  {
+    "@id": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+    "@type": "Image",
+    "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+    "alternateName": "Figure 2",
+    "isSupportingResource": false,
+    "caption": "Painting.",
+    "creator": "bot:DocumentWorker",
+    "dateCreated": "2017-12-30T21:32:00.303Z",
+    "encoding": [
+      {
+        "@id": "node:d444d114-b1e1-4406-8d2c-986b04724de8",
+        "@type": "ImageObject",
+        "contentChecksum": [
+          {
+            "@id": "_:df4b2a66-ddd1-4163-91f8-f4453300df1c",
+            "@type": "Checksum",
+            "checksumAlgorithm": "sha256",
+            "checksumValue": "id7BMV0dpCfRD0QmREsEqltk1WjFGrODwtUEPjdxUS0="
+          },
+          {
+            "@id": "_:8f0e2c6a-938c-4da6-80df-a1cab69d9791",
+            "@type": "PerceptualHash",
+            "checksumAlgorithm": "pHash",
+            "checksumValue": "003900390167016404120318034803090746063704360399074106390035-01801560099035601110306020206450359038603490662061500360036015601590331036702840315060006650365039706150677"
+          }
+        ],
+        "contentSize": 33523,
+        "contentUrl": "/encoding/node:d444d114-b1e1-4406-8d2c-986b04724de8",
+        "creator": "bot:BlobStore",
+        "dateCreated": "2017-12-30T21:31:59.318Z",
+        "encodesCreativeWork": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+        "exifData": [
+          {
+            "@id": "_:aa7e11eb-2de1-4bc0-b912-2e1489ccafae",
+            "@type": "PropertyValue",
+            "propertyID": "colorType",
+            "value": "TrueColor"
+          }
+        ],
+        "fileFormat": "image/jpeg",
+        "height": 450,
+        "isBasedOn": [
+          {
+            "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+            "@type": "DocumentObject",
+            "contentSize": 1268925,
+            "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:58.765Z",
+            "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+            "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "name": "microformats.docx"
+          }
+        ],
+        "name": "figure-2.jpeg",
+        "thumbnail": [
+          {
+            "@id": "node:fbe3d1f9-cd9f-4e6e-a17b-3af860b5f654",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:58606b81-c66e-4665-9aab-a703f5ec73c6",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "Uz4cMS+l3ul8ZKCWZEpJWcBEJFwDIY1zWvxqTgMrrcQ="
+              }
+            ],
+            "contentSize": 13080,
+            "contentUrl": "/encoding/node:fbe3d1f9-cd9f-4e6e-a17b-3af860b5f654",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.489Z",
+            "encodesCreativeWork": "node:7e7c275c-6a81-46f2-8a62-ef0e854bb135",
+            "fileFormat": "image/jpeg",
+            "height": 240,
+            "isBasedOn": ["node:d444d114-b1e1-4406-8d2c-986b04724de8"],
+            "name": "figure-2-320w.jpeg",
+            "width": 320
+          }
+        ],
+        "width": 600
+      }
+    ],
+    "funder": [
+      {
+        "@id": "_:2a3e6678-6da5-40d8-be6d-6118d19ea65a",
+        "@type": "FunderRole",
+        "roleOffer": {
+          "@id": "_:32d38156-e512-41dd-82d8-da482634ef20",
+          "@type": "FundingSource",
+          "serialNumber": "contract HSHQDC-12-C-00058"
+        },
+        "funder": [
+          {
+            "@id": "_:fc115d29-ef32-4d67-be81-75e022f183b3",
+            "@type": "Organization",
+            "name": "Science and Technology Directorate",
+            "parentOrganization": {
+              "@id": "_:62b9600b-1a55-4bf7-8770-798f9f6849cb",
+              "@type": "Organization",
+              "alternateName": "DHS",
+              "name": "Department of Homeland Security"
+            }
+          }
+        ]
+      }
+    ],
+    "isPartOf": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+    "provider": [
+      {
+        "@id": "_:7a0c13e2-b6f0-4c95-b612-7f39584ea3bc",
+        "@type": "Person",
+        "familyName": "Kardell",
+        "givenName": "Brian",
+        "name": "Brian Kardell"
+      }
+    ],
+    "url": "#_Ref440623569"
+  },
+  {
+    "@id": "node:a79f3cde-5abe-40e0-a01e-481df4694f3d",
+    "@type": "Image",
+    "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+    "alternateName": "Figure 3",
+    "isSupportingResource": false,
+    "author": [
+      {
+        "@id": "_:a3cc9b40-773a-4d3e-aecf-b981fcc8c790",
+        "@type": "ContributorRole",
+        "roleName": "author",
+        "author": [
+          {
+            "@id": "_:fc7c7a0d-84f2-4f6c-a70c-5319cdeb1713",
+            "@type": "Person",
+            "additionalName": "M",
+            "familyName": "Berjon",
+            "givenName": "Robin",
+            "name": "Robin Berjon",
+            "sameAs": ["http://berjon.com/"]
+          }
+        ]
+      }
+    ],
+    "caption": "Pretty pictures.",
+    "creator": "bot:DocumentWorker",
+    "dateCreated": "2017-12-30T21:32:00.303Z",
+    "hasPart": [
+      {
+        "@id": "node:b9389a51-57da-4d89-a8ab-7ffd7123297c",
+        "@type": "Image",
+        "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+        "alternateName": "A",
+        "isSupportingResource": false,
+        "caption": "Lobster eating a sheep",
+        "creator": "bot:DocumentWorker",
+        "dateCreated": "2017-12-30T21:32:00.303Z",
+        "encoding": [
+          {
+            "@id": "node:e85869c1-1427-49a9-9eac-ebcb82a8a38c",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:22b4ef60-28a0-470f-8baa-6308e71da8a2",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "4ZM9xu726qCmgJ0Js08tTFloSuBVcrTyah8kcnnX0aI="
+              },
+              {
+                "@id": "_:89169cce-2b5e-4eaf-a096-c487d26ae181",
+                "@type": "PerceptualHash",
+                "checksumAlgorithm": "pHash",
+                "checksumValue": "004900100149006804330203040402440850055804900337082904680022002500940107021103990211032204220743026104230545068400140031007601120205028301860275038205550225033204790613"
+              }
+            ],
+            "contentSize": 93226,
+            "contentUrl": "/encoding/node:e85869c1-1427-49a9-9eac-ebcb82a8a38c",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.332Z",
+            "encodesCreativeWork": "node:b9389a51-57da-4d89-a8ab-7ffd7123297c",
+            "exifData": [
+              {
+                "@id": "_:76aa626b-601f-4588-ba10-0576f5c4291f",
+                "@type": "PropertyValue",
+                "propertyID": "resolution",
+                "unitText": "ppi",
+                "value": "220x220"
+              },
+              {
+                "@id": "_:6fe110ce-2916-4ecd-8e27-52f98e509271",
+                "@type": "PropertyValue",
+                "propertyID": "colorType",
+                "value": "TrueColor"
+              }
+            ],
+            "fileFormat": "image/jpeg",
+            "height": 307,
+            "isBasedOn": [
+              {
+                "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "@type": "DocumentObject",
+                "contentSize": 1268925,
+                "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:58.765Z",
+                "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+                "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "name": "microformats.docx"
+              }
+            ],
+            "name": "a.jpeg",
+            "thumbnail": [
+              {
+                "@id": "node:676617e3-0875-4e66-9d4e-e4be9b32ab85",
+                "@type": "ImageObject",
+                "contentChecksum": [
+                  {
+                    "@id": "_:efb5e5e4-869d-41b1-af5b-c78a14890026",
+                    "@type": "Checksum",
+                    "checksumAlgorithm": "sha256",
+                    "checksumValue": "2eYAD4gNYFHX99c971N1t68ASxjUCpun1zze71b3TKE="
+                  }
+                ],
+                "contentSize": 16835,
+                "contentUrl": "/encoding/node:676617e3-0875-4e66-9d4e-e4be9b32ab85",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:59.492Z",
+                "encodesCreativeWork": "node:b9389a51-57da-4d89-a8ab-7ffd7123297c",
+                "fileFormat": "image/jpeg",
+                "height": 180,
+                "isBasedOn": ["node:e85869c1-1427-49a9-9eac-ebcb82a8a38c"],
+                "name": "a-320w.jpeg",
+                "width": 320
+              }
+            ],
+            "width": 547
+          }
+        ],
+        "isPartOf": "node:a79f3cde-5abe-40e0-a01e-481df4694f3d"
+      },
+      {
+        "@id": "node:1480fe47-695f-4d48-9169-869907b5e94f",
+        "@type": "Image",
+        "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+        "alternateName": "B",
+        "isSupportingResource": false,
+        "caption": "Pretty flowers.",
+        "copyrightHolder": {
+          "@id": "_:efdeff03-4673-402a-9b9a-601d8296364a",
+          "@type": "Organization",
+          "location": {
+            "@id": "_:dd2d0758-7358-4234-9303-08d77a20b673",
+            "@type": "Place",
+            "address": {
+              "@id": "_:f58c12c4-abdd-43ac-852b-ef0733c42089",
+              "@type": "PostalAddress",
+              "addressCountry": "France",
+              "addressLocality": "Montreuil"
+            }
+          },
+          "name": "Ville de Montreuil"
+        },
+        "copyrightYear": "2015",
+        "creator": "bot:DocumentWorker",
+        "dateCreated": "2017-12-30T21:32:00.302Z",
+        "encoding": [
+          {
+            "@id": "node:979034e5-6665-4331-abd4-924ea3ca49bc",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:c803f3ef-ae14-4788-ab73-5ffe55726415",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "1/MRfSjpTRPv9RljvsKBodTT+UHApZuuYEefZq+aTFA="
+              },
+              {
+                "@id": "_:011e5f25-7d93-4ffb-860c-b5bedb0cf2ef",
+                "@type": "PerceptualHash",
+                "checksumAlgorithm": "pHash",
+                "checksumValue": "003300470129015002980387028503800577077203520470074207900036-02001360022025500030238000104850003030700120678008000380035014101340252026402380248048305030309031605990687"
+              }
+            ],
+            "contentSize": 86548,
+            "contentUrl": "/encoding/node:979034e5-6665-4331-abd4-924ea3ca49bc",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.339Z",
+            "encodesCreativeWork": "node:1480fe47-695f-4d48-9169-869907b5e94f",
+            "exifData": [
+              {
+                "@id": "_:604d2b71-2860-48c0-94c3-26b765bc0a83",
+                "@type": "PropertyValue",
+                "propertyID": "resolution",
+                "unitText": "ppi",
+                "value": "220x220"
+              },
+              {
+                "@id": "_:656ed10b-ef56-46e1-ae0a-f25a992fa248",
+                "@type": "PropertyValue",
+                "propertyID": "colorType",
+                "value": "TrueColor"
+              }
+            ],
+            "fileFormat": "image/jpeg",
+            "height": 307,
+            "isBasedOn": [
+              {
+                "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "@type": "DocumentObject",
+                "contentSize": 1268925,
+                "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:58.765Z",
+                "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+                "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "name": "microformats.docx"
+              }
+            ],
+            "name": "b.jpeg",
+            "thumbnail": [
+              {
+                "@id": "node:389e95de-08a6-4218-9828-77aae0b64648",
+                "@type": "ImageObject",
+                "contentChecksum": [
+                  {
+                    "@id": "_:3a26acbb-c2e8-4154-bb7d-de7325005fb5",
+                    "@type": "Checksum",
+                    "checksumAlgorithm": "sha256",
+                    "checksumValue": "D/2hYSEj6MvEL9aTxUDhd86m6EvKvMGhRE4uJKt6cF4="
+                  }
+                ],
+                "contentSize": 17440,
+                "contentUrl": "/encoding/node:389e95de-08a6-4218-9828-77aae0b64648",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:59.493Z",
+                "encodesCreativeWork": "node:1480fe47-695f-4d48-9169-869907b5e94f",
+                "fileFormat": "image/jpeg",
+                "height": 180,
+                "isBasedOn": ["node:979034e5-6665-4331-abd4-924ea3ca49bc"],
+                "name": "b-320w.jpeg",
+                "width": 320
+              }
+            ],
+            "width": 547
+          }
+        ],
+        "isPartOf": "node:a79f3cde-5abe-40e0-a01e-481df4694f3d"
+      },
+      {
+        "@id": "node:a65138a9-c273-462b-8c03-770f9e893f16",
+        "@type": "Image",
+        "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+        "alternateName": "C",
+        "isSupportingResource": false,
+        "caption": "Statue",
+        "creator": "bot:DocumentWorker",
+        "dateCreated": "2017-12-30T21:32:00.303Z",
+        "encoding": [
+          {
+            "@id": "node:3f1e7d0c-e0f6-4a4b-8925-c2ff0ab278ed",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:57ea5d90-e68d-448e-9f25-e660b45204ca",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "PQRN4aTM7uAdko3dQkpybNMyJvM4Bi38uJS+fXP8CuU="
+              },
+              {
+                "@id": "_:a0b11a81-bb9a-4b8b-bd0f-40a228026686",
+                "@type": "PerceptualHash",
+                "checksumAlgorithm": "pHash",
+                "checksumValue": "004200130141007503190104048601170891022805600155093603900041-0440138-0400319-0270494-0380902-0630692-0500962-04100380041013101380321032003620516072109420435065707150960"
+              }
+            ],
+            "contentSize": 107558,
+            "contentUrl": "/encoding/node:3f1e7d0c-e0f6-4a4b-8925-c2ff0ab278ed",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.346Z",
+            "encodesCreativeWork": "node:a65138a9-c273-462b-8c03-770f9e893f16",
+            "exifData": [
+              {
+                "@id": "_:ab505487-2a1e-4165-8a9c-a45bf2978303",
+                "@type": "PropertyValue",
+                "propertyID": "resolution",
+                "unitText": "ppi",
+                "value": "220x220"
+              },
+              {
+                "@id": "_:991e81fd-7015-4079-9ac0-77a092863b15",
+                "@type": "PropertyValue",
+                "propertyID": "colorType",
+                "value": "TrueColor"
+              }
+            ],
+            "fileFormat": "image/jpeg",
+            "height": 307,
+            "isBasedOn": [
+              {
+                "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "@type": "DocumentObject",
+                "contentSize": 1268925,
+                "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:58.765Z",
+                "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+                "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "name": "microformats.docx"
+              }
+            ],
+            "name": "c.jpeg",
+            "thumbnail": [
+              {
+                "@id": "node:81d28efb-c768-427e-ba31-6d7082f70d53",
+                "@type": "ImageObject",
+                "contentChecksum": [
+                  {
+                    "@id": "_:e02098e3-a16d-4027-a27c-fd778a827ffc",
+                    "@type": "Checksum",
+                    "checksumAlgorithm": "sha256",
+                    "checksumValue": "bvj2PJKBqAw8dR2B85c4eATRo7tstLaYP4+NAz4DCo8="
+                  }
+                ],
+                "contentSize": 16766,
+                "contentUrl": "/encoding/node:81d28efb-c768-427e-ba31-6d7082f70d53",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:59.519Z",
+                "encodesCreativeWork": "node:a65138a9-c273-462b-8c03-770f9e893f16",
+                "fileFormat": "image/jpeg",
+                "height": 180,
+                "isBasedOn": ["node:3f1e7d0c-e0f6-4a4b-8925-c2ff0ab278ed"],
+                "name": "c-320w.jpeg",
+                "width": 320
+              }
+            ],
+            "width": 547
+          }
+        ],
+        "isPartOf": "node:a79f3cde-5abe-40e0-a01e-481df4694f3d"
+      },
+      {
+        "@id": "node:6e3496c8-32df-45b7-82c0-0f993ca0870a",
+        "@type": "Image",
+        "resourceOf": "node:ddb164ce-e14a-4fe2-965b-5cbe97e8400e@graph",
+        "alternateName": "D",
+        "isSupportingResource": false,
+        "caption": "The best music.",
+        "creator": "bot:DocumentWorker",
+        "dateCreated": "2017-12-30T21:32:00.303Z",
+        "encoding": [
+          {
+            "@id": "node:010c2381-52ac-491e-bd29-966d12eacc46",
+            "@type": "ImageObject",
+            "contentChecksum": [
+              {
+                "@id": "_:8502f93e-486e-43af-a508-70751d9e8346",
+                "@type": "Checksum",
+                "checksumAlgorithm": "sha256",
+                "checksumValue": "NzvLdYjW/nrjtjfgSSEKOlp0XS0m47TINMrCr95P2Ek="
+              },
+              {
+                "@id": "_:8b54613d-7c12-44d2-9097-4fb95f83fef3",
+                "@type": "PerceptualHash",
+                "checksumAlgorithm": "pHash",
+                "checksumValue": "003800350118016302790311028302980568070903560379060206020037-0250115-007028300870289017705870310037401730595037200360037011401150289028202960288060805810396036905990596"
+              }
+            ],
+            "contentSize": 67733,
+            "contentUrl": "/encoding/node:010c2381-52ac-491e-bd29-966d12eacc46",
+            "creator": "bot:BlobStore",
+            "dateCreated": "2017-12-30T21:31:59.355Z",
+            "encodesCreativeWork": "node:6e3496c8-32df-45b7-82c0-0f993ca0870a",
+            "exifData": [
+              {
+                "@id": "_:c5a25922-a652-4908-a12a-3637eabdb225",
+                "@type": "PropertyValue",
+                "propertyID": "resolution",
+                "unitText": "ppi",
+                "value": "220x220"
+              },
+              {
+                "@id": "_:e2a91504-e0d0-47bf-a9b8-917bc5cd45db",
+                "@type": "PropertyValue",
+                "propertyID": "colorType",
+                "value": "TrueColor"
+              }
+            ],
+            "fileFormat": "image/jpeg",
+            "height": 307,
+            "isBasedOn": [
+              {
+                "@id": "node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "@type": "DocumentObject",
+                "contentSize": 1268925,
+                "contentUrl": "/encoding/node:77839fae-7297-4a56-a278-450ce6f027f0",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:58.765Z",
+                "encodesCreativeWork": "node:6c67b7d4-5884-443b-a1fd-071866b04fae",
+                "fileFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "name": "microformats.docx"
+              }
+            ],
+            "name": "d.jpeg",
+            "thumbnail": [
+              {
+                "@id": "node:aeec8196-1fda-4a53-be08-d4df88eded6c",
+                "@type": "ImageObject",
+                "contentChecksum": [
+                  {
+                    "@id": "_:a0984c56-f1d4-4290-98ee-4543bff0a53f",
+                    "@type": "Checksum",
+                    "checksumAlgorithm": "sha256",
+                    "checksumValue": "IMfsTaVHfL5BBl5GYjYAQ7Ga8dEnz51+TgPQeEF34j8="
+                  }
+                ],
+                "contentSize": 13129,
+                "contentUrl": "/encoding/node:aeec8196-1fda-4a53-be08-d4df88eded6c",
+                "creator": "bot:BlobStore",
+                "dateCreated": "2017-12-30T21:31:59.491Z",
+                "encodesCreativeWork": "node:6e3496c8-32df-45b7-82c0-0f993ca0870a",
+                "fileFormat": "image/jpeg",
+                "height": 180,
+                "isBasedOn": ["node:010c2381-52ac-491e-bd29-966d12eacc46"],
+                "name": "d-320w.jpeg",
+                "width": 320
+              }
+            ],
+            "width": 547
+          }
+        ],
+        "isBasedOn": [
+          {
+            "@id": "_:e3453b5a-0c69-44d6-b3ad-a1d34ae546d2",
+            "@type": "Person",
+            "familyName": "Goldman",
+            "givenName": "Jean-Jacques",
+            "name": "JJG"
+          }
+        ],
+        "isPartOf": "node:a79f3cde-5abe-40e0-a01e-481df4694f3d"
+      }
+    ],
+    "isPartOf": "node:6c67b7d4-5884-443b-a1fd-071866b04fae"
+  }
+]

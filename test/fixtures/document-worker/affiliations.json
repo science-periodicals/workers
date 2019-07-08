@@ -1,0 +1,122 @@
+{
+  "@id": "scienceai:bed2ea71-6618-4080-a8c9-ba8fcf581b00",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "role:c5af694e-86b7-4e8f-aa56-6a722062beb0",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:0b934827-0098-470d-8d58-6d882e5b0d87",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": { "@type": "rdf:HTML", "@value": "<p lang=\"en-US\"> Did some good stuff</p>" }
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:d4333fec-2d54-40c5-b21c-d0debcc56bee",
+          "@type": "Organization",
+          "name": "Some Part",
+          "parentOrganization": {
+            "@id": "scienceai:fac02a57-323b-45fb-8f7a-bd4bf007e1d6",
+            "@type": "Organization",
+            "location": {
+              "@id": "scienceai:50403d33-d109-4c1c-babd-71268c71dd3d",
+              "@type": "Place",
+              "address": {
+                "@id": "scienceai:1291de9b-671b-4a60-baef-330610a53007",
+                "@type": "PostalAddress",
+                "addressCountry": "Earth",
+                "addressLocality": "Elsewhere"
+              }
+            },
+            "name": "Some Other Company"
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:e269a82b-0f71-44ca-b169-405a2093cfbb",
+          "@type": "Person",
+          "familyName": "Affiliated",
+          "givenName": "Properly",
+          "name": "Properly Affiliated"
+        }
+      ]
+    },
+    {
+      "@id": "role:511413c5-3e62-4168-b4dd-b4db7a9fe917",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:d9661bb8-3d45-413d-b5f8-495ad6469ee0",
+          "@type": "ContributeAction",
+          "noteIdentifier": 2,
+          "description": { "@type": "rdf:HTML", "@value": "<p lang=\"en-US\"> Did not so much good stuff</p>" }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:92b2d0f1-6d26-4472-94f8-94fee55ffd03",
+          "@type": "Person",
+          "additionalName": "N.A.",
+          "familyName": "Affiliated",
+          "givenName": "Not",
+          "name": "Not Affiliated"
+        }
+      ]
+    },
+    {
+      "@id": "role:abac2a0c-3a1e-4b64-9098-1db9a423f541",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:628d9121-a2f0-443a-858d-d1276d5c05f7",
+          "@type": "ContributeAction",
+          "noteIdentifier": 3,
+          "description": { "@type": "rdf:HTML", "@value": "<p lang=\"en-US\"> Did pretty much nothing</p>" }
+        }
+      ],
+      "author": [
+        {
+          "@id": "scienceai:14a292f4-440f-4bba-8356-ef5845df793f",
+          "@type": "Organization",
+          "name": "Some Department",
+          "parentOrganization": {
+            "@id": "scienceai:fe67d14d-bf14-414f-9904-c6f95d064433",
+            "@type": "Organization",
+            "location": {
+              "@id": "scienceai:5141a5e0-d204-46a9-afec-64254941b8c8",
+              "@type": "Place",
+              "address": {
+                "@id": "scienceai:76298082-85ea-4f8a-ac63-9687730248d4",
+                "@type": "PostalAddress",
+                "addressCountry": "Earth3",
+                "addressLocality": "Somewhere"
+              }
+            },
+            "name": "Some Company"
+          }
+        }
+      ]
+    }
+  ],
+  "creator": "bot:DocumentWorker",
+  "dateCreated": "2016-04-11T14:38:15.479Z",
+  "encoding": [
+    {
+      "@id": "scienceai:2b8d1b0a-c22f-4a87-93ba-18cd4c03650c",
+      "@type": "DocumentObject",
+      "dateCreated": "2016-04-11T14:38:15.478Z",
+      "isBasedOn": [
+        "scienceai:86cb4919-78ed-48fd-b511-16cd3ebaa141"
+      ]
+    }
+  ],
+  "isPartOf": "scienceai:b17857e1-307f-4558-8766-e5a6dc0c76b1",
+  "name": "Are affiliations hop-less?"
+}

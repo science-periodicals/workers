@@ -1,0 +1,4244 @@
+{
+  "@id": "scienceai:bced60f9-6aab-4cb6-a850-38e7b249c2c5",
+  "@type": "ScholarlyArticle",
+  "author": [
+    {
+      "@id": "scienceai:c98bd17a-3f13-4272-9447-575054aedc3b",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:c3cf1b2a-3baf-4eaa-a7b5-47403909d4a6",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": "conception and design"
+        },
+        {
+          "@id": "scienceai:89342dfc-0a4a-4687-ac75-112247433107",
+          "@type": "ContributeAction",
+          "noteIdentifier": 2,
+          "description": "built the setup"
+        },
+        {
+          "@id": "scienceai:29379e79-625a-4dde-a84d-863d261d6d43",
+          "@type": "ContributeAction",
+          "noteIdentifier": 3,
+          "description": "collected data"
+        },
+        {
+          "@id": "scienceai:8601a71e-eaa0-46dd-92fa-6341d86cdb66",
+          "@type": "ContributeAction",
+          "noteIdentifier": 4,
+          "description": "analyzed and interpreted data"
+        },
+        {
+          "@id": "scienceai:4bc65a01-d4e7-4ca4-9621-86fd0f93823d",
+          "@type": "ContributeAction",
+          "noteIdentifier": 5,
+          "description":  "wrote the paper"
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+          "sameAs": ["http://neuro.fchampalimaud.org/"],
+          "@type": "Organization",
+          "name": "Champalimaud Neuroscience Programme",
+          "parentOrganization": {
+            "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+            "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/champalimaud-centre-unknown/"],
+            "@type": "Organization",
+            "name": "Champalimaud Centre for the Unknown",
+            "parentOrganization": {
+              "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+              "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/"],
+              "@type": "Organization",
+              "location": {
+                "@id": "scienceai:554a8f3b-f206-4d89-868f-1ba4a90c7764",
+                "@type": "Place",
+                "address": {
+                  "@id": "scienceai:b8762144-045b-4e2d-82db-e3a87a8e9fab",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Portugal",
+                  "addressLocality": "Lisbon"
+                }
+              },
+              "name": "Champalimaud Foundation"
+            }
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:d3e88904-a10d-4b7e-bba2-92cb6a5db781",
+          "@type": "Person",
+          "familyName": "Machado",
+          "givenName": "Ana S",
+          "name": "Ana S Machado"
+        }
+      ]
+    },
+    {
+      "@id": "scienceai:1445edfc-f304-44de-9c3e-d147fef01e9f",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:f769afa3-2f06-4dbf-b54b-253b5e1ec1a0",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": "conception and design"
+        },
+        {
+          "@id": "scienceai:de7ef11f-89c0-43ca-9504-7d5f4e16b8c4",
+          "@type": "ContributeAction",
+          "noteIdentifier": 4,
+          "description": "analyzed and interpreted data"
+        },
+        {
+          "@id": "scienceai:7d20371c-e876-4b11-ab41-8d493920ecd1",
+          "@type": "ContributeAction",
+          "noteIdentifier": 5,
+          "description": "wrote the paper"
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+          "sameAs": ["http://neuro.fchampalimaud.org/"],
+          "@type": "Organization",
+          "name": "Champalimaud Neuroscience Programme",
+          "parentOrganization": {
+            "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+            "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/champalimaud-centre-unknown/"],
+            "@type": "Organization",
+            "name": "Champalimaud Centre for the Unknown",
+            "parentOrganization": {
+              "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+              "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/"],
+              "@type": "Organization",
+              "location": {
+                "@id": "scienceai:554a8f3b-f206-4d89-868f-1ba4a90c7764",
+                "@type": "Place",
+                "address": {
+                  "@id": "scienceai:b8762144-045b-4e2d-82db-e3a87a8e9fab",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Portugal",
+                  "addressLocality": "Lisbon"
+                }
+              },
+              "name": "Champalimaud Foundation"
+            }
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:2406100f-8a77-4266-8747-4826599ededc",
+          "@type": "Person",
+          "familyName": "Darmohray",
+          "givenName": "Dana M",
+          "name": "Dana M Darmohray"
+        }
+      ]
+    },
+    {
+      "@id": "scienceai:2601ba94-a608-432e-a7ee-3885e6743a70",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:4c8f1b9a-f8b1-42d4-9513-7ceaa2857d55",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": "conception and design"
+        },
+        {
+          "@id": "scienceai:b2a797ae-fba6-49c7-afb1-9f6bae8f171d",
+          "@type": "ContributeAction",
+          "noteIdentifier": 5,
+          "description": "wrote the paper"
+        },
+        {
+          "@id": "scienceai:ce342084-659f-4adc-a87a-1b2b531cfce7",
+          "@type": "ContributeAction",
+          "noteIdentifier": 6,
+          "description": "developed tracking algorithm"
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+          "sameAs": ["http://neuro.fchampalimaud.org/"],
+          "@type": "Organization",
+          "name": "Champalimaud Neuroscience Programme",
+          "parentOrganization": {
+            "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+            "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/champalimaud-centre-unknown/"],
+            "@type": "Organization",
+            "name": "Champalimaud Centre for the Unknown",
+            "parentOrganization": {
+              "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+              "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/"],
+              "@type": "Organization",
+              "location": {
+                "@id": "scienceai:554a8f3b-f206-4d89-868f-1ba4a90c7764",
+                "@type": "Place",
+                "address": {
+                  "@id": "scienceai:b8762144-045b-4e2d-82db-e3a87a8e9fab",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Portugal",
+                  "addressLocality": "Lisbon"
+                }
+              },
+              "name": "Champalimaud Foundation"
+            }
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:4b935418-a619-4405-a8e3-57326f59b8d0",
+          "@type": "Person",
+          "familyName": "Fayad",
+          "givenName": "João",
+          "name": "João Fayad"
+        }
+      ]
+    },
+    {
+      "@id": "scienceai:8ec829d5-a11c-4a21-a805-ce205a2b3e10",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:4be5c355-8d82-42d5-bdb7-1c140fc030f8",
+          "@type": "ContributeAction",
+          "noteIdentifier": 4,
+          "description": "analyzed and interpreted data"
+        },
+        {
+          "@id": "scienceai:a197c60f-2fd8-4e8b-88ab-f720a4e3c920",
+          "@type": "ContributeAction",
+          "noteIdentifier": 5,
+          "description": "wrote the paper"
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+          "sameAs": ["http://neuro.fchampalimaud.org/"],
+          "@type": "Organization",
+          "name": "Champalimaud Neuroscience Programme",
+          "parentOrganization": {
+            "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+            "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/champalimaud-centre-unknown/"],
+            "@type": "Organization",
+            "name": "Champalimaud Centre for the Unknown",
+            "parentOrganization": {
+              "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+              "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/"],
+              "@type": "Organization",
+              "location": {
+                "@id": "scienceai:554a8f3b-f206-4d89-868f-1ba4a90c7764",
+                "@type": "Place",
+                "address": {
+                  "@id": "scienceai:b8762144-045b-4e2d-82db-e3a87a8e9fab",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Portugal",
+                  "addressLocality": "Lisbon"
+                }
+              },
+              "name": "Champalimaud Foundation"
+            }
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:18062cc8-091e-46f7-8be7-f532b4bf4591",
+          "@type": "Person",
+          "familyName": "Marques",
+          "givenName": "Hugo G",
+          "name": "Hugo G Marques"
+        }
+      ]
+    },
+    {
+      "@id": "scienceai:3d455b0f-84e6-4e28-be14-e0cdf620d1be",
+      "@type": "ContributorRole",
+      "roleName": "author",
+      "roleAction": [
+        {
+          "@id": "scienceai:74f8dcaf-0b67-463f-b9ec-abd360e68974",
+          "@type": "ContributeAction",
+          "noteIdentifier": 1,
+          "description": "conception and design"
+        },
+        {
+          "@id": "scienceai:60ad53f6-e567-4d5f-9790-42334525ed59",
+          "@type": "ContributeAction",
+          "noteIdentifier": 4,
+          "description": "analyzed and interpreted data"
+        },
+        {
+          "@id": "scienceai:bed5203b-f9b2-42ce-bcfe-13a9104bc25a",
+          "@type": "ContributeAction",
+          "noteIdentifier": 5,
+          "description": "wrote the paper"
+        }
+      ],
+      "roleAffiliation": [
+        {
+          "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+          "sameAs": ["http://neuro.fchampalimaud.org/"],
+          "@type": "Organization",
+          "name": "Champalimaud Neuroscience Programme",
+          "parentOrganization": {
+            "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+            "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/champalimaud-centre-unknown/"],
+            "@type": "Organization",
+            "name": "Champalimaud Centre for the Unknown",
+            "parentOrganization": {
+              "@id": "scienceai:7fdedd2b-a236-4a3a-8004-e9302c6290ab",
+              "sameAs": ["http://www.fchampalimaud.org/en/the-foundation/"],
+              "@type": "Organization",
+              "location": {
+                "@id": "scienceai:554a8f3b-f206-4d89-868f-1ba4a90c7764",
+                "@type": "Place",
+                "address": {
+                  "@id": "scienceai:b8762144-045b-4e2d-82db-e3a87a8e9fab",
+                  "@type": "PostalAddress",
+                  "addressCountry": "Portugal",
+                  "addressLocality": "Lisbon"
+                }
+              },
+              "name": "Champalimaud Foundation"
+            }
+          }
+        }
+      ],
+      "author": [
+        {
+          "@id": "tmp:2792cbdf-9535-4b8a-a972-a637aa4ac242",
+          "@type": "Person",
+          "familyName": "Carey",
+          "givenName": "Megan R",
+          "name": "Megan R Carey"
+        }
+      ]
+    }
+  ],
+  "citation": [
+    {
+      "@id": "http://doi.org/10.1186/2053-8871-1-4",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1186/2053-8871-1-4",
+      "alternateName": "Cen14",
+      "author": [
+        {
+          "@id": "scienceai:ad7420c6-b448-4780-95e9-f6b61ef3dd70",
+          "@type": "Person",
+          "familyName": "Cendelin",
+          "givenName": "Jan",
+          "name": "Jan Cendelin"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.652Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:0aeb5935-1cb3-4076-831e-27c6162fe818",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.652Z",
+        "isPartOf": {
+          "@id": "scienceai:e617fd56-ed57-4c68-a3b3-dec947d7367b",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.652Z",
+          "isPartOf": {
+            "@id": "scienceai:ebb408b9-49d3-4b79-a87a-9621478aee40",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.652Z",
+            "issn": "2053-8871",
+            "name": "Cerebellum and Ataxias"
+          },
+          "volumeNumber": 1
+        },
+        "issueNumber": 1
+      },
+      "name": "From mice to men: lessons from mutant ataxic mice",
+      "pageEnd": "21",
+      "pageStart": "1",
+      "url": "http://doi.org/10.1186/2053-8871-1-4"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.brainres.2006.01.031#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.brainres.2006.01.031#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Lal07",
+      "author": [
+        {
+          "@id": "scienceai:76af2f5e-1f4b-4994-8106-cc390dc31dbe",
+          "@type": "Person",
+          "familyName": "Lalonde",
+          "givenName": "R.",
+          "name": "R. Lalonde"
+        },
+        {
+          "@id": "scienceai:966258c0-b7b7-437d-ae35-683b27f23ba7",
+          "@type": "Person",
+          "familyName": "Strazielle",
+          "givenName": "C.",
+          "name": "C. Strazielle"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.652Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2007
+      },
+      "isPartOf": {
+        "@id": "scienceai:bedfa3b3-4e34-465a-b76f-6bc249fb6f02",
+        "@type": "PublicationVolume",
+        "dateCreated": "2016-04-12T01:12:07.652Z",
+        "isPartOf": {
+          "@id": "scienceai:fb6528d1-1f1c-478a-86f1-bc6e9ef37867",
+          "@type": "Periodical",
+          "dateCreated": "2016-04-12T01:12:07.652Z",
+          "issn": "0006-8993",
+          "name": "Brain Research"
+        },
+        "volumeNumber": 1140
+      },
+      "name": "Spontaneous and induced mouse mutations with cerebellar dysfunctions: Behavior and neurochemistry",
+      "pageEnd": "74",
+      "pageStart": "51",
+      "url": "http://doi.org/10.1016/j.brainres.2006.01.031"
+    },
+    {
+      "@id": "http://doi.org/10.1073/pnas.73.1.208#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1073/pnas.73.1.208#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Mul76",
+      "author": [
+        {
+          "@id": "scienceai:d493012e-5ea0-483f-9b07-5d59902a0cef",
+          "@type": "Person",
+          "familyName": "Mullen",
+          "givenName": "R.J.",
+          "name": "R.J. Mullen"
+        },
+        {
+          "@id": "scienceai:76a1ddaf-630c-42ed-afc9-b831c3a091d9",
+          "@type": "Person",
+          "familyName": "Eicher",
+          "givenName": "E.M.",
+          "name": "E.M. Eicher"
+        },
+        {
+          "@id": "scienceai:2cd5999b-5b11-4c56-bd6b-eb718e4abab2",
+          "@type": "Person",
+          "familyName": "Sidman",
+          "givenName": "R.L.",
+          "name": "R.L. Sidman"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1976
+      },
+      "isPartOf": {
+        "@id": "scienceai:5255cc11-f0bd-4cfa-a7ea-4ca03ae24201",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:d2d7d3e1-bac5-4350-be81-c5bbc6ad2127",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:22e8a44b-40c1-45cb-892e-27349db8c3d1",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0027-8424",
+              "1091-6490"
+            ],
+            "name": "Proceedings of the National Academy of Sciences of USA - See more at: http://elifesciences.org/content/4/e07892#sthash.Djq54Ub4.dpuf"
+          },
+          "volumeNumber": 73
+        },
+        "issueNumber": 1
+      },
+      "name": "Purkinje cell degeneration, a new neurological mutation in the mouse - See more at: http://elifesciences.org/content/4/e07892#sthash.Djq54Ub4.dpuf",
+      "pageEnd": "212",
+      "pageStart": "208",
+      "url": "http://doi.org/10.1073/pnas.73.1.208"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nn1648",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nn1648",
+      "alternateName": "Wal06",
+      "author": [
+        {
+          "@id": "scienceai:1f46de90-613f-433a-8d5a-6de2586d36cd",
+          "@type": "Person",
+          "additionalName": "T.",
+          "familyName": "Walter",
+          "givenName": "Joy",
+          "name": "Joy T. Walter"
+        },
+        {
+          "@id": "scienceai:f430c57a-4f77-4f1d-832a-b82e6ff1814c",
+          "@type": "Person",
+          "familyName": "Alvina",
+          "givenName": "Karina",
+          "name": "Karina Alvina"
+        },
+        {
+          "@id": "scienceai:eb39f413-ac08-4818-b094-97e46643fb87",
+          "@type": "Person",
+          "additionalName": "D.",
+          "familyName": "Womack",
+          "givenName": "Mary",
+          "name": "Mary D. Womack"
+        },
+        {
+          "@id": "scienceai:5951ebfd-5580-45cd-ac30-6312d72bc135",
+          "@type": "Person",
+          "familyName": "Chevez",
+          "givenName": "Carolyn",
+          "name": "Carolyn Chevez"
+        },
+        {
+          "@id": "scienceai:da944d78-e6c8-4e47-bada-c1a387b0db2b",
+          "@type": "Person",
+          "familyName": "Khodakhah",
+          "givenName": "Kamran",
+          "name": "Kamran Khodakhah"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2006
+      },
+      "isPartOf": {
+        "@id": "scienceai:192f3f58-c33e-41a4-b3e7-8fa42eadf405",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:4509543e-5570-422f-8ff7-351e30db89fe",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:4e0d7adb-2271-4eee-a0d2-3f2ef8a93366",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "1097-6256",
+            "name": "Nature Neuroscience"
+          },
+          "volumeNumber": 9
+        },
+        "issueNumber": 3
+      },
+      "name": "Decreases in the precision of Purkinje cell pacemaking cause cerebellar dysfunction and ataxia",
+      "pageEnd": "397",
+      "pageStart": "389",
+      "url": "http://doi.org/10.1038/nn1648"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nrn2652#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nrn2652#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Bro09",
+      "author": [
+        {
+          "@id": "scienceai:2a1bcfec-6f42-41d9-9841-351886d0b7ee",
+          "@type": "Person",
+          "additionalName": "P.",
+          "familyName": "Brooks",
+          "givenName": "Simon",
+          "name": "Simon P. Brooks"
+        },
+        {
+          "@id": "scienceai:aed43cb9-5a35-41f7-85ca-f11257fda583",
+          "@type": "Person",
+          "additionalName": "B.",
+          "familyName": "Dunnett",
+          "givenName": "Stephen",
+          "name": "Stephen B. Dunnett"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2009
+      },
+      "isPartOf": {
+        "@id": "scienceai:fcdbea1b-17e4-4490-bafb-f97f021145ca",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:04c802b3-bed8-424e-8766-3831953776df",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:68cabc98-55b7-4f71-b60e-fdabd63edae4",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "1471-003X",
+              "1471-0048"
+            ],
+            "name": "Nature Reviews Neuroscience"
+          },
+          "volumeNumber": 10
+        },
+        "issueNumber": 7
+      },
+      "name": "Tests to assess motor phenotype in mice: a user's guide",
+      "pageEnd": "529",
+      "pageStart": "519",
+      "url": "http://doi.org/10.1038/nrn2652"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.neuron.2009.07.010#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.neuron.2009.07.010#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Kim09",
+      "author": [
+        {
+          "@id": "scienceai:3622a71c-e24e-4599-a77b-f7bef4d95391",
+          "@type": "Person",
+          "additionalName": "Chul",
+          "familyName": "Kim",
+          "givenName": "Jun",
+          "name": "Jun Chul Kim"
+        },
+        {
+          "@id": "scienceai:694d6542-137c-462d-a8d6-97219ca248dc",
+          "@type": "Person",
+          "additionalName": "N.",
+          "familyName": "Cook",
+          "givenName": "Melloni",
+          "name": "Melloni N. Cook"
+        },
+        {
+          "@id": "scienceai:b131d5b0-2b39-4a38-9f87-948029e77324",
+          "@type": "Person",
+          "additionalName": "R.",
+          "familyName": "Carey",
+          "givenName": "Megan",
+          "name": "Megan R. Carey"
+        },
+        {
+          "@id": "scienceai:cff12d46-cfa1-4928-bb7d-fa0b41ae34d2",
+          "@type": "Person",
+          "familyName": "Shen",
+          "givenName": "Chung",
+          "name": "Chung Shen"
+        },
+        {
+          "@id": "scienceai:c92cb777-3341-48a0-a276-d9e02721c1b2",
+          "@type": "Person",
+          "additionalName": "G.",
+          "familyName": "Regehr",
+          "givenName": "Wade",
+          "name": "Wade G. Regehr"
+        },
+        {
+          "@id": "scienceai:cfe84b8e-8d4a-4620-aba3-c03cacdbf38d",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Dymecki",
+          "givenName": "Susan",
+          "name": "Susan M. Dymecki"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2009
+      },
+      "isPartOf": {
+        "@id": "scienceai:a9a15e26-bb19-4031-8c28-5e88bd248ce0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:c56a1c2e-9f1f-482d-a891-dd8867690429",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:157fc42b-7497-481d-9ead-7a7c73f83851",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0896-6273",
+            "name": "Neuron"
+          },
+          "volumeNumber": 63
+        },
+        "issueNumber": 3
+      },
+      "name": "Linking Genetically Defined Neurons to Behavior through a Broadly Applicable Silencing Allele",
+      "pageEnd": "315",
+      "pageStart": "305",
+      "url": "http://doi.org/10.1016/j.neuron.2009.07.010"
+    },
+    {
+      "@id": "http://doi.org/10.1371/journal.pone.0074536#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1371/journal.pone.0074536#sthash.Djq54Ub4.dpuf",
+      "alternateName": "She13",
+      "author": [
+        {
+          "@id": "scienceai:4bc6b04f-db4e-4388-b578-9a30e804ab37",
+          "@type": "Person",
+          "additionalName": "L.",
+          "familyName": "Sheets",
+          "givenName": "Alison",
+          "name": "Alison L. Sheets"
+        },
+        {
+          "@id": "scienceai:e168b0e5-ffd3-4b49-9354-58c93fb5c2f2",
+          "@type": "Person",
+          "familyName": "Lai",
+          "givenName": "Po-Lun",
+          "name": "Po-Lun Lai"
+        },
+        {
+          "@id": "scienceai:ed677a4e-85d0-42ac-a21f-600c2b518678",
+          "@type": "Person",
+          "additionalName": "C.",
+          "familyName": "Fisher",
+          "givenName": "Lesley",
+          "name": "Lesley C. Fisher"
+        },
+        {
+          "@id": "scienceai:0f175d8a-245c-42d5-a610-23fc57b5bd7a",
+          "@type": "Person",
+          "additionalName": "Michele",
+          "familyName": "Basso",
+          "givenName": "D.",
+          "name": "D. Michele Basso"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:e47d27d6-fe65-4edd-b0ea-3533692e7bbc",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:0dae63f6-3700-4510-ad7f-2952b6c3223e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:eaa035cd-6e98-4b79-b201-01f2b3f52daf",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "1932-6203",
+            "name": "PLoS ONE"
+          },
+          "volumeNumber": 8
+        },
+        "issueNumber": 9
+      },
+      "name": "Quantitative Evaluation of 3D Mouse Behaviors and Motor Function in the Open-Field after Spinal Cord Injury Using Markerless Motion Tracking",
+      "url": "http://doi.org/10.1371/journal.pone.0074536"
+    },
+    {
+      "@id": "http://doi.org/10.1007/bf00243304",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1007/bf00243304",
+      "alternateName": "For87",
+      "author": [
+        {
+          "@id": "scienceai:b531f80f-89a0-4256-9db7-2f327eadb975",
+          "@type": "Person",
+          "familyName": "Fortier",
+          "givenName": "P.A.",
+          "name": "P.A. Fortier"
+        },
+        {
+          "@id": "scienceai:bd7163cd-d9c1-436a-a7b9-c094cc0783bd",
+          "@type": "Person",
+          "familyName": "Smith",
+          "givenName": "A.M.",
+          "name": "A.M. Smith"
+        },
+        {
+          "@id": "scienceai:20ba3b19-e459-47ef-9a7c-fd702c63075d",
+          "@type": "Person",
+          "familyName": "S.",
+          "givenName": "Rossignol",
+          "name": "Rossignol S."
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1987
+      },
+      "isPartOf": {
+        "@id": "scienceai:260cd855-b337-47af-9157-c0356f7c6a55",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:0a08109e-a183-4764-94ae-f872e5f7803c",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:a423bf56-8cfd-4a85-9d32-527440bc6e25",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0014-4819",
+              "1432-1106"
+            ],
+            "name": "Experimental Brain Research"
+          },
+          "volumeNumber": 66
+        },
+        "issueNumber": 2
+      },
+      "name": "Locomotor deficits in the mutant mouse, Lurcher.",
+      "pageEnd": "286",
+      "pageStart": "271",
+      "url": "http://doi.org/10.1007/bf00243304"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.mcn.2006.07.009",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.mcn.2006.07.009",
+      "alternateName": "Wan06",
+      "author": [
+        {
+          "@id": "scienceai:4f42a02e-05bf-4b59-8217-33cdab42137b",
+          "@type": "Person",
+          "familyName": "Wang",
+          "givenName": "Taiyu",
+          "name": "Taiyu Wang"
+        },
+        {
+          "@id": "scienceai:d19e6a2e-21f3-440f-8efe-71a78ee05af7",
+          "@type": "Person",
+          "familyName": "Parris",
+          "givenName": "Jennifer",
+          "name": "Jennifer Parris"
+        },
+        {
+          "@id": "scienceai:36752e1c-6f61-4e82-b639-035e6d2141cf",
+          "@type": "Person",
+          "familyName": "Li",
+          "givenName": "Leyi",
+          "name": "Leyi Li"
+        },
+        {
+          "@id": "scienceai:3b0023aa-9c1c-4c1b-b546-864eba614a71",
+          "@type": "Person",
+          "additionalName": "I.",
+          "familyName": "Morgan",
+          "givenName": "James",
+          "name": "James I. Morgan"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2006
+      },
+      "isPartOf": {
+        "@id": "scienceai:5ecb7334-5baa-4146-a33a-7baf5e3ad793",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:57109e7c-07ad-43fa-9c59-cf516670716e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:87b0cc94-84ff-4c16-af42-27b5978e3f14",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "1044-7431",
+            "name": "Molecular and Cellular Neuroscience"
+          },
+          "volumeNumber": 33
+        },
+        "issueNumber": 2
+      },
+      "name": "The carboxypeptidase-like substrate-binding site in Nna1 is essential for the rescue of the Purkinje cell degeneration (pcd) phenotype",
+      "pageEnd": "213",
+      "pageStart": "200",
+      "url": "http://doi.org/10.1016/j.mcn.2006.07.009"
+    },
+    {
+      "@id": "http://doi.org/10.1007/s00429-014-0870-1",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1007/s00429-014-0870-1",
+      "alternateName": "Vin14",
+      "author": [
+        {
+          "@id": "scienceai:72fe9346-6d16-4d60-a6f0-a80b16e5d1be",
+          "@type": "Person",
+          "additionalName": "Fernanda",
+          "familyName": "Vinueza Veloz",
+          "givenName": "María",
+          "name": "María Fernanda Vinueza Veloz"
+        },
+        {
+          "@id": "scienceai:8a8efacf-d70c-4f98-9561-a4493a92abd4",
+          "@type": "Person",
+          "familyName": "Zhou",
+          "givenName": "Kuikui",
+          "name": "Kuikui Zhou"
+        },
+        {
+          "@id": "scienceai:37883e95-ed19-48a2-a9a3-e5d7a393607e",
+          "@type": "Person",
+          "additionalName": "W. J.",
+          "familyName": "Bosman",
+          "givenName": "Laurens",
+          "name": "Laurens W. J. Bosman"
+        },
+        {
+          "@id": "scienceai:916bbdd3-2957-4b52-aaa0-b116426c8049",
+          "@type": "Person",
+          "familyName": "Potters",
+          "givenName": "Jan-Willem",
+          "name": "Jan-Willem Potters"
+        },
+        {
+          "@id": "scienceai:1ebad764-591a-4c7d-aa90-50591ed1ccfa",
+          "@type": "Person",
+          "familyName": "Negrello",
+          "givenName": "Mario",
+          "name": "Mario Negrello"
+        },
+        {
+          "@id": "scienceai:82b1dd5a-2d6f-4110-a0c4-e24d87702ea4",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Seepers",
+          "givenName": "Robert",
+          "name": "Robert M. Seepers"
+        },
+        {
+          "@id": "scienceai:6cb0c8f1-7f79-40a0-aecc-2119121c6f2a",
+          "@type": "Person",
+          "familyName": "Strydis",
+          "givenName": "Christos",
+          "name": "Christos Strydis"
+        },
+        {
+          "@id": "scienceai:dfec2526-f318-4364-a069-d6efa033c6fc",
+          "@type": "Person",
+          "additionalName": "K. E.",
+          "familyName": "Koekkoek",
+          "givenName": "Sebastiaan",
+          "name": "Sebastiaan K. E. Koekkoek"
+        },
+        {
+          "@id": "scienceai:eedb7d73-3de1-4884-a2c5-c72f7a4af6f0",
+          "@type": "Person",
+          "additionalName": "I.",
+          "familyName": "De Zeeuw",
+          "givenName": "Chris",
+          "name": "Chris I. De Zeeuw"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:a8306c6b-bf03-457f-a63b-fe42631563b0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:7167aced-a383-429c-9f9d-55487bfb3ce4",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:fc5c842b-ee28-4a1d-9199-c569f2ee7eaf",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "1863-2653",
+              "1863-2661"
+            ],
+            "name": "Brain Structure and Function"
+          },
+          "volumeNumber": 220
+        },
+        "issueNumber": 6
+      },
+      "name": "Cerebellar control of gait and interlimb coordination",
+      "pageEnd": "3536",
+      "pageStart": "3513",
+      "url": "http://doi.org/10.1007/s00429-014-0870-1"
+    },
+    {
+      "@id": "http://doi.org/10.1002/ar.22955#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1002/ar.22955#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Bat14",
+      "author": [
+        {
+          "@id": "scienceai:7e19c2d5-551c-42d8-a468-55d64355f503",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Batka",
+          "givenName": "Richard",
+          "name": "Richard J. Batka"
+        },
+        {
+          "@id": "scienceai:474fcb37-bab0-41b5-b32d-bd85a00eeba3",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Brown",
+          "givenName": "Todd",
+          "name": "Todd J. Brown"
+        },
+        {
+          "@id": "scienceai:8356aa50-eccf-4b6e-b071-fa8906238f09",
+          "@type": "Person",
+          "additionalName": "P.",
+          "familyName": "McMillan",
+          "givenName": "Kathryn",
+          "name": "Kathryn P. McMillan"
+        },
+        {
+          "@id": "scienceai:1f3dddb7-26e3-4987-a1f6-052fb7b26e04",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Meadows",
+          "givenName": "Rena",
+          "name": "Rena M. Meadows"
+        },
+        {
+          "@id": "scienceai:0cd504ec-f877-474b-9e6e-3e475eb50dbc",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Jones",
+          "givenName": "Kathryn",
+          "name": "Kathryn J. Jones"
+        },
+        {
+          "@id": "scienceai:e7ae9d9b-efd9-480e-bdb5-d27ac3aee312",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Haulcomb",
+          "givenName": "Melissa",
+          "name": "Melissa M. Haulcomb"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:d0e85307-7796-4db6-870d-09761d80b4bb",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:abb47118-8bda-4c6d-92a9-823225583856",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:a4344c01-d9c6-4408-85f9-a01fb6ac90df",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "1932-8486",
+            "name": "The Anatomical Record"
+          },
+          "volumeNumber": 297
+        },
+        "issueNumber": 10
+      },
+      "name": "The Need for Speed in Rodent Locomotion Analyses",
+      "pageEnd": "1864",
+      "pageStart": "1839",
+      "url": "http://doi.org/10.1002/ar.22955"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.bbr.2010.01.035#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.bbr.2010.01.035#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Cen10",
+      "author": [
+        {
+          "@id": "scienceai:514396bb-7236-45b4-a6f8-54ac31d50dc9",
+          "@type": "Person",
+          "familyName": "Cendelín",
+          "givenName": "Jan",
+          "name": "Jan Cendelín"
+        },
+        {
+          "@id": "scienceai:638b084d-53eb-40a4-b1a6-d853dfbf9795",
+          "@type": "Person",
+          "familyName": "Voller",
+          "givenName": "Jaroslav",
+          "name": "Jaroslav Voller"
+        },
+        {
+          "@id": "scienceai:ca05e336-7122-4892-9778-8709c645da65",
+          "@type": "Person",
+          "familyName": "Vožeh",
+          "givenName": "František",
+          "name": "František Vožeh"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2010
+      },
+      "isPartOf": {
+        "@id": "scienceai:f2e27511-49b0-4ab8-96e8-9356e0d2bce6",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:af13f440-50df-472e-9467-e1b63a63accd",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:f6ed0300-d4b1-427f-ab92-fb3fa2022ccc",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0166-4328",
+            "name": "Behavioural Brain Research"
+          },
+          "volumeNumber": 210
+        },
+        "issueNumber": 1
+      },
+      "name": "Ataxic gait analysis in a mouse model of the olivocerebellar degeneration",
+      "pageEnd": "15",
+      "pageStart": "8",
+      "url": "http://doi.org/10.1016/j.bbr.2010.01.035"
+    },
+    {
+      "@id": "scienceai:279CEB6F-7D8E-3440-9498-13650D7002EE",
+      "@type": "ScholarlyArticle",
+      "alternateName": "Bas96",
+      "author": [
+        {
+          "@id": "scienceai:3b2836ab-a3f3-48b1-9aaa-9c01b17aef8f",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Bastian",
+          "givenName": "A.",
+          "name": "A. J. Bastian"
+        },
+        {
+          "@id": "scienceai:a3865ea1-4e99-4617-80ab-80a8fa3234cc",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Martin",
+          "givenName": "T.",
+          "name": "T. A. Martin"
+        },
+        {
+          "@id": "scienceai:7af4e936-5d08-40b5-aebb-5892baaa7944",
+          "@type": "Person",
+          "additionalName": "G.",
+          "familyName": "Keating",
+          "givenName": "J.",
+          "name": "J. G. Keating"
+        },
+        {
+          "@id": "scienceai:3c31344e-ffd7-487c-a7a3-81f063ba213c",
+          "@type": "Person",
+          "additionalName": "T.",
+          "familyName": "Thach",
+          "givenName": "W.",
+          "name": "W. T. Thach"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1996
+      },
+      "isPartOf": {
+        "@id": "scienceai:820870f0-0c39-4eb2-8e92-112a31c24973",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:fcffbe9c-520d-4b84-bf26-564fea2fa009",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:42c37396-0405-4f3e-b1c2-eff4528acbf4",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "name": "Journal of Neurophysiology"
+          },
+          "volumeNumber": 76
+        },
+        "issueNumber": 1
+      },
+      "name": "Cerebellar ataxia: abnormal control of interaction torques across multiple joints",
+      "pageEnd": "509",
+      "pageStart": "492"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nn.3650 #sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nn.3650 #sthash.Djq54Ub4.dpuf",
+      "alternateName": "Ken14",
+      "author": [
+        {
+          "@id": "scienceai:2c4fecd3-0f4e-4e63-8d5a-1d7b75ccda55",
+          "@type": "Person",
+          "familyName": "Kennedy",
+          "givenName": "Ann",
+          "name": "Ann Kennedy"
+        },
+        {
+          "@id": "scienceai:1bcca62a-a1db-4b47-b2c9-c97b72544607",
+          "@type": "Person",
+          "familyName": "Wayne",
+          "givenName": "Greg",
+          "name": "Greg Wayne"
+        },
+        {
+          "@id": "scienceai:ddf9cd29-2acf-4693-b363-348bd37b199c",
+          "@type": "Person",
+          "familyName": "Kaifosh",
+          "givenName": "Patrick",
+          "name": "Patrick Kaifosh"
+        },
+        {
+          "@id": "scienceai:f430c57a-4f77-4f1d-832a-b82e6ff1814c",
+          "@type": "Person",
+          "familyName": "Alvina",
+          "givenName": "Karina",
+          "name": "Karina Alvina"
+        },
+        {
+          "@id": "scienceai:b4a3dbab-a23b-49ca-9a7a-b8abd2ef3913",
+          "@type": "Person",
+          "additionalName": "F.",
+          "familyName": "Abbott",
+          "givenName": "L.",
+          "name": "L. F. Abbott"
+        },
+        {
+          "@id": "scienceai:bd00614a-7b67-4852-9d4b-325de6f4bb28",
+          "@type": "Person",
+          "additionalName": "B.",
+          "familyName": "Sawtell",
+          "givenName": "Nathaniel",
+          "name": "Nathaniel B. Sawtell"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:4d2a1d23-5bfb-461d-85ce-e1ed54f0f662",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:4257e470-97d1-4e15-8b79-d93176ba6451",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:00434ab2-87d9-4d1e-84cd-f4aa4598604a",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "1097-6256",
+              "1546-1726"
+            ],
+            "name": "Nature Neuroscience"
+          },
+          "volumeNumber": 17
+        },
+        "issueNumber": 3
+      },
+      "name": "A temporal basis for predicting the sensory consequences of motor commands in an electric fish",
+      "pageEnd": "422",
+      "pageStart": "416",
+      "url": "http://doi.org/10.1038/nn.3650"
+    },
+    {
+      "@id": "http://doi.org/10.1007/s12311-008-0059-3 #sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1007/s12311-008-0059-3 #sthash.Djq54Ub4.dpuf",
+      "alternateName": "Ebn08",
+      "author": [
+        {
+          "@id": "scienceai:d7fe5705-aa09-40c4-ab1a-2ea374b62a80",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Ebner",
+          "givenName": "Timothy",
+          "name": "Timothy J. Ebner"
+        },
+        {
+          "@id": "scienceai:3c109c3b-4520-4933-99c2-d5519f08b3bc",
+          "@type": "Person",
+          "familyName": "Pasalar",
+          "givenName": "Siavash",
+          "name": "Siavash Pasalar"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2008
+      },
+      "isPartOf": {
+        "@id": "scienceai:d087c9f7-dff7-44b5-a216-cd88d5efba94",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:e0339159-f65e-4b31-990e-bfc30fab4524",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:5cc580f8-d07a-4feb-80e9-560a22c00b86",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "1473-4222",
+              "1473-4230"
+            ],
+            "name": "The Cerebellum"
+          },
+          "volumeNumber": 7
+        },
+        "issueNumber": 4
+      },
+      "name": "Cerebellum Predicts the Future Motor State ",
+      "pageEnd": "588",
+      "pageStart": "583",
+      "url": "http://doi.org/10.1007/s12311-008-0059-3"
+    },
+    {
+      "@id": "http://doi.org/10.1016/S0031-9384(98)00343-6#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/S0031-9384(98)00343-6#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Cla99",
+      "author": [
+        {
+          "@id": "scienceai:79dd4b60-f9e4-4ff9-ba59-7a79eeca8788",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Clarke",
+          "givenName": "K.",
+          "name": "K. A. Clarke"
+        },
+        {
+          "@id": "scienceai:0232eb10-919b-479c-b9cd-17a1bc4a0230",
+          "@type": "Person",
+          "familyName": "Still",
+          "givenName": "J.",
+          "name": "J. Still"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1999
+      },
+      "isPartOf": {
+        "@id": "scienceai:0eee0834-9e9d-414a-9a64-e2ca380c3963",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:e0985736-39cf-4632-aa52-a8cedca66185",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:541a5ee6-af09-4c59-9571-c2ee96749016",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0031-9384",
+            "name": "Physiology & Behavior"
+          },
+          "volumeNumber": 66
+        },
+        "issueNumber": 5
+      },
+      "name": "Gait Analysis in the Mouse",
+      "pageEnd": "729",
+      "pageStart": "723",
+      "url": "http://doi.org/10.1016/s0031-9384(98)00343-6"
+    },
+    {
+      "@id": "scienceai:DCA3A75E-0BF7-1C48-82D4-1B7CAE8798D8",
+      "@type": "ScholarlyArticle",
+      "alternateName": "Che96",
+      "author": [
+        {
+          "@id": "scienceai:3a734254-0e50-444c-a9ed-715e1897e330",
+          "@type": "Person",
+          "familyName": "Chen",
+          "givenName": "L",
+          "name": "L Chen"
+        },
+        {
+          "@id": "scienceai:d58d674e-d25a-4c53-b15e-c96718572a74",
+          "@type": "Person",
+          "familyName": "Bao",
+          "givenName": "S",
+          "name": "S Bao"
+        },
+        {
+          "@id": "scienceai:d85d2156-7e20-4c1f-9637-dcbcc0d55115",
+          "@type": "Person",
+          "familyName": "Lockard",
+          "givenName": "JM",
+          "name": "JM Lockard"
+        },
+        {
+          "@id": "scienceai:ff0fdae2-85f3-4f43-b278-c40d4e57e879",
+          "@type": "Person",
+          "familyName": "Kim",
+          "givenName": "JK",
+          "name": "JK Kim"
+        },
+        {
+          "@id": "scienceai:37cb1dba-2647-44fb-950d-96e563f374c0",
+          "@type": "Person",
+          "familyName": "Thompson",
+          "givenName": "RF",
+          "name": "RF Thompson"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1996
+      },
+      "isPartOf": {
+        "@id": "scienceai:ff213d60-2d70-4dae-ba01-fcb7b745930c",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:9cdd8be4-d8b8-4062-97bd-8525d976685d",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:e936261b-14a1-4bc6-909b-181126c27483",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "name": "The Journal of Neuroscience"
+          },
+          "volumeNumber": 16
+        },
+        "issueNumber": 8
+      },
+      "name": "Impaired classical eyeblink conditioning in cerebellar-lesioned and Purkinje cell degeneration (pcd) mutant mice",
+      "pageEnd": "2838",
+      "pageStart": "2829"
+    },
+    {
+      "@id": "http://doi.org/10.1016/S0006-8993(97)00666-5#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/S0006-8993(97)00666-5#sthash.Djq54Ub4.dpuf",
+      "alternateName": "LeM97",
+      "author": [
+        {
+          "@id": "scienceai:b1b4bf2b-8cf6-408b-9e10-e235a7019c49",
+          "@type": "Person",
+          "familyName": "Le Marec",
+          "givenName": "N.",
+          "name": "N. Le Marec"
+        },
+        {
+          "@id": "scienceai:76af2f5e-1f4b-4994-8106-cc390dc31dbe",
+          "@type": "Person",
+          "familyName": "Lalonde",
+          "givenName": "R.",
+          "name": "R. Lalonde"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1997
+      },
+      "isPartOf": {
+        "@id": "scienceai:8c3be902-40c0-401e-b17d-a696abcb40da",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:38697131-e668-4596-b7df-24b5664c5060",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:384f0f41-6c3c-4387-a444-60cde01054b9",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0006-8993",
+            "name": "Brain Research"
+          },
+          "volumeNumber": 768
+        },
+        "issueNumber": "1-2"
+      },
+      "name": "Sensorimotor learning and retention during equilibrium tests in Purkinje cell degeneration mutant mice",
+      "pageEnd": "316",
+      "pageStart": "310",
+      "url": "http://doi.org/10.1016/s0006-8993(97)00666-5"
+    },
+    {
+      "@id": "http://doi.org/10.1126/science.1068912#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1126/science.1068912#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Fer02",
+      "author": [
+        {
+          "@id": "scienceai:1548f62c-a634-4176-93f3-443429e1be94",
+          "@type": "Person",
+          "familyName": "Fernandez-Gonzalez",
+          "givenName": "Angeles",
+          "name": "Angeles Fernandez-Gonzalez"
+        },
+        {
+          "@id": "scienceai:566b13a3-2d67-485d-9cdf-c87fb7df9796",
+          "@type": "Person",
+          "additionalName": "R. La",
+          "familyName": "Spada",
+          "givenName": "Albert",
+          "name": "Albert R. La Spada"
+        },
+        {
+          "@id": "scienceai:e9e6108e-7f15-4db8-a64b-8efc1c7231c7",
+          "@type": "Person",
+          "familyName": "Treadaway",
+          "givenName": "Jason",
+          "name": "Jason Treadaway"
+        },
+        {
+          "@id": "scienceai:0796f145-fb60-4ca4-854b-c3a2dfc3dbcc",
+          "@type": "Person",
+          "additionalName": "C.",
+          "familyName": "Higdon",
+          "givenName": "Jason",
+          "name": "Jason C. Higdon"
+        },
+        {
+          "@id": "scienceai:9eae9b37-46a3-4c43-8dd4-382cc27e898b",
+          "@type": "Person",
+          "additionalName": "S.",
+          "familyName": "Harris",
+          "givenName": "Belinda",
+          "name": "Belinda S. Harris"
+        },
+        {
+          "@id": "scienceai:3e9ffad6-bce1-4c38-b412-927c14fbf537",
+          "@type": "Person",
+          "additionalName": "L.",
+          "familyName": "Sidman",
+          "givenName": "Richard",
+          "name": "Richard L. Sidman"
+        },
+        {
+          "@id": "scienceai:3b0023aa-9c1c-4c1b-b546-864eba614a71",
+          "@type": "Person",
+          "additionalName": "I.",
+          "familyName": "Morgan",
+          "givenName": "James",
+          "name": "James I. Morgan"
+        },
+        {
+          "@id": "scienceai:44fc57a2-1092-4e6b-83ea-842974461521",
+          "@type": "Person",
+          "familyName": "Zuo",
+          "givenName": "Jian",
+          "name": "Jian Zuo"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2002
+      },
+      "isPartOf": {
+        "@id": "scienceai:c709e070-97ea-4e76-8b43-3d2c97788043",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:5ac1f35a-5c25-4aca-bbcf-bde66b61933a",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:f29b5620-d49a-427c-ac22-884943ff15ab",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0036-8075",
+              "1095-9203"
+            ],
+            "name": "Science"
+          },
+          "volumeNumber": 295
+        },
+        "issueNumber": 5561
+      },
+      "name": "Purkinje cell degeneration (pcd) Phenotypes Caused by Mutations in the Axotomy-Induced Gene, Nna1",
+      "pageEnd": "1906",
+      "pageStart": "1904",
+      "url": "http://doi.org/10.1126/science.1068912"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.physbeh.2007.07.018#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.physbeh.2007.07.018#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Koo07",
+      "author": [
+        {
+          "@id": "scienceai:4687d343-92d0-49dc-a464-70d5b6c2a64e",
+          "@type": "Person",
+          "additionalName": "C.",
+          "familyName": "Koopmans",
+          "givenName": "Guido",
+          "name": "Guido C. Koopmans"
+        },
+        {
+          "@id": "scienceai:45f52584-c18b-442f-89e7-bc74665121d2",
+          "@type": "Person",
+          "familyName": "Deumens",
+          "givenName": "Ronald",
+          "name": "Ronald Deumens"
+        },
+        {
+          "@id": "scienceai:3eb1572c-5a09-46b7-8f6d-f10917e81eb0",
+          "@type": "Person",
+          "familyName": "Brook",
+          "givenName": "Gary",
+          "name": "Gary Brook"
+        },
+        {
+          "@id": "scienceai:929ed7d2-3ffa-46fb-8335-9677d6498292",
+          "@type": "Person",
+          "familyName": "Gerver",
+          "givenName": "Job",
+          "name": "Job Gerver"
+        },
+        {
+          "@id": "scienceai:ac43a524-5a65-42d3-a729-51fc4b44ddbd",
+          "@type": "Person",
+          "additionalName": "M. M.",
+          "familyName": "Honig",
+          "givenName": "Wiel",
+          "name": "Wiel M. M. Honig"
+        },
+        {
+          "@id": "scienceai:6db5b7f3-4ffd-4aeb-b03a-494bf648c464",
+          "@type": "Person",
+          "additionalName": "P. T.",
+          "familyName": "Hamers",
+          "givenName": "Frank",
+          "name": "Frank P. T. Hamers"
+        },
+        {
+          "@id": "scienceai:f2e57c15-4a78-4554-8241-04d91836d926",
+          "@type": "Person",
+          "additionalName": "A. J.",
+          "familyName": "Joosten",
+          "givenName": "Elbert",
+          "name": "Elbert A. J. Joosten"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2007
+      },
+      "isPartOf": {
+        "@id": "scienceai:ab4cebda-914a-410f-8eed-3a0189617df0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:9bf53cd7-780f-4de7-8ba5-c8f5769afcab",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:22ed00e4-8685-4d15-9638-31aee3773fc9",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0031-9384",
+            "name": "Physiology & Behavior"
+          },
+          "volumeNumber": 92
+        },
+        "issueNumber": 5
+      },
+      "name": "Strain and locomotor speed affect over-ground locomotion in intact rats",
+      "pageEnd": "1001",
+      "pageStart": "993",
+      "url": "http://doi.org/10.1016/j.physbeh.2007.07.018"
+    },
+    {
+      "@id": "http://doi.org/10.1089/neu.2006.23.635 #sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1089/neu.2006.23.635 #sthash.Djq54Ub4.dpuf",
+      "alternateName": "Bas06",
+      "author": [
+        {
+          "@id": "scienceai:1aa639b1-de01-452a-ae11-304dcf5558e6",
+          "@type": "Person",
+          "additionalName": "Michele",
+          "familyName": "Basso",
+          "givenName": "D",
+          "name": "D Michele Basso"
+        },
+        {
+          "@id": "scienceai:3b65c983-c82c-4db9-a220-97eb59f3718c",
+          "@type": "Person",
+          "additionalName": "C",
+          "familyName": "Fisher",
+          "givenName": "Lesley",
+          "name": "Lesley C Fisher"
+        },
+        {
+          "@id": "scienceai:b25c8e8c-1323-4761-9012-6bc458bce907",
+          "@type": "Person",
+          "additionalName": "J",
+          "familyName": "Anderson",
+          "givenName": "Aileen",
+          "name": "Aileen J Anderson"
+        },
+        {
+          "@id": "scienceai:f107f42f-140a-4f22-ac72-8590c2dee73c",
+          "@type": "Person",
+          "additionalName": "B",
+          "familyName": "Jakeman",
+          "givenName": "Lyn",
+          "name": "Lyn B Jakeman"
+        },
+        {
+          "@id": "scienceai:082edf53-c9f7-4cdf-85e9-5f59f04b656d",
+          "@type": "Person",
+          "additionalName": "M",
+          "familyName": "Mctigue",
+          "givenName": "Dana",
+          "name": "Dana M Mctigue"
+        },
+        {
+          "@id": "scienceai:7dbdc866-4ceb-47a3-8e91-da49fafda984",
+          "@type": "Person",
+          "additionalName": "G",
+          "familyName": "Popovich",
+          "givenName": "Phillip",
+          "name": "Phillip G Popovich"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2006
+      },
+      "isPartOf": {
+        "@id": "scienceai:4422216f-d403-483c-a6a2-593130e663a0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:56970947-0762-45c9-bb41-c7353d979acb",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:f91c1c23-4e92-4f2d-8f1d-5254ab19707b",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0897-7151",
+              "1557-9042"
+            ],
+            "name": "Journal of neurotrauma"
+          },
+          "volumeNumber": 23
+        },
+        "issueNumber": 5
+      },
+      "name": "Basso Mouse Scale for locomotion detects differences in recovery after spinal cord injury in five common mouse strains",
+      "pageEnd": "659",
+      "pageStart": "635",
+      "url": "http://doi.org/10.1089/neu.2006.23.635"
+    },
+    {
+      "@id": "http://doi.org/10.2307/1311182#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.2307/1311182#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Hil89",
+      "author": [
+        {
+          "@id": "scienceai:88e97a0a-20a5-466d-a403-3bb9e0052633",
+          "@type": "Person",
+          "familyName": "Hildebrand",
+          "givenName": "Milton",
+          "name": "Milton Hildebrand"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1989
+      },
+      "isPartOf": {
+        "@id": "scienceai:5c55b2ad-a079-4592-9a0a-8cbf4d3e06e0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:37da6294-835b-4a8f-8899-ae65355744a4",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:0ef0816b-b257-471c-84b5-4fb6bea8f996",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0006-3568",
+              "1525-3244"
+            ],
+            "name": "BioScience"
+          },
+          "volumeNumber": 39
+        },
+        "issueNumber": 11
+      },
+      "name": "The Quadrupedal Gaits of Vertebrates: The timing of leg movements relates to balance, body shape, agility, speed, and energy expenditure",
+      "pageEnd": "775",
+      "pageStart": "766",
+      "url": "http://doi.org/10.2307/1311182"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.cub.2015.04.005#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.cub.2015.04.005#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Bel15",
+      "author": [
+        {
+          "@id": "scienceai:2fc625f0-7856-4131-ae80-c3aa5c26e7ba",
+          "@type": "Person",
+          "familyName": "Bellardita",
+          "givenName": "Carmelo",
+          "name": "Carmelo Bellardita"
+        },
+        {
+          "@id": "scienceai:69de3a36-1c40-444f-b09e-155f74af825c",
+          "@type": "Person",
+          "familyName": "Kiehn",
+          "givenName": "Ole",
+          "name": "Ole Kiehn"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2015
+      },
+      "isPartOf": {
+        "@id": "scienceai:fee4eaa4-b7bb-4b32-b354-1f87326e88cc",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:a5d2499a-5efa-435a-83b2-fad78b372fda",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:a8bd7d66-17c3-4bf3-a9cb-6d9dd34975b0",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0960-9822",
+            "name": "Current Biology"
+          },
+          "volumeNumber": 25
+        },
+        "issueNumber": 11
+      },
+      "name": "Phenotypic Characterization of Speed-Associated Gait Changes in Mice Reveals Modular Organization of Locomotor Networks",
+      "pageEnd": "1436",
+      "pageStart": "1426",
+      "url": "http://doi.org/10.1016/j.cub.2015.04.005"
+    },
+    {
+      "@id": "scienceai:DDA60303-8F75-6340-9C8A-3F62767989BE",
+      "@type": "ScholarlyArticle",
+      "alternateName": "Gór99",
+      "author": [
+        {
+          "@id": "scienceai:31afc976-bf15-4f06-a150-2e87893b7103",
+          "@type": "Person",
+          "familyName": "Górska",
+          "givenName": "T.",
+          "name": "T. Górska"
+        },
+        {
+          "@id": "scienceai:faf30522-e88c-4ee0-80c3-7bb18945b585",
+          "@type": "Person",
+          "familyName": "Zmysłowski",
+          "givenName": "W.",
+          "name": "W. Zmysłowski"
+        },
+        {
+          "@id": "scienceai:d281e3fa-6cbd-4ac2-81f9-80bac1812418",
+          "@type": "Person",
+          "familyName": "Majczyński",
+          "givenName": "H.",
+          "name": "H. Majczyński"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1999
+      },
+      "isPartOf": {
+        "@id": "scienceai:64844667-522d-4a80-b5a8-926db6ddd554",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:d77e1a93-d9fd-465d-8f48-e283dbac467c",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:1f4a6f43-03f5-42f2-8901-03fb9461985e",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "name": "Acta Neurobiologiae Experimentalis"
+          },
+          "volumeNumber": 59
+        },
+        "issueNumber": 2
+      },
+      "name": "Overground locomotion in intact rats: interlimb coordination, support patterns and support phases duration",
+      "pageEnd": "144",
+      "pageStart": "131"
+    },
+    {
+      "@id": "http://doi.org/10.1136/jnnp.73.3.310",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1136/jnnp.73.3.310",
+      "alternateName": "Sto02",
+      "author": [
+        {
+          "@id": "scienceai:0408067c-06c1-42a3-ae1a-39ea65488656",
+          "@type": "Person",
+          "familyName": "Stolze",
+          "givenName": "H",
+          "name": "H Stolze"
+        },
+        {
+          "@id": "scienceai:dfe75917-2e4c-42f3-a64f-cc2a66cb2c2d",
+          "@type": "Person",
+          "familyName": "Klebe",
+          "givenName": "S",
+          "name": "S Klebe"
+        },
+        {
+          "@id": "scienceai:1c8f93e0-a4b0-487a-8471-95910cdfb0df",
+          "@type": "Person",
+          "familyName": "Petersen",
+          "givenName": "G",
+          "name": "G Petersen"
+        },
+        {
+          "@id": "scienceai:eb91e58b-9911-4f93-b0f6-c69fe76c18ed",
+          "@type": "Person",
+          "familyName": "Raethjen",
+          "givenName": "J",
+          "name": "J Raethjen"
+        },
+        {
+          "@id": "scienceai:f9c55287-da10-4725-923e-59f137f8dabe",
+          "@type": "Person",
+          "familyName": "Wenzelburger",
+          "givenName": "R",
+          "name": "R Wenzelburger"
+        },
+        {
+          "@id": "scienceai:08509b74-fce3-434f-b1cc-2370fae044ad",
+          "@type": "Person",
+          "familyName": "Witt",
+          "givenName": "K",
+          "name": "K Witt"
+        },
+        {
+          "@id": "scienceai:2f606d98-60ff-46e6-92dc-e2a3e575049c",
+          "@type": "Person",
+          "familyName": "Deuschl",
+          "givenName": "G",
+          "name": "G Deuschl"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2002
+      },
+      "isPartOf": {
+        "@id": "scienceai:c7452e00-7d20-488d-89c4-418de0c8eddc",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:aaf78604-6c90-43a6-8428-b28734b60ca1",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:d5147585-6c8d-4f8e-a81c-d4a5b7c5d78f",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0022-3050",
+            "name": "Journal of Neurology, Neurosurgery & Psychiatry"
+          },
+          "volumeNumber": 73
+        },
+        "issueNumber": 3
+      },
+      "name": "Typical features of cerebellar ataxic gait",
+      "pageEnd": "312",
+      "pageStart": "310",
+      "url": "http://doi.org/10.1136/jnnp.73.3.310"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.neuron.2014.09.005#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.neuron.2014.09.005#sthash.Djq54Ub4.dpuf",
+      "alternateName": "And14",
+      "author": [
+        {
+          "@id": "scienceai:045d8396-6fe3-40b4-9afc-dd3686a23b90",
+          "@type": "Person",
+          "familyName": "Anderson",
+          "givenName": "David J",
+          "name": "David J Anderson"
+        },
+        {
+          "@id": "scienceai:23a03dab-bfd7-4fc2-9001-c25a17df846e",
+          "@type": "Person",
+          "familyName": "Perona",
+          "givenName": "Pietro",
+          "name": "Pietro Perona"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:0e38187b-a84f-434d-95c7-cbf928842f9c",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:d2ccc7a1-2ce0-4ed1-bce5-764879571596",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:3fd8f502-af79-488a-b4c0-1929894ce603",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0896-6273",
+            "name": "Neuron"
+          },
+          "volumeNumber": 84
+        },
+        "issueNumber": 1
+      },
+      "name": "Toward a Science of Computational Ethology",
+      "pageEnd": "31",
+      "pageStart": "18",
+      "url": "http://doi.org/10.1016/j.neuron.2014.09.005"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.neuron.2013.05.006",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.neuron.2013.05.006",
+      "alternateName": "Cla13",
+      "author": [
+        {
+          "@id": "scienceai:be323303-a582-4142-94e1-d11418bd1070",
+          "@type": "Person",
+          "familyName": "Clark",
+          "givenName": "Damon A",
+          "name": "Damon A Clark"
+        },
+        {
+          "@id": "scienceai:aa504e2a-6595-4f56-9724-241b63f014d1",
+          "@type": "Person",
+          "familyName": "Freifeld",
+          "givenName": "Limor",
+          "name": "Limor Freifeld"
+        },
+        {
+          "@id": "scienceai:4a995ff9-c890-4374-b183-c7b9372bcecd",
+          "@type": "Person",
+          "familyName": "Clandinin",
+          "givenName": "Thomas R",
+          "name": "Thomas R Clandinin"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:b70e4839-a1c6-4dfc-8fc0-e822808ccf3e",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:dae4f9f9-8127-4688-9e6a-3b8de44d72e3",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:5932674b-3f96-4b2c-bf1c-fc11d7464bd5",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0896-6273",
+            "name": "Neuron"
+          },
+          "volumeNumber": 78
+        },
+        "issueNumber": 4
+      },
+      "name": "Mapping and Cracking Sensorimotor Circuits in Genetic Model Organisms",
+      "pageEnd": "595",
+      "pageStart": "583",
+      "url": "http://doi.org/10.1016/j.neuron.2013.05.006"
+    },
+    {
+      "@id": "scienceai:3FEAE0A4-8F5B-2547-9127-870833EC7368",
+      "@type": "ScholarlyArticle",
+      "alternateName": "Leb03",
+      "author": [
+        {
+          "@id": "scienceai:6d9114b9-aa34-45d6-b6e0-b32129cc1b1f",
+          "@type": "Person",
+          "familyName": "Leblond",
+          "givenName": "Hugues",
+          "name": "Hugues Leblond"
+        },
+        {
+          "@id": "scienceai:ea745794-4647-4e81-acd0-f614737a3a8f",
+          "@type": "Person",
+          "familyName": "L'Espérance",
+          "givenName": "Marion",
+          "name": "Marion L'Espérance"
+        },
+        {
+          "@id": "scienceai:bfe2fc6c-491e-4cac-b74c-1e00b40e4367",
+          "@type": "Person",
+          "familyName": "Orsal",
+          "givenName": "Didier",
+          "name": "Didier Orsal"
+        },
+        {
+          "@id": "scienceai:be0d8664-1aa2-45c5-8fb4-4e0e70723707",
+          "@type": "Person",
+          "familyName": "Rossignol",
+          "givenName": "Serge",
+          "name": "Serge Rossignol"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2003
+      },
+      "isPartOf": {
+        "@id": "scienceai:0a6ae867-4df3-45b7-94a2-5ee4c2ed4012",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:cdb1ee84-79ba-438c-81df-004975e30a02",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:96bc4c33-f241-4dab-9abf-f40f7370df66",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "name": "The Journal of Neuroscience"
+          },
+          "volumeNumber": 23
+        },
+        "issueNumber": 36
+      },
+      "name": "Treadmill Locomotion in the Intact and Spinal Mouse",
+      "pageEnd": "11419",
+      "pageStart": "11411"
+    },
+    {
+      "@id": "http://doi.org/10.2147/JPR.S52195#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.2147/JPR.S52195#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Dor14",
+      "author": [
+        {
+          "@id": "scienceai:be789d6f-f1eb-4dfe-9623-796ab8eff37a",
+          "@type": "Person",
+          "additionalName": "W",
+          "familyName": "Dorman",
+          "givenName": "Christopher",
+          "name": "Christopher W Dorman"
+        },
+        {
+          "@id": "scienceai:99e8be67-9894-4cb7-bc43-00ab648101db",
+          "@type": "Person",
+          "additionalName": "E",
+          "familyName": "Krug",
+          "givenName": "Hollis",
+          "name": "Hollis E Krug"
+        },
+        {
+          "@id": "scienceai:916fbc47-dbc0-4153-8673-b18d42cb9599",
+          "@type": "Person",
+          "additionalName": "P",
+          "familyName": "Frizelle",
+          "givenName": "Sandra",
+          "name": "Sandra P Frizelle"
+        },
+        {
+          "@id": "scienceai:56c09ede-b1ea-4c4b-8dcf-6c91f873bfe5",
+          "@type": "Person",
+          "familyName": "Funkenbusch",
+          "givenName": "Sonia",
+          "name": "Sonia Funkenbusch"
+        },
+        {
+          "@id": "scienceai:6d8465e0-78e8-4060-a505-0b1d6c470cce",
+          "@type": "Person",
+          "additionalName": "L",
+          "familyName": "Mahowald",
+          "givenName": "Maren",
+          "name": "Maren L Mahowald"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:c2ff1034-668b-4f27-9e72-82b44ad9bf7f",
+        "@type": "PublicationVolume",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:2778507f-a574-49a0-bf0f-798b570e4d82",
+          "@type": "Periodical",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "issn": "1178-7090",
+          "name": "Journal of pain research"
+        },
+        "volumeNumber": 7
+      },
+      "name": "a comparison of Digigait™ and Treadscan™ imaging systems: assessment of pain using gait analysis in murine monoarthritis",
+      "pageEnd": "25",
+      "pageStart": "25",
+      "url": "http://doi.org/10.2147/jpr.s52195"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.bbr.2013.11.024#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.bbr.2013.11.024#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Cam14",
+      "author": [
+        {
+          "@id": "scienceai:d4a667b7-9000-4d3f-9ac9-a020631a119f",
+          "@type": "Person",
+          "familyName": "Camera",
+          "givenName": "Daria",
+          "name": "Daria Camera"
+        },
+        {
+          "@id": "scienceai:7d031a76-36fc-4376-b2be-ec4a0cc6b111",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Boase",
+          "givenName": "Natasha",
+          "name": "Natasha A. Boase"
+        },
+        {
+          "@id": "scienceai:794a4113-f7f3-4979-8a95-5e2fc08845a6",
+          "@type": "Person",
+          "familyName": "Kumar",
+          "givenName": "Sharad",
+          "name": "Sharad Kumar"
+        },
+        {
+          "@id": "scienceai:eae7f536-137d-4c5b-8072-44e10ee60d6e",
+          "@type": "Person",
+          "additionalName": "V.",
+          "familyName": "Pow",
+          "givenName": "David",
+          "name": "David V. Pow"
+        },
+        {
+          "@id": "scienceai:39a524b9-97b7-47b5-901f-13db6b75f40d",
+          "@type": "Person",
+          "familyName": "Poronnik",
+          "givenName": "Philip",
+          "name": "Philip Poronnik"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:20e0e2d6-85b0-4b06-bd1d-fe93f8b51f74",
+        "@type": "PublicationVolume",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:7b9fde8c-128d-491f-b1db-a673259f19e9",
+          "@type": "Periodical",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "issn": "0166-4328",
+          "name": "Behavioural Brain Research"
+        },
+        "volumeNumber": 260
+      },
+      "name": "Subtle gait abnormalities in Nedd4 heterozygous mice",
+      "pageEnd": "24",
+      "pageStart": "15",
+      "url": "http://doi.org/10.1016/j.bbr.2013.11.024"
+    },
+    {
+      "@id": "http://doi.org/10.3200/JMBR.40.6.568-577#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.3200/JMBR.40.6.568-577#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Gui08",
+      "author": [
+        {
+          "@id": "scienceai:1c82cf39-5c93-4b48-bb70-81d6a3a2bbaa",
+          "@type": "Person",
+          "additionalName": "S.",
+          "familyName": "Guillot",
+          "givenName": "Thomas",
+          "name": "Thomas S. Guillot"
+        },
+        {
+          "@id": "scienceai:3a50a434-c22a-4cd5-bcf9-eb73ac190e71",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Asress",
+          "givenName": "Seneshaw",
+          "name": "Seneshaw A. Asress"
+        },
+        {
+          "@id": "scienceai:c09566a1-5789-48ce-a623-c1ef049b9ee2",
+          "@type": "Person",
+          "additionalName": "R.",
+          "familyName": "Richardson",
+          "givenName": "Jason",
+          "name": "Jason R. Richardson"
+        },
+        {
+          "@id": "scienceai:50cb7d68-eb66-4aa2-8adf-66ef61008172",
+          "@type": "Person",
+          "additionalName": "D.",
+          "familyName": "Glass",
+          "givenName": "Jonathan",
+          "name": "Jonathan D. Glass"
+        },
+        {
+          "@id": "scienceai:f01d7a62-2bdb-4b66-99b5-a43d6784e042",
+          "@type": "Person",
+          "additionalName": "W.",
+          "familyName": "Miller",
+          "givenName": "Gary",
+          "name": "Gary W. Miller"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2008
+      },
+      "isPartOf": {
+        "@id": "scienceai:706ea316-e576-490c-9dfa-c0af3d607251",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:11773382-1602-48cf-96c0-fbcc80f7778b",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:c6905c3d-b1f0-4c52-b152-b00c07cfe372",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0022-2895",
+              "1940-1027"
+            ],
+            "name": "Journal of Motor Behavior"
+          },
+          "volumeNumber": 40
+        },
+        "issueNumber": 6
+      },
+      "name": "Treadmill Gait Analysis Does Not Detect Motor Deficits in Animal Models of Parkinson's Disease or Amyotrophic Lateral Sclerosis",
+      "pageEnd": "577",
+      "pageStart": "568",
+      "url": "http://doi.org/10.3200/jmbr.40.6.568-577"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.bbr.2007.04.001#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.bbr.2007.04.001#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Her07",
+      "author": [
+        {
+          "@id": "scienceai:d0ba547a-5e95-43cd-bc14-e6f87d2abcd1",
+          "@type": "Person",
+          "familyName": "Herbin",
+          "givenName": "Marc",
+          "name": "Marc Herbin"
+        },
+        {
+          "@id": "scienceai:c527a86b-d9f5-401e-ac07-1d508715edf5",
+          "@type": "Person",
+          "familyName": "Hackert",
+          "givenName": "Rémi",
+          "name": "Rémi Hackert"
+        },
+        {
+          "@id": "scienceai:f235faf4-7a8e-4726-aa75-9b35c346fb80",
+          "@type": "Person",
+          "familyName": "Gasc",
+          "givenName": "Jean-Pierre",
+          "name": "Jean-Pierre Gasc"
+        },
+        {
+          "@id": "scienceai:d803948b-b5c3-47be-b660-15bc18cdb23f",
+          "@type": "Person",
+          "familyName": "Renous",
+          "givenName": "Sabine",
+          "name": "Sabine Renous"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2007
+      },
+      "isPartOf": {
+        "@id": "scienceai:724ceb4f-1ed8-439f-a112-34826b43f847",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:eb6713bd-33d4-4312-ae9d-384694f7de30",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:558d7d5f-fe85-4a04-bb74-744fd5dc032d",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0166-4328",
+            "name": "Behavioural Brain Research"
+          },
+          "volumeNumber": 181
+        },
+        "issueNumber": 2
+      },
+      "name": "Gait parameters of treadmill versus overground locomotion in mouse",
+      "pageEnd": "179",
+      "pageStart": "173",
+      "url": "http://doi.org/10.1016/j.bbr.2007.04.001"
+    },
+    {
+      "@id": "http://doi.org/doi:10.1016/j.bbr.2012.11.034",
+      "@type": "ScholarlyArticle",
+      "doi": "doi:10.1016/j.bbr.2012.11.034",
+      "alternateName": "Str13",
+      "author": [
+        {
+          "@id": "scienceai:f2cfd07a-80fd-4d29-a2dd-4e622360f398",
+          "@type": "Person",
+          "familyName": "Stroobants",
+          "givenName": "Stijn",
+          "name": "Stijn Stroobants"
+        },
+        {
+          "@id": "scienceai:b019a12e-1210-476e-acc9-aa8a7c0b6d0f",
+          "@type": "Person",
+          "familyName": "Gantois",
+          "givenName": "Ilse",
+          "name": "Ilse Gantois"
+        },
+        {
+          "@id": "scienceai:8df2fd00-bbff-4dc6-97cf-1d0b3828f8da",
+          "@type": "Person",
+          "familyName": "Pooters",
+          "givenName": "Tine",
+          "name": "Tine Pooters"
+        },
+        {
+          "@id": "scienceai:661bd17f-597b-48c6-95cb-fc4814825ede",
+          "@type": "Person",
+          "familyName": "D’Hooge",
+          "givenName": "Rudi",
+          "name": "Rudi D’Hooge"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:3012c974-1027-4dad-99b3-f93fe83e5088",
+        "@type": "PublicationVolume",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:f4098de3-30a2-4780-9fd8-273708a8e781",
+          "@type": "Periodical",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "issn": "0166-4328",
+          "name": "Behavioural Brain Research"
+        },
+        "volumeNumber": 241
+      },
+      "name": "Increased gait variability in mice with small cerebellar cortex lesions and normal rotarod performance",
+      "pageEnd": "37",
+      "pageStart": "32",
+      "url": "http://doi.org/10.1016/j.bbr.2012.11.034"
+    },
+    {
+      "@id": "http://doi.org/10.1371/journal.pone.0059032",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1371/journal.pone.0059032",
+      "alternateName": "Sui13",
+      "author": [
+        {
+          "@id": "scienceai:b9ef6ba3-e66b-4fe8-be07-2142c79acee3",
+          "@type": "Person",
+          "additionalName": "L.",
+          "familyName": "Suidan",
+          "givenName": "Georgette",
+          "name": "Georgette L. Suidan"
+        },
+        {
+          "@id": "scienceai:8f76f477-fa4a-4591-a742-771d7faebbd1",
+          "@type": "Person",
+          "familyName": "Duerschmied",
+          "givenName": "Daniel",
+          "name": "Daniel Duerschmied"
+        },
+        {
+          "@id": "scienceai:f15eb4da-5e5a-4183-bcf4-c83f0da7d2a1",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Dillon",
+          "givenName": "Gregory",
+          "name": "Gregory M. Dillon"
+        },
+        {
+          "@id": "scienceai:9e33ebf4-9894-4f5a-806a-e2065039acd5",
+          "@type": "Person",
+          "familyName": "Vanderhorst",
+          "givenName": "Veronique",
+          "name": "Veronique Vanderhorst"
+        },
+        {
+          "@id": "scienceai:402411dc-f053-428a-9f77-16e0f870b61e",
+          "@type": "Person",
+          "additionalName": "G.",
+          "familyName": "Hampton",
+          "givenName": "Thomas",
+          "name": "Thomas G. Hampton"
+        },
+        {
+          "@id": "scienceai:cb572b4d-b2b9-4317-ab1c-626e33e435a7",
+          "@type": "Person",
+          "additionalName": "Ling",
+          "familyName": "Wong",
+          "givenName": "Siu",
+          "name": "Siu Ling Wong"
+        },
+        {
+          "@id": "scienceai:ffaa6562-2e9e-4c01-9bc7-d0a22eb9ea17",
+          "@type": "Person",
+          "additionalName": "R.",
+          "familyName": "Voorhees",
+          "givenName": "Jaymie",
+          "name": "Jaymie R. Voorhees"
+        },
+        {
+          "@id": "scienceai:e1e69c96-4997-4c36-b2f5-86872acde150",
+          "@type": "Person",
+          "additionalName": "D.",
+          "familyName": "Wagner",
+          "givenName": "Denisa",
+          "name": "Denisa D. Wagner"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:cf71fff6-b3e7-4629-b8a6-b64d58db58c9",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:60f50fe0-2b4e-4421-b72b-f3a8f96fdccc",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:8e2ed80d-11d1-4e45-aa06-34887c57e220",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "1932-6203",
+            "name": "PLoS ONE"
+          },
+          "volumeNumber": 8
+        },
+        "issueNumber": 3
+      },
+      "name": "Lack of Tryptophan Hydroxylase-1 in Mice Results in Gait Abnormalities",
+      "url": "http://doi.org/10.1371/journal.pone.0059032"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.cub.2015.03.009 #sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.cub.2015.03.009 #sthash.Djq54Ub4.dpuf",
+      "alternateName": "Hoo15",
+      "author": [
+        {
+          "@id": "scienceai:6687c011-40e5-46fe-b5bf-c355876d9d1d",
+          "@type": "Person",
+          "familyName": "Hoogland",
+          "givenName": "Tycho M",
+          "name": "Tycho M Hoogland"
+        },
+        {
+          "@id": "scienceai:165aa8ba-c3e1-42c4-82fd-670c361c0d49",
+          "@type": "Person",
+          "familyName": "De Gruijl",
+          "givenName": "Jornt R",
+          "name": "Jornt R De Gruijl"
+        },
+        {
+          "@id": "scienceai:95ea0140-e00e-493a-9975-8853bef227b9",
+          "@type": "Person",
+          "familyName": "Witter",
+          "givenName": "Laurens",
+          "name": "Laurens Witter"
+        },
+        {
+          "@id": "scienceai:e6863feb-4b84-44d9-82e3-55055f6a90b5",
+          "@type": "Person",
+          "familyName": "Canto",
+          "givenName": "Cathrin B",
+          "name": "Cathrin B Canto"
+        },
+        {
+          "@id": "scienceai:75ac17f3-7107-46c6-b22f-bbf635b7a47d",
+          "@type": "Person",
+          "familyName": "De Zeeuw",
+          "givenName": "Chris I",
+          "name": "Chris I De Zeeuw"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2015
+      },
+      "isPartOf": {
+        "@id": "scienceai:76f369ed-38c0-41fe-83c4-ac7fc62cc844",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:d3649bf7-6f34-4b42-abe8-f76fa59a132a",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:cbe3e629-8004-4210-861d-6ae20105a64b",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0960-9822",
+            "name": "Current Biology"
+          },
+          "volumeNumber": 25
+        },
+        "issueNumber": 9
+      },
+      "name": "Role of Synchronous Activation of Cerebellar Purkinje Cell Ensembles in Multi-joint Movement Control",
+      "pageEnd": "1165",
+      "pageStart": "1157",
+      "url": "http://doi.org/10.1016/j.cub.2015.03.009"
+    },
+    {
+      "@id": "http://doi.org/10.1089/08977150150502613#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1089/08977150150502613#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Ham04",
+      "author": [
+        {
+          "@id": "scienceai:a31af7d0-b05b-400c-bc6f-16b94fad991f",
+          "@type": "Person",
+          "additionalName": "PT",
+          "familyName": "Hamers",
+          "givenName": "Frank",
+          "name": "Frank PT Hamers"
+        },
+        {
+          "@id": "scienceai:49bb5818-1307-48b0-b20f-8607e7c2c824",
+          "@type": "Person",
+          "additionalName": "J",
+          "familyName": "Lankhorst",
+          "givenName": "Alex",
+          "name": "Alex J Lankhorst"
+        },
+        {
+          "@id": "scienceai:bb8810b3-b148-4367-8bd7-b6ad355e155f",
+          "@type": "Person",
+          "additionalName": "Jan",
+          "familyName": "van Laar",
+          "givenName": "Teus",
+          "name": "Teus Jan van Laar"
+        },
+        {
+          "@id": "scienceai:5e1172d7-5789-4000-9cfe-9b3bd944ef41",
+          "@type": "Person",
+          "additionalName": "B",
+          "familyName": "Veldhuis",
+          "givenName": "Wouter",
+          "name": "Wouter B Veldhuis"
+        },
+        {
+          "@id": "scienceai:01202893-6901-4d3b-9113-84e0c0210b6c",
+          "@type": "Person",
+          "additionalName": "Hendrik",
+          "familyName": "Gispen",
+          "givenName": "Willem",
+          "name": "Willem Hendrik Gispen"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2004
+      },
+      "isPartOf": {
+        "@id": "scienceai:8b454e6d-c194-4483-96e2-4e58d13ecfab",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:b168e305-460c-4ebd-86fd-69db24f28cea",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:13ba770a-89b1-406b-b47b-60a2a2e1fe60",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0897-7151",
+              "1557-9042"
+            ],
+            "name": "Journal of Neurotrauma"
+          },
+          "volumeNumber": 18
+        },
+        "issueNumber": 2
+      },
+      "name": "Automated Quantitative Gait Analysis During Overground Locomotion in the Rat: Its Application to Spinal Cord Contusion and Transection Injuries",
+      "pageEnd": "201",
+      "pageStart": "187",
+      "url": "http://doi.org/10.1089/08977150150502613"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.neuron.2013.08.015#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.neuron.2013.08.015#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Dou13",
+      "author": [
+        {
+          "@id": "scienceai:c5613417-5fa3-46ea-bb9a-458bb929d5c3",
+          "@type": "Person",
+          "familyName": "Dougherty",
+          "givenName": "Kimberly J",
+          "name": "Kimberly J Dougherty"
+        },
+        {
+          "@id": "scienceai:7f78522c-c3f1-49d9-9b31-229e8af30cc9",
+          "@type": "Person",
+          "familyName": "Zagoraiou",
+          "givenName": "Laskaro",
+          "name": "Laskaro Zagoraiou"
+        },
+        {
+          "@id": "scienceai:f2e3be92-94cb-4af0-a9d6-bc0c4ec4cc04",
+          "@type": "Person",
+          "familyName": "Satoh",
+          "givenName": "Daisuke",
+          "name": "Daisuke Satoh"
+        },
+        {
+          "@id": "scienceai:2b306890-065b-4ada-8744-e2e2844107ec",
+          "@type": "Person",
+          "familyName": "Rozani",
+          "givenName": "Ismini",
+          "name": "Ismini Rozani"
+        },
+        {
+          "@id": "scienceai:37a68c45-b2eb-44b5-bcf5-9d1ac37cfaa5",
+          "@type": "Person",
+          "familyName": "Doobar",
+          "givenName": "Staceyann",
+          "name": "Staceyann Doobar"
+        },
+        {
+          "@id": "scienceai:6a82cc34-ed3f-45ea-bc5f-1f788d36bf12",
+          "@type": "Person",
+          "familyName": "Arber",
+          "givenName": "Silvia",
+          "name": "Silvia Arber"
+        },
+        {
+          "@id": "scienceai:fc334af9-9ce4-45af-a069-8b8845080748",
+          "@type": "Person",
+          "familyName": "Jessell",
+          "givenName": "Thomas M",
+          "name": "Thomas M Jessell"
+        },
+        {
+          "@id": "scienceai:69de3a36-1c40-444f-b09e-155f74af825c",
+          "@type": "Person",
+          "familyName": "Kiehn",
+          "givenName": "Ole",
+          "name": "Ole Kiehn"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:01df2a80-2c75-4ffb-8dae-4b367de9f9a1",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:ce45b951-11f4-4e98-b7a1-98ec5cf220e8",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:cd496575-88db-4891-95e9-c74d32dbd298",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0896-6273",
+            "name": "Neuron"
+          },
+          "volumeNumber": 80
+        },
+        "issueNumber": 4
+      },
+      "name": "Locomotor Rhythm Generation Linked to the Output of Spinal Shox2 Excitatory Interneurons",
+      "pageEnd": "923",
+      "pageStart": "920",
+      "url": "http://doi.org/10.1016/j.neuron.2013.08.015"
+    },
+    {
+      "@id": "http://doi.org/10.1523/JNEUROSCI.1206-09.2009",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1523/JNEUROSCI.1206-09.2009",
+      "alternateName": "Cro09",
+      "author": [
+        {
+          "@id": "scienceai:ecbb60b6-4127-4bcf-9a54-ed97414ef980",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Crone",
+          "givenName": "Steven",
+          "name": "Steven A. Crone"
+        },
+        {
+          "@id": "scienceai:f1e3ad57-b927-4ebe-9aa0-a128667986ab",
+          "@type": "Person",
+          "familyName": "Zhong",
+          "givenName": "Guisheng",
+          "name": "Guisheng Zhong"
+        },
+        {
+          "@id": "scienceai:735abe58-f36c-455d-977a-f3eed98210b6",
+          "@type": "Person",
+          "familyName": "Harris-Warrick",
+          "givenName": "Ronald",
+          "name": "Ronald Harris-Warrick"
+        },
+        {
+          "@id": "scienceai:e771248d-41d8-4e20-b847-e93731d7259d",
+          "@type": "Person",
+          "familyName": "Sharma",
+          "givenName": "Kamal",
+          "name": "Kamal Sharma"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2009
+      },
+      "isPartOf": {
+        "@id": "scienceai:d62c9531-14f1-4ba4-8fa5-3b6298669676",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:23c17bd1-b397-442f-92e6-5fadf342a030",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:3e241f03-001e-4784-986d-a9c09314e512",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "0270-6474",
+              "1529-2401"
+            ],
+            "name": "The Journal of Neuroscience"
+          },
+          "volumeNumber": 29
+        },
+        "issueNumber": 21
+      },
+      "name": "In Mice Lacking V2a Interneurons, Gait Depends on Speed of Locomotion",
+      "pageEnd": "7109",
+      "pageStart": "7098",
+      "url": "http://doi.org/10.1523/jneurosci.1206-09.2009"
+    },
+    {
+      "@id": "http://doi.org/doi:10.1016/j.bbr.2007.07.023",
+      "@type": "ScholarlyArticle",
+      "doi": "doi:10.1016/j.bbr.2007.07.023",
+      "alternateName": "Gar08",
+      "author": [
+        {
+          "@id": "scienceai:9759981d-98ca-4dd9-9338-284d0eb40b97",
+          "@type": "Person",
+          "familyName": "Garnier",
+          "givenName": "Cyril",
+          "name": "Cyril Garnier"
+        },
+        {
+          "@id": "scienceai:fe4db3ab-d35b-45db-9ed7-26de54a52f36",
+          "@type": "Person",
+          "familyName": "Falempin",
+          "givenName": "Maurice",
+          "name": "Maurice Falempin"
+        },
+        {
+          "@id": "scienceai:6b5bb8ad-901b-4a62-8262-8e56bb97fd35",
+          "@type": "Person",
+          "familyName": "Canu",
+          "givenName": "Marie-Hélène",
+          "name": "Marie-Hélène Canu"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2008
+      },
+      "isPartOf": {
+        "@id": "scienceai:19c93f69-affb-47b6-a36c-b5982834d548",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:8714c6e1-e61e-4cd7-90b0-ad7fdf9f8ce9",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:36452d77-8d0c-44f5-920a-b59cf677fcc6",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0166-4328",
+            "name": "Behavioural Brain Research"
+          },
+          "volumeNumber": 186
+        },
+        "issueNumber": 1
+      },
+      "name": "A 3D analysis of fore- and hindlimb motion during locomotion: Comparison of overground and ladder walking in rats",
+      "pageEnd": "65",
+      "pageStart": "57",
+      "url": "http://doi.org/10.1016/j.bbr.2007.07.023"
+    },
+    {
+      "@id": "http://doi.org/10.1097/01.ALC.0000148103.09378.81#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1097/01.ALC.0000148103.09378.81#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Kal04",
+      "author": [
+        {
+          "@id": "scienceai:f4fc1dba-b063-4c20-8370-d9fbbebeac7b",
+          "@type": "Person",
+          "familyName": "Kale",
+          "givenName": "Ajit",
+          "name": "Ajit Kale"
+        },
+        {
+          "@id": "scienceai:147525ae-0d27-4b23-866f-b6f50e3c420e",
+          "@type": "Person",
+          "familyName": "Amende",
+          "givenName": "Ivo",
+          "name": "Ivo Amende"
+        },
+        {
+          "@id": "scienceai:d1887840-de10-4bc0-8acc-5089b34544be",
+          "@type": "Person",
+          "additionalName": "P.",
+          "familyName": "Meyer",
+          "givenName": "Gerd",
+          "name": "Gerd P. Meyer"
+        },
+        {
+          "@id": "scienceai:e4f9d5fa-a5e2-4ff3-b111-16b0c439453c",
+          "@type": "Person",
+          "additionalName": "C.",
+          "familyName": "Crabbe",
+          "givenName": "John",
+          "name": "John C. Crabbe"
+        },
+        {
+          "@id": "scienceai:402411dc-f053-428a-9f77-16e0f870b61e",
+          "@type": "Person",
+          "additionalName": "G.",
+          "familyName": "Hampton",
+          "givenName": "Thomas",
+          "name": "Thomas G. Hampton"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2004
+      },
+      "isPartOf": {
+        "@id": "scienceai:9bf614e6-337d-40e9-958f-d7d53e26ad61",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:37ffc222-ced9-4e19-a77a-3ea1b1a2ac94",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:1ccbb48b-264c-4b1c-9527-4cbe91330e36",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": "0145-6008",
+            "name": "Alcoholism: Clinical and Experimental Research"
+          },
+          "volumeNumber": 28
+        },
+        "issueNumber": 12
+      },
+      "name": "Ethanol's Effects on Gait Dynamics in Mice Investigated by Ventral Plane Videography",
+      "pageEnd": "1848",
+      "pageStart": "1839",
+      "url": "http://doi.org/10.1097/01.alc.0000148103.09378.81"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nmeth.1484",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nmeth.1484",
+      "alternateName": "Zor10",
+      "author": [
+        {
+          "@id": "scienceai:8847c1cf-321d-407f-8cdb-2ce220567a43",
+          "@type": "Person",
+          "familyName": "Zorner",
+          "givenName": "Bjorn",
+          "name": "Bjorn Zorner"
+        },
+        {
+          "@id": "scienceai:5b5e4f1d-c409-412c-ad6a-4243c0f1a13a",
+          "@type": "Person",
+          "familyName": "Filli",
+          "givenName": "Linard",
+          "name": "Linard Filli"
+        },
+        {
+          "@id": "scienceai:160b0446-2a64-4f0c-99da-a22dc7f89f3c",
+          "@type": "Person",
+          "additionalName": "L.",
+          "familyName": "Starkey",
+          "givenName": "Michelle",
+          "name": "Michelle L. Starkey"
+        },
+        {
+          "@id": "scienceai:bc89445a-6ec1-4cc2-906b-f7946f9e234f",
+          "@type": "Person",
+          "familyName": "Gonzenbach",
+          "givenName": "Roman",
+          "name": "Roman Gonzenbach"
+        },
+        {
+          "@id": "scienceai:4ad62827-df14-4135-a177-cf1f06f411ca",
+          "@type": "Person",
+          "familyName": "Kasper",
+          "givenName": "Hansjorg",
+          "name": "Hansjorg Kasper"
+        },
+        {
+          "@id": "scienceai:fee44244-1e5f-448f-bc13-f3903c94a6d8",
+          "@type": "Person",
+          "familyName": "Rothlisberger",
+          "givenName": "Martina",
+          "name": "Martina Rothlisberger"
+        },
+        {
+          "@id": "scienceai:6c6b12ee-859f-4aaa-8bdb-57db21d52db6",
+          "@type": "Person",
+          "familyName": "Bolliger",
+          "givenName": "Marc",
+          "name": "Marc Bolliger"
+        },
+        {
+          "@id": "scienceai:3f0feeb0-7b02-402b-8a18-855ab255502f",
+          "@type": "Person",
+          "additionalName": "E.",
+          "familyName": "Schwab",
+          "givenName": "Martin",
+          "name": "Martin E. Schwab"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2010
+      },
+      "isPartOf": {
+        "@id": "scienceai:563aeb3c-e48a-47c4-8ba5-16924821ffe5",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:2f15959e-8293-45f2-8391-238b0468d94a",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.653Z",
+          "isPartOf": {
+            "@id": "scienceai:461c6029-3793-47f8-9376-84f17e3cd292",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.653Z",
+            "issn": [
+              "1548-7091",
+              "1548-7105"
+            ],
+            "name": "Nature Methods"
+          },
+          "volumeNumber": 7
+        },
+        "issueNumber": 9
+      },
+      "name": "Profiling locomotor recovery: comprehensive quantification of impairments after CNS damage in rodents",
+      "pageEnd": "708",
+      "pageStart": "701",
+      "url": "http://doi.org/10.1038/nmeth.1484"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.gaitpost.2012.07.003",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.gaitpost.2012.07.003",
+      "alternateName": "Wue13",
+      "author": [
+        {
+          "@id": "scienceai:8d597b18-94bf-4cc3-9aaa-f784d799ae67",
+          "@type": "Person",
+          "familyName": "Wuehr",
+          "givenName": "M.",
+          "name": "M. Wuehr"
+        },
+        {
+          "@id": "scienceai:b4097c49-0790-4e98-a229-8b412dc33893",
+          "@type": "Person",
+          "familyName": "Schniepp",
+          "givenName": "R.",
+          "name": "R. Schniepp"
+        },
+        {
+          "@id": "scienceai:cae55dea-d141-43b7-ab3c-34ad39a275b5",
+          "@type": "Person",
+          "familyName": "Ilmberger",
+          "givenName": "J.",
+          "name": "J. Ilmberger"
+        },
+        {
+          "@id": "scienceai:3df0e576-80f4-4577-9b2f-9f3ab4f49ec9",
+          "@type": "Person",
+          "familyName": "Brandt",
+          "givenName": "T.",
+          "name": "T. Brandt"
+        },
+        {
+          "@id": "scienceai:a81ec00e-552e-4978-bc3d-ab4f079ad9ac",
+          "@type": "Person",
+          "familyName": "Jahn",
+          "givenName": "K.",
+          "name": "K. Jahn"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.653Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2013
+      },
+      "isPartOf": {
+        "@id": "scienceai:89a94e61-6a3e-4c2f-bab5-6fe7b79b8a1c",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.653Z",
+        "isPartOf": {
+          "@id": "scienceai:89c2ccad-d36c-4b84-b830-075eabef1c2b",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:e43746e6-bf28-4a72-9ca4-4960e5867954",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0966-6362",
+            "name": "Gait & Posture"
+          },
+          "volumeNumber": 37
+        },
+        "issueNumber": 2
+      },
+      "name": "Speed-dependent temporospatial gait variability and long-range correlations in cerebellar ataxia",
+      "pageEnd": "218",
+      "pageStart": "214",
+      "url": "http://doi.org/10.1016/j.gaitpost.2012.07.003"
+    },
+    {
+      "@id": "scienceai:A87BABC3-87AA-6543-B0FD-BB4D7D8DF74F",
+      "@type": "ScholarlyArticle",
+      "alternateName": "Ear01",
+      "author": [
+        {
+          "@id": "scienceai:331dc7d2-77d1-417e-968c-9bfa3edcfc71",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Earhart",
+          "givenName": "Gammon",
+          "name": "Gammon M. Earhart"
+        },
+        {
+          "@id": "scienceai:489cd561-4756-41c2-a2a3-f5c56cf9a4de",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Bastian",
+          "givenName": "Amy",
+          "name": "Amy J. Bastian"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2001
+      },
+      "isPartOf": {
+        "@id": "scienceai:0add42d7-4717-4463-b5a6-c0bd14a9ddd5",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:28738231-55fe-49cf-ac49-93b5616c60ad",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:633d0ca9-d00e-440d-a056-6bd9b785e6dd",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "name": "Journal of Neurophysiology"
+          },
+          "volumeNumber": 85
+        },
+        "issueNumber": 2
+      },
+      "name": "Selection and Coordination of Human Locomotor Forms Following Cerebellar Damage",
+      "pageEnd": "769",
+      "pageStart": "759"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.conb.2010.09.004#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.conb.2010.09.004#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Kie11",
+      "author": [
+        {
+          "@id": "scienceai:69de3a36-1c40-444f-b09e-155f74af825c",
+          "@type": "Person",
+          "familyName": "Kiehn",
+          "givenName": "Ole",
+          "name": "Ole Kiehn"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2011
+      },
+      "isPartOf": {
+        "@id": "scienceai:27b3c187-06e5-48f9-850d-893c1c9b9b84",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:27e20c60-b6b0-4005-8df9-b1b71ae23396",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:d2069b58-0fe6-487d-928d-7b06e7f75668",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0959-4388",
+            "name": "Current Opinion in Neurobiology"
+          },
+          "volumeNumber": 21
+        },
+        "issueNumber": 1
+      },
+      "name": "Development and functional organization of spinal locomotor circuits",
+      "pageEnd": "109",
+      "pageStart": "100",
+      "url": "http://doi.org/10.1016/j.conb.2010.09.004"
+    },
+    {
+      "@id": "http://doi.org/10.1080/14734220601187741 #sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1080/14734220601187741 #sthash.Djq54Ub4.dpuf",
+      "alternateName": "Mor07",
+      "author": [
+        {
+          "@id": "scienceai:579f402d-f70d-47c3-9e6e-814f52b47d6b",
+          "@type": "Person",
+          "familyName": "Morton",
+          "givenName": "S.M.",
+          "name": "S.M. Morton"
+        },
+        {
+          "@id": "scienceai:2a6ee027-0622-4171-82dd-4c6465d5609e",
+          "@type": "Person",
+          "familyName": "Bastian",
+          "givenName": "A.J.",
+          "name": "A.J. Bastian"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2007
+      },
+      "isPartOf": {
+        "@id": "scienceai:263f3cd1-6995-4c0e-b648-b14dcb4be340",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:2ae65da5-9d33-4d15-8ed6-30c2e8133043",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:0ae7975e-6bdc-4113-a6b8-6d6ad3f5f169",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "1473-4222",
+            "name": "The Cerebellum"
+          },
+          "volumeNumber": 6
+        },
+        "issueNumber": 1
+      },
+      "name": "Mechanisms of cerebellar gait ataxia",
+      "pageEnd": "86",
+      "pageStart": "79",
+      "url": "http://doi.org/10.1080/14734220601187741"
+    },
+    {
+      "@id": "http://doi.org/10.1113/jphysiol.1984.sp015300",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1113/jphysiol.1984.sp015300",
+      "alternateName": "Arm84",
+      "author": [
+        {
+          "@id": "scienceai:0f0663d2-96a5-429f-b59e-db76d279d039",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Armstrong",
+          "givenName": "D.",
+          "name": "D. M. Armstrong"
+        },
+        {
+          "@id": "scienceai:023b0c22-1932-4204-86a1-b8281cf652eb",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Edgley",
+          "givenName": "S.",
+          "name": "S. A. Edgley"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1984
+      },
+      "isPartOf": {
+        "@id": "scienceai:d78f0b94-5190-4757-a68d-a4893649c7ef",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:d8487cc8-7852-43ee-ade2-ba1d222ced0d",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:0c59f697-271e-478e-ab14-e0e9c3d9f9ce",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0022-3751",
+            "name": "The Journal of Physiology"
+          },
+          "volumeNumber": 352
+        },
+        "issueNumber": 1
+      },
+      "name": "Discharges of Purkinje cells in the paravermal part of the cerebellar anterior lobe during locomotion in the cat",
+      "pageEnd": "424",
+      "pageStart": "403",
+      "url": "http://doi.org/10.1113/jphysiol.1984.sp015300"
+    },
+    {
+      "@id": "http://doi.org/10.1113/jphysiol.1988.sp017169",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1113/jphysiol.1988.sp017169",
+      "alternateName": "Edg88",
+      "author": [
+        {
+          "@id": "scienceai:023b0c22-1932-4204-86a1-b8281cf652eb",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Edgley",
+          "givenName": "S.",
+          "name": "S. A. Edgley"
+        },
+        {
+          "@id": "scienceai:d6518535-2389-4260-9353-e32599ce9e41",
+          "@type": "Person",
+          "familyName": "Lidierth",
+          "givenName": "M.",
+          "name": "M. Lidierth"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1988
+      },
+      "isPartOf": {
+        "@id": "scienceai:aba35095-1afe-4dc9-b7da-33c2e48804d0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:d9eb4b2d-a6fd-4dc0-8ce0-7394dddded1c",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:02d4dbc2-1721-410b-9419-092d188554a5",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0022-3751",
+            "name": "The Journal of Physiology"
+          },
+          "volumeNumber": 401
+        },
+        "issueNumber": 1
+      },
+      "name": "Step-related discharges of Purkinje cells in the paravermal cortex of the cerebellar anterior lobe in the cat",
+      "pageEnd": "415",
+      "pageStart": "399",
+      "url": "http://doi.org/10.1113/jphysiol.1988.sp017169"
+    },
+    {
+      "@id": "http://doi.org/10.1007/BF00238886 ",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1007/BF00238886 ",
+      "alternateName": "Udo81",
+      "author": [
+        {
+          "@id": "scienceai:a056295b-1e24-42bc-b954-35f9cb3433fc",
+          "@type": "Person",
+          "familyName": "Udo",
+          "givenName": "M",
+          "name": "M Udo"
+        },
+        {
+          "@id": "scienceai:8a6b2afe-6ab2-4d14-abee-a7fbbc626e1a",
+          "@type": "Person",
+          "familyName": "Matsukawa",
+          "givenName": "K",
+          "name": "K Matsukawa"
+        },
+        {
+          "@id": "scienceai:94c28add-3c08-4250-b207-04f48a43d446",
+          "@type": "Person",
+          "familyName": "Kamei",
+          "givenName": "H",
+          "name": "H Kamei"
+        },
+        {
+          "@id": "scienceai:8ab5a67d-e161-42bb-b680-5d4c83df9bb0",
+          "@type": "Person",
+          "familyName": "Minoda",
+          "givenName": "K",
+          "name": "K Minoda"
+        },
+        {
+          "@id": "scienceai:46ffee63-4c18-4289-a759-133f3e7c3299",
+          "@type": "Person",
+          "familyName": "Oda",
+          "givenName": "Y",
+          "name": "Y Oda"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1981
+      },
+      "isPartOf": {
+        "@id": "scienceai:015821ee-1e7c-486c-b41a-0c5e80014cce",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:0184a418-2a13-468a-a6dd-3e178dd7587e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:913d6f23-abe2-42bc-9786-7f3d6a3ebe7e",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "0014-4819",
+              "1432-1106"
+            ],
+            "name": "Experimental brain research"
+          },
+          "volumeNumber": 41
+        },
+        "issueNumber": "3-4"
+      },
+      "name": "Simple and complex spike activities of Purkinje cells during locomotion in the cerebellar vermal zones of decerebrate cats",
+      "pageEnd": "300",
+      "pageStart": "292",
+      "url": "http://doi.org/10.1007/bf00238886"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nn1783",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nn1783",
+      "alternateName": "Pas06",
+      "author": [
+        {
+          "@id": "scienceai:f219ca79-7e22-4a40-a880-d5ed9e7d5625",
+          "@type": "Person",
+          "familyName": "Pasalar",
+          "givenName": "S.",
+          "name": "S. Pasalar"
+        },
+        {
+          "@id": "scienceai:e30872b5-7597-4d61-a239-168609d3ef65",
+          "@type": "Person",
+          "additionalName": "V.",
+          "familyName": "Roitman",
+          "givenName": "A.",
+          "name": "A. V. Roitman"
+        },
+        {
+          "@id": "scienceai:1c70c21b-2230-4be0-a773-ab5412cf40d4",
+          "@type": "Person",
+          "additionalName": "K.",
+          "familyName": "Durfee",
+          "givenName": "W.",
+          "name": "W. K. Durfee"
+        },
+        {
+          "@id": "scienceai:da853fe7-78cd-4bc6-ad23-ce67d5aeb884",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Ebner",
+          "givenName": "T.",
+          "name": "T. J. Ebner"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2006
+      },
+      "isPartOf": {
+        "@id": "scienceai:686bc678-0812-4b1c-86c7-3b371fad9c9d",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:587c6c8c-4658-4305-8290-5728716d3e7a",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:1e8ce4ad-8c9a-4ebf-9aec-8b3b7bb8fcfc",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "1097-6256",
+            "name": "Nature Neuroscience"
+          },
+          "volumeNumber": 9
+        },
+        "issueNumber": 11
+      },
+      "name": "Force field effects on cerebellar Purkinje cell discharge with implications for internal models",
+      "pageEnd": "1411",
+      "pageStart": "1404",
+      "url": "http://doi.org/10.1038/nn1783"
+    },
+    {
+      "@id": "http://doi.org/10.1523/JNEUROSCI.4547-13.2014#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1523/JNEUROSCI.4547-13.2014#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Hei14",
+      "author": [
+        {
+          "@id": "scienceai:47cd4ec2-84e2-44ac-ace0-2369ea3a6724",
+          "@type": "Person",
+          "additionalName": "A.",
+          "familyName": "Heiney",
+          "givenName": "Shane",
+          "name": "Shane A. Heiney"
+        },
+        {
+          "@id": "scienceai:3dac22b6-a4e7-481d-ad06-0bd1c24ccf2c",
+          "@type": "Person",
+          "familyName": "Kim",
+          "givenName": "Jinsook",
+          "name": "Jinsook Kim"
+        },
+        {
+          "@id": "scienceai:b282e7e6-3fd9-4ae9-8384-228fe9f04db9",
+          "@type": "Person",
+          "additionalName": "J.",
+          "familyName": "Augustine",
+          "givenName": "George",
+          "name": "George J. Augustine"
+        },
+        {
+          "@id": "scienceai:50dab5ea-21b9-420c-913b-629e858a08d9",
+          "@type": "Person",
+          "additionalName": "F.",
+          "familyName": "Medina",
+          "givenName": "Javier",
+          "name": "Javier F. Medina"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2014
+      },
+      "isPartOf": {
+        "@id": "scienceai:a9feeb0e-ae29-4692-84aa-de250881deec",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:70165bc6-438f-4f02-b369-ccb1f7aa026f",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:87e9da12-f16e-43d4-a6cd-ab8f623d759a",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "0270-6474",
+              "1529-2401"
+            ],
+            "name": "The Journal of Neuroscience"
+          },
+          "volumeNumber": 34
+        },
+        "issueNumber": 6
+      },
+      "name": "Precise Control of Movement Kinematics by Optogenetic Inhibition of Purkinje Cell Activity",
+      "pageEnd": "2330",
+      "pageStart": "2321",
+      "url": "http://doi.org/10.1523/jneurosci.4547-13.2014"
+    },
+    {
+      "@id": "http://doi.org/10.1038/nrn2332#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/nrn2332#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Ito08",
+      "author": [
+        {
+          "@id": "scienceai:ae163120-85ac-49d9-85d3-4d6a2fc63c0a",
+          "@type": "Person",
+          "familyName": "Ito",
+          "givenName": "Masao",
+          "name": "Masao Ito"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2008
+      },
+      "isPartOf": {
+        "@id": "scienceai:ccb78609-9518-49b1-9bd2-7209276b8f67",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:1afe976c-8f02-4674-98d3-b4ff83a3737e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:0e393f11-82ba-4b9c-b9bc-3cdfb77964ee",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "1471-003X",
+              "1471-0048"
+            ],
+            "name": "Nature Reviews Neuroscience"
+          },
+          "volumeNumber": 9
+        },
+        "issueNumber": 4
+      },
+      "name": "Control of mental activities by internal models in the cerebellum",
+      "pageEnd": "313",
+      "pageStart": "304",
+      "url": "http://doi.org/10.1038/nrn2332"
+    },
+    {
+      "@id": "http://doi.org/10.1016/S1364-6613(98)01221-2",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/S1364-6613(98)01221-2",
+      "alternateName": "Wol982",
+      "author": [
+        {
+          "@id": "scienceai:7de7f25e-7750-4a10-8481-0f72f3970706",
+          "@type": "Person",
+          "additionalName": "M.",
+          "familyName": "Wolpert",
+          "givenName": "Daniel",
+          "name": "Daniel M. Wolpert"
+        },
+        {
+          "@id": "scienceai:4a800d53-995f-4050-adeb-c32e4f19d5f8",
+          "@type": "Person",
+          "additionalName": "Chris",
+          "familyName": "Miall",
+          "givenName": "R.",
+          "name": "R. Chris Miall"
+        },
+        {
+          "@id": "scienceai:74c62da5-641d-4f07-9307-93df6b0c0b1e",
+          "@type": "Person",
+          "familyName": "Kawato",
+          "givenName": "Mitsuo",
+          "name": "Mitsuo Kawato"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1998
+      },
+      "isPartOf": {
+        "@id": "scienceai:67204732-91fd-4f91-bb8e-3559795934d0",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:14f66d0b-e81b-4a27-a8c6-3bce966c731a",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:ccb081cf-b8b7-47e1-935b-6f3e4f5e0de4",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "1364-6613",
+            "name": "Trends in Cognitive Sciences"
+          },
+          "volumeNumber": 2
+        },
+        "issueNumber": 9
+      },
+      "name": "Internal models in the cerebellum",
+      "pageEnd": "347",
+      "pageStart": "338",
+      "url": "http://doi.org/10.1016/s1364-6613(98)01221-2"
+    },
+    {
+      "@id": "http://doi.org/10.1016/j.conb.2011.05.025#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1016/j.conb.2011.05.025#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Med11",
+      "author": [
+        {
+          "@id": "scienceai:4b60b6cd-cf8e-43f8-997a-9047bbc43dce",
+          "@type": "Person",
+          "familyName": "Medina",
+          "givenName": "J.F.",
+          "name": "J.F. Medina"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2011
+      },
+      "isPartOf": {
+        "@id": "scienceai:630d6133-ccbd-48e8-af98-f6894b066416",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:d1fd7919-470a-436b-a8c4-f57e886a03ba",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:9baa3891-6441-4daf-a44e-7d11e1ba0a61",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0959-4388",
+            "name": "Current Opinion in Neurobiology"
+          },
+          "volumeNumber": 21
+        },
+        "issueNumber": 4
+      },
+      "name": "The multiple roles of Purkinje cells in sensori-motor calibration: to predict, teach and command - See more at: http://elifesciences.org/content/4/e07892#sthash.Djq54Ub4.dpuf",
+      "pageEnd": "622",
+      "pageStart": "616",
+      "url": "http://doi.org/10.1016/j.conb.2011.05.025"
+    },
+    {
+      "@id": "http://doi.org/10.1038/365050a0",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1038/365050a0",
+      "alternateName": "Shi93",
+      "author": [
+        {
+          "@id": "scienceai:1a06583e-01d8-4c13-a0c3-7260c7590f36",
+          "@type": "Person",
+          "familyName": "Shidara",
+          "givenName": "M.",
+          "name": "M. Shidara"
+        },
+        {
+          "@id": "scienceai:fabd6147-fc44-466a-abf6-517dc0b8425c",
+          "@type": "Person",
+          "familyName": "Kawano",
+          "givenName": "K.",
+          "name": "K. Kawano"
+        },
+        {
+          "@id": "scienceai:078bb05b-0078-4c85-ba95-a7ec52e1f459",
+          "@type": "Person",
+          "familyName": "Gomi",
+          "givenName": "H.",
+          "name": "H. Gomi"
+        },
+        {
+          "@id": "scienceai:ac94f130-daff-48fc-9109-e5c1fa5d1552",
+          "@type": "Person",
+          "familyName": "Kawato",
+          "givenName": "M.",
+          "name": "M. Kawato"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 1993
+      },
+      "isPartOf": {
+        "@id": "scienceai:f130a95e-ecb9-4931-b69f-c0fcba7f1ee4",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:8b0f0e90-4a4b-401a-bf51-16359891690d",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:e3a1cad2-beb8-465d-a7b0-7e5513db29a6",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "0028-0836",
+            "name": "Nature"
+          },
+          "volumeNumber": 365
+        },
+        "issueNumber": 6441
+      },
+      "name": "Inverse-dynamics model eye movement control by Purkinje cells in the cerebellum",
+      "pageEnd": "52",
+      "pageStart": "50",
+      "url": "http://doi.org/10.1038/365050a0"
+    },
+    {
+      "@id": "http://doi.org/10.1523/JNEUROSCI.2622-06.2006#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1523/JNEUROSCI.2622-06.2006#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Mor06",
+      "author": [
+        {
+          "@id": "scienceai:579f402d-f70d-47c3-9e6e-814f52b47d6b",
+          "@type": "Person",
+          "familyName": "Morton",
+          "givenName": "S.M.",
+          "name": "S.M. Morton"
+        },
+        {
+          "@id": "scienceai:2a6ee027-0622-4171-82dd-4c6465d5609e",
+          "@type": "Person",
+          "familyName": "Bastian",
+          "givenName": "A.J.",
+          "name": "A.J. Bastian"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2006
+      },
+      "isPartOf": {
+        "@id": "scienceai:a2fff222-73fc-4387-813b-3e96bc25c982",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:15aa2467-81eb-4ba6-a68c-99eade47d63e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:5b060f7b-2322-4d1f-a4fd-8109463dee2a",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "0270-6474",
+              "1529-2401"
+            ],
+            "name": "Journal of Neuroscience"
+          },
+          "volumeNumber": 26
+        },
+        "issueNumber": 36
+      },
+      "name": "Cerebellar contributions to locomotor adaptations during splitbelt treadmill walking",
+      "pageEnd": "9116",
+      "pageStart": "9107",
+      "url": "http://doi.org/10.1523/jneurosci.2622-06.2006"
+    },
+    {
+      "@id": "http://doi.org/10.1152/jn.00787.2002#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1152/jn.00787.2002#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Mor03",
+      "author": [
+        {
+          "@id": "scienceai:579f402d-f70d-47c3-9e6e-814f52b47d6b",
+          "@type": "Person",
+          "familyName": "Morton",
+          "givenName": "S.M.",
+          "name": "S.M. Morton"
+        },
+        {
+          "@id": "scienceai:2a6ee027-0622-4171-82dd-4c6465d5609e",
+          "@type": "Person",
+          "familyName": "Bastian",
+          "givenName": "A.J.",
+          "name": "A.J. Bastian"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2003
+      },
+      "isPartOf": {
+        "@id": "scienceai:f8518df8-4bee-4380-8046-f2c090e8b0ce",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:266b46eb-2c10-4d27-a696-a9d8c171d92e",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:8e172bad-fa56-4c67-bb72-94fe88d7cea4",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "0022-3077",
+              "1522-1598"
+            ],
+            "name": "Journal of Neurophysiology"
+          },
+          "volumeNumber": 89
+        },
+        "issueNumber": 4
+      },
+      "name": "Relative contributions of balance and voluntary leg-coordination deficits to cerebellar gait ataxia",
+      "pageEnd": "1856",
+      "pageStart": "1844",
+      "url": "http://doi.org/10.1152/jn.00787.2002"
+    },
+    {
+      "@id": "http://doi.org/10.1093/brain/awu239",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1093/brain/awu239",
+      "alternateName": "YuF15",
+      "author": [
+        {
+          "@id": "scienceai:72d40af5-72a2-4045-b485-ce6e72e75878",
+          "@type": "Person",
+          "familyName": "Yu",
+          "givenName": "Feng",
+          "name": "Feng Yu"
+        },
+        {
+          "@id": "scienceai:5bfb7184-c7eb-4fe6-bfcd-f01c4377b9c3",
+          "@type": "Person",
+          "familyName": "Jiang",
+          "givenName": "Qing-jun",
+          "name": "Qing-jun Jiang"
+        },
+        {
+          "@id": "scienceai:b73bfe32-a7d7-46b6-8649-759bdd30478e",
+          "@type": "Person",
+          "familyName": "Sun",
+          "givenName": "Xi-yan",
+          "name": "Xi-yan Sun"
+        },
+        {
+          "@id": "scienceai:376f11d2-c456-494b-be23-a207b16113e3",
+          "@type": "Person",
+          "familyName": "Zhang",
+          "givenName": "Rong-wei",
+          "name": "Rong-wei Zhang"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2015
+      },
+      "isPartOf": {
+        "@id": "scienceai:ff197fac-f5f6-4128-a5cf-b5e47df1e78f",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:e3c4e27f-e170-46d8-9b28-e67bb78ba9b0",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:c34c4931-cd2d-41ae-93b0-0c8263547858",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": [
+              "0006-8950",
+              "1460-2156"
+            ],
+            "name": "Brain"
+          },
+          "volumeNumber": 138
+        },
+        "issueNumber": 6
+      },
+      "name": "A new case of complete primary cerebellar agenesis: clinical and imaging findings in a living patient",
+      "pageEnd": "e353",
+      "pageStart": "e353",
+      "url": "http://doi.org/10.1093/brain/awu239"
+    },
+    {
+      "@id": "http://doi.org/10.5244/C.25.13",
+      "@type": "CreativeWork",
+      "doi": "10.5244/C.25.13",
+      "alternateName": "Rus111",
+      "author": [
+        {
+          "@id": "scienceai:31ccdb64-67c2-45ff-a2b9-9520c598ce3a",
+          "@type": "Person",
+          "familyName": "Russell",
+          "givenName": "Chris",
+          "name": "Chris Russell"
+        },
+        {
+          "@id": "scienceai:515b4ac9-bea0-4542-bf5e-08f3b39969eb",
+          "@type": "Person",
+          "familyName": "de Agapito",
+          "givenName": "Lourdes",
+          "name": "Lourdes de Agapito"
+        },
+        {
+          "@id": "scienceai:31c5aa9e-b9be-44ff-8349-3c7d5622b0c5",
+          "@type": "Person",
+          "familyName": "Setti",
+          "givenName": "Francesco",
+          "name": "Francesco Setti"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2011
+      },
+      "isPartOf": {
+        "@id": "scienceai:b2215766-d9d5-4edb-b2a7-6fcdf60b2e36",
+        "@type": "PublicationVolume",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:82618457-06c8-4973-8b69-65e4432b66dd",
+          "@type": "Periodical",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "name": "British Machine Vision Association"
+        },
+        "volumeNumber": 13
+      },
+      "isbn": "http://id.crossref.org/isbn/1-901725-43-X",
+      "name": "Efficient Second Order Multi-Target Tracking with Exclusion Constraints",
+      "pageEnd": "11",
+      "pageStart": "1",
+      "text": "http://discovery.ucl.ac.uk/1454215/",
+      "url": "http://discovery.ucl.ac.uk/1454215/"
+    },
+    {
+      "@id": "http://doi.org/doi:10.18637/jss.v067.i01",
+      "@type": "ScholarlyArticle",
+      "doi": "doi:10.18637/jss.v067.i01",
+      "alternateName": "Bat15",
+      "author": [
+        {
+          "@id": "scienceai:f83731e5-a97f-4b8e-b3d5-0cf0ead95899",
+          "@type": "Person",
+          "familyName": "Bates",
+          "givenName": "Douglas",
+          "name": "Douglas Bates"
+        },
+        {
+          "@id": "scienceai:b5efacb2-be31-4b8a-8be4-b7f4eaad3884",
+          "@type": "Person",
+          "familyName": "Maechler",
+          "givenName": "Martin",
+          "name": "Martin Maechler"
+        },
+        {
+          "@id": "scienceai:3c5ea91d-7795-4ac7-b7f4-14ea36869679",
+          "@type": "Person",
+          "familyName": "Bolker",
+          "givenName": "Ben",
+          "name": "Ben Bolker"
+        },
+        {
+          "@id": "scienceai:da8379e0-2dcf-4cef-b55b-be8c03c2331c",
+          "@type": "Person",
+          "familyName": "Walker",
+          "givenName": "Steve",
+          "name": "Steve Walker"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2015
+      },
+      "isPartOf": {
+        "@id": "scienceai:23e00285-7dff-436a-ab9e-b05855b7269d",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:374bc56e-26f1-4a68-90df-501f6ae2e980",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:60d5bff3-e909-4d46-bf7d-a5dedbb70d27",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "1548-7660",
+            "name": "Journal of Statistical Software"
+          },
+          "volumeNumber": 67
+        },
+        "issueNumber": 1
+      },
+      "name": "Fitting Linear Mixed-Effects Models Using lme4",
+      "pageEnd": "48",
+      "pageStart": "1",
+      "text": "R package version 1.0-5",
+      "url": "http://doi.org/10.18637/jss.v067.i01"
+    },
+    {
+      "@id": "http://doi.org/10.1111/j.2041-210x.2012.00261.x#sthash.Djq54Ub4.dpuf",
+      "@type": "ScholarlyArticle",
+      "doi": "10.1111/j.2041-210x.2012.00261.x#sthash.Djq54Ub4.dpuf",
+      "alternateName": "Nak12",
+      "author": [
+        {
+          "@id": "scienceai:94a598d1-d972-4c89-9e26-1bb203a10274",
+          "@type": "Person",
+          "familyName": "Nakagawa",
+          "givenName": "S.",
+          "name": "S. Nakagawa"
+        },
+        {
+          "@id": "scienceai:a0df76de-fe01-47e5-8bbb-ac02e6bfcde1",
+          "@type": "Person",
+          "familyName": "Schielzeth",
+          "givenName": "H.",
+          "name": "H. Schielzeth"
+        }
+      ],
+      "dateCreated": "2016-04-12T01:12:07.654Z",
+      "datePublished": {
+        "@type": "xsd:gYear",
+        "@value": 2012
+      },
+      "isPartOf": {
+        "@id": "scienceai:b8e03215-90b7-42ca-921c-35ccdc656ace",
+        "@type": "PublicationIssue",
+        "dateCreated": "2016-04-12T01:12:07.654Z",
+        "isPartOf": {
+          "@id": "scienceai:36aab232-f27f-4887-a119-2456e55df0b8",
+          "@type": "PublicationVolume",
+          "dateCreated": "2016-04-12T01:12:07.654Z",
+          "isPartOf": {
+            "@id": "scienceai:0970ba8a-bc48-4b3d-8c6b-f8a91786a9b9",
+            "@type": "Periodical",
+            "dateCreated": "2016-04-12T01:12:07.654Z",
+            "issn": "2041-210X",
+            "name": "Methods in Ecology and Evolution"
+          },
+          "volumeNumber": 4
+        },
+        "issueNumber": 2
+      },
+      "name": "A general and simple method for obtaining R2from generalized linear mixed-effects models - See more at: http://elifesciences.org/content/4/e07892#sthash.Djq54Ub4.dpuf",
+      "pageEnd": "142",
+      "pageStart": "133",
+      "url": "http://doi.org/10.1111/j.2041-210x.2012.00261.x"
+    }
+  ],
+  "creator": "bot:DocumentWorker",
+  "dateCreated": "2016-04-12T01:12:07.652Z",
+  "encoding": [
+    {
+      "@id": "scienceai:7cc3fae0-eac5-46ad-a14e-e1b441093216",
+      "@type": "DocumentObject",
+      "dateCreated": "2016-04-12T01:12:07.652Z",
+      "isBasedOn": [
+        "scienceai:7ccd8675-be7c-47d9-a7a1-765952c54170"
+      ]
+    }
+  ],
+  "isPartOf": "scienceai:24c314de-c429-4e98-9be1-328d40e56522",
+  "name": "A quantitative framework for whole-body coordination reveals specific deficits in freely walking ataxic mice"
+}

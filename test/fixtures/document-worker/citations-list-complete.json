@@ -1,0 +1,1619 @@
+[
+  {
+    "@id": "node:b6f0d6fe-7cdb-47cd-a6e4-d937f31b950a",
+    "@type": "Book",
+    "alternateName": "The dream machine",
+    "author": [
+      {
+        "@id": "_:07be50ee-8872-4d45-8fca-ba208eb76e1b",
+        "@type": "Person",
+        "additionalName": "Mitchell",
+        "familyName": "Waldrop",
+        "givenName": "M."
+      }
+    ],
+    "bookEdition": "1st edition",
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2002
+    },
+    "identifier": "Wal02",
+    "isbn": "014200135X",
+    "name": "The dream machine: JCR Licklider and the revolution that made computing personal",
+    "pageStart": 516,
+    "publisher": {
+      "@id": "_:73210bb9-65d5-425f-924d-83881542a30b",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:240af8e7-2dfc-48ce-8e02-99176791de96",
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "New York",
+        "addressRegion": "NY"
+      },
+      "name": "Penguin USA"
+    }
+  },
+  {
+    "@id": "node:b4f9e409-b219-40fc-88c3-16d6294e71ba",
+    "@type": "Book",
+    "author": [
+      {
+        "@id": "_:dca997b2-a404-42fd-a174-6744bd9f5909",
+        "@type": "Person",
+        "additionalName": "C",
+        "familyName": "Gilstrap",
+        "givenName": "Larry"
+      },
+      {
+        "@id": "_:68a12a5e-8b67-4e15-bc6e-a7b4ece273ee",
+        "@type": "Person",
+        "additionalName": "Gary",
+        "familyName": "Cunningham",
+        "givenName": "F"
+      },
+      {
+        "@id": "_:062c2ab8-669a-49a5-82a3-b5d4fcba68fa",
+        "@type": "Person",
+        "additionalName": "Peter",
+        "familyName": "Van Dorsten",
+        "givenName": "J"
+      }
+    ],
+    "bookEdition": "2nd Edition",
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2002
+    },
+    "editor": [
+      {
+        "@id": "_:a7bb0409-3f54-4864-8b6c-47a0c866ec94",
+        "@type": "Person",
+        "additionalName": "C",
+        "familyName": "Gilstrap",
+        "givenName": "Larry"
+      },
+      {
+        "@id": "_:aca7f4dd-ae7b-47d6-8b22-225bf98dd2d4",
+        "@type": "Person",
+        "additionalName": "Gary",
+        "familyName": "Cunningham",
+        "givenName": "F"
+      },
+      {
+        "@id": "_:ddaca679-b1e8-40de-acfa-a4d72e8990aa",
+        "@type": "Person",
+        "additionalName": "Peter",
+        "familyName": "Van Dorsten",
+        "givenName": "J"
+      }
+    ],
+    "identifier": "Gil02",
+    "isbn": "0838573878",
+    "name": "Operative obstetrics",
+    "pageStart": 728,
+    "publisher": {
+      "@id": "_:0b616d2b-d37f-4415-a922-a8c36379d604",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:77da2b8c-3820-48a3-82a9-9d4ca4faaa08",
+        "@type": "PostalAddress",
+        "addressLocality": "New York"
+      },
+      "name": "McGraw-Hill Professional"
+    }
+  },
+  {
+    "@id": "node:cb1f9675-4ee5-4fd7-b123-fed920fe847f",
+    "@type": "Book",
+    "author": [
+      {
+        "@id": "_:22265cdf-9e62-4e7c-bf41-66c3515998e7",
+        "@type": "Person",
+        "familyName": "de Saint-Exupéry",
+        "givenName": "Antoine"
+      }
+    ],
+    "bookEdition": "English Edition",
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2000
+    },
+    "identifier": "deS00",
+    "isbn": "0156012197",
+    "name": "The Little Prince",
+    "pageStart": 96,
+    "publisher": {
+      "@id": "_:cde6b2c6-c9dd-44d6-9240-26bc3f906b08",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:411a570b-960f-47a6-9095-df66dbfe7dbc",
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "New York",
+        "addressRegion": "NY"
+      },
+      "name": "Harcourt, Inc."
+    },
+    "translator": [
+      {
+        "@id": "_:9aa7588f-3f75-4e04-8986-dc7874e93906",
+        "@type": "Person",
+        "familyName": "Howard",
+        "givenName": "Richard"
+      },
+      {
+        "@id": "_:22bcf8c2-039a-4142-95ea-82f2f8fa4b35",
+        "@type": "Person",
+        "additionalName": "Marcos",
+        "familyName": "Barbosa",
+        "givenName": "Dom"
+      },
+      {
+        "@id": "_:24e8b885-3458-4268-a1fc-108abb2a41bb",
+        "@type": "Person",
+        "familyName": "Karakosta",
+        "givenName": "Melina"
+      }
+    ]
+  },
+  {
+    "@id": "node:9946d5f5-5e51-43ee-8bd7-9dd0bb606d2b",
+    "@type": "Chapter",
+    "author": [
+      {
+        "@id": "_:9838df82-fc92-4e00-807d-da348b3365fd",
+        "@type": "Person",
+        "additionalName": "David",
+        "familyName": "Thoreau",
+        "givenName": "Henry"
+      }
+    ],
+    "bookEdition": "1st Edition",
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2016
+    },
+    "editor": [
+      {
+        "@id": "_:b4e1c826-cf29-4791-af91-ecbac80afd19",
+        "@type": "Person",
+        "familyName": "D’Agata",
+        "givenName": "John"
+      }
+    ],
+    "identifier": "Tho161",
+    "isPartOf": {
+      "@id": "_:1eaee279-5192-4687-9c4f-fa0c7d613f8d",
+      "@type": "Book",
+      "resourceOf": "graph:e60fae92-fb79-4da8-943a-0b585383135b",
+      "dateCreated": "2018-12-27T02:54:54.554Z",
+      "name": "The Making of the American Essay"
+    },
+    "isbn": "1555979270",
+    "name": "Walking",
+    "pageEnd": 78,
+    "pageStart": 177,
+    "publisher": {
+      "@id": "_:ef5f142c-592e-421f-93d4-0baaa99693b5",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:dca40633-73fd-469e-902f-371a8849cd55",
+        "@type": "PostalAddress",
+        "addressLocality": "Minneapolis"
+      },
+      "name": "Graywolf Press"
+    }
+  },
+  {
+    "@id": "node:49a4d888-64fc-46f3-9828-1623104b9640",
+    "@type": "Book",
+    "bookEdition": "Web Edition",
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 1987
+    },
+    "editor": [
+      {
+        "@id": "_:94c98de1-252a-49c1-b464-4892b40362f7",
+        "@type": "Person",
+        "additionalName": "B",
+        "familyName": "Kurland",
+        "givenName": "Philip"
+      },
+      {
+        "@id": "_:9d13c470-e88f-47b2-ad25-2cfeb9fc70ee",
+        "@type": "Person",
+        "familyName": "Lerner",
+        "givenName": "Ralph"
+      }
+    ],
+    "identifier": "Kur87",
+    "name": "The Founders’ Constitution",
+    "publisher": {
+      "@id": "_:ced37b12-db50-493d-8490-ec6e30865ed6",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:e7b6f6c8-b409-4a59-8e7b-0bb87fdfa600",
+        "@type": "PostalAddress",
+        "addressLocality": "Chicago"
+      },
+      "name": "University of Chicago Press"
+    },
+    "url": "http://press-pubs.uchicago.edu/founders/"
+  },
+  {
+    "@id": "node:9a41a039-0bfe-4848-99e3-79e88f4d83d3",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1126/science.1201010",
+    "author": [
+      {
+        "@id": "_:a07c82d6-78a8-4651-9399-4755bb965391",
+        "@type": "Person",
+        "additionalName": "Marm",
+        "familyName": "Kilpatrick",
+        "givenName": "A."
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2011-10-21"
+    },
+    "identifier": "Kil11",
+    "isPartOf": {
+      "@id": "_:c3e37553-4842-48a8-9463-25a6bee77f95",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:0a80396c-2df8-4330-8773-14f667d4e7e9",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:842685b1-269b-491b-886e-ddd05983475b",
+          "@type": "Periodical",
+          "name": "Science"
+        },
+        "volumeNumber": 334
+      },
+      "issueNumber": 6054
+    },
+    "name": "Globalization, Land Use, and the Invasion of West Nile Virus",
+    "pageEnd": 327,
+    "pageStart": 323,
+    "publisher": {
+      "@id": "_:59496e2d-4204-4bd8-9317-42b1f734eef4",
+      "@type": "Organization",
+      "name": "American Association for the Advancement of Science"
+    },
+    "url": "http://science.sciencemag.org/content/334/6054/323"
+  },
+  {
+    "@id": "node:f49e27c1-7542-4515-9b03-996bef0af9de",
+    "@type": "ScholarlyArticle",
+    "author": [
+      {
+        "@id": "_:170071ae-db92-4a1f-a029-bb8ad054d5d2",
+        "@type": "Person",
+        "familyName": "Ruff",
+        "givenName": "Kathleen"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2015-05-30"
+    },
+    "identifier": "Ruf15",
+    "isPartOf": {
+      "@id": "_:3cc65ddf-5ce1-4a8f-af4b-7aac6fc947f3",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:6e71a5dd-915a-4d57-a131-766ea299c362",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:932b9639-8b30-4472-aeb4-55b96ad46a81",
+          "@type": "Periodical",
+          "name": "Environmental Health"
+        },
+        "volumeNumber": 14
+      },
+      "issueNumber": 2015
+    },
+    "name": "Scientific journals and conflict of interest disclosure: what progress has been made?",
+    "pageStart": 45,
+    "publisher": {
+      "@id": "_:ba0aad60-f951-4f73-aba1-72f7e42d1c21",
+      "@type": "Organization",
+      "name": "BioMed Central"
+    },
+    "sameAs": [
+      "pmcid:4450857"
+    ],
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4450857/"
+  },
+  {
+    "@id": "node:d8b122e7-9686-443f-a7e6-54cf19640cf6",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1126/science.7063839",
+    "author": [
+      {
+        "@id": "_:cb22d82e-053b-447f-8042-f0b614a0cb27",
+        "@type": "Person",
+        "additionalName": "M.",
+        "familyName": "Anderson",
+        "givenName": "Roy"
+      },
+      {
+        "@id": "_:f47eb827-16fa-417f-8939-db985e4be33e",
+        "@type": "Person",
+        "additionalName": "M.",
+        "familyName": "May",
+        "givenName": "Robert"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "1982-02-26"
+    },
+    "identifier": "And82",
+    "isPartOf": {
+      "@id": "_:4b486865-67e6-43be-9919-32e5867d19d8",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:390b9daf-6e59-4a12-8804-6bcd7b1d6cce",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:3cdae1a4-4a6f-47f3-bc3d-ed35f7979e8b",
+          "@type": "Periodical",
+          "name": "Science"
+        },
+        "volumeNumber": 215
+      },
+      "issueNumber": 4536
+    },
+    "name": "Directly transmitted infections diseases: control by vaccination",
+    "pageEnd": 1060,
+    "pageStart": 1053,
+    "publisher": {
+      "@id": "_:59496e2d-4204-4bd8-9317-42b1f734eef4",
+      "@type": "Organization",
+      "name": "American Association for the Advancement of Science"
+    },
+    "url": "http://www.jstor.org/stable/1688362"
+  },
+  {
+    "@id": "node:3906a029-49f0-49da-8988-3cdfc0eac5f1",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1017/S0031182000055360",
+    "author": [
+      {
+        "@id": "_:9c608134-60f5-4732-a400-64e6ad88794b",
+        "@type": "Person",
+        "additionalName": "M.",
+        "familyName": "Anderson",
+        "givenName": "Roy"
+      },
+      {
+        "@id": "_:c9ad9c73-9a7f-4293-93ae-11fc90660b33",
+        "@type": "Person",
+        "additionalName": "M.",
+        "familyName": "May",
+        "givenName": "Robert"
+      }
+    ],
+    "comment": [
+      {
+        "@id": "_:b6ee661f-7d43-449a-b15e-5a36cb281ff3",
+        "@type": "Comment",
+        "text": "Canonical reference, see also May and Anderson 1982"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:gYearMonth",
+      "@value": "1982-10"
+    },
+    "identifier": "And821",
+    "isPartOf": {
+      "@id": "_:3ad08dea-a198-472a-b312-b00dcbd0f059",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:6ba43a21-d6b8-4012-9d3f-df0d6db2a166",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:743a7049-04f2-4d3d-b0f7-519a45abed1c",
+          "@type": "Periodical",
+          "name": "Parasitology"
+        },
+        "volumeNumber": 85
+      },
+      "issueNumber": 2
+    },
+    "name": "Coevolution of hosts and parasites",
+    "pageEnd": 426,
+    "pageStart": 411,
+    "publisher": {
+      "@id": "_:15568c99-a98e-40d3-b081-17519c713d44",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:a5c2c32f-35b9-49f0-b9c8-0feb66df9ebc",
+        "@type": "PostalAddress",
+        "addressLocality": "Cambridge"
+      },
+      "name": "Cambridge University Press"
+    }
+  },
+  {
+    "@id": "node:6443a696-bbcf-4096-a4ae-c4b369ce3059",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1073/pnas.1704949114",
+    "author": [
+      {
+        "@id": "_:808f486e-5b17-4aa9-bab8-d5b2e62fc68a",
+        "@type": "Person",
+        "familyName": "Ceballos",
+        "givenName": "Gerardo"
+      },
+      {
+        "@id": "_:fd3090ba-072a-4ed0-be67-819e262fdcd1",
+        "@type": "Person",
+        "additionalName": "R.",
+        "familyName": "Ehrlich",
+        "givenName": "Paul"
+      },
+      {
+        "@id": "_:1236e079-9e6c-4ac4-adbb-f38eb06e14e4",
+        "@type": "Person",
+        "familyName": "Dirzo",
+        "givenName": "Rodolfo"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2017-05-23"
+    },
+    "identifier": "Ceb17",
+    "isPartOf": {
+      "@id": "_:f23be890-1556-47ce-9906-c24865ec8733",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:a1146774-0c0b-4c2a-8c3a-0924f6c86f10",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:907c32c9-13a7-4257-b0f5-b033ec4f08ec",
+          "@type": "Periodical",
+          "name": "PNAS"
+        },
+        "volumeNumber": 114
+      },
+      "issueNumber": 30
+    },
+    "name": "Biological annihilation via the ongoing sixth mass extinction signaled by vertebrate population losses and declines",
+    "pagination": "E6089-E6096",
+    "publisher": {
+      "@id": "_:2b01533b-4c8f-428b-99d7-343cbf1772b3",
+      "@type": "Organization",
+      "name": "National Academy of Sciences"
+    }
+  },
+  {
+    "@id": "node:97c3dd81-84c8-4a03-960f-41f78e7003a0",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1038/nature22975",
+    "author": [
+      {
+        "@id": "_:d8d1e164-1e6e-4b9b-a2f0-ddda87eb7570",
+        "@type": "Person",
+        "additionalName": "J.",
+        "familyName": "Olival",
+        "givenName": "Kevin"
+      },
+      {
+        "@id": "_:ad04adbd-9ae2-47c0-8a27-1f7f25a98840",
+        "@type": "Person",
+        "additionalName": "R.",
+        "familyName": "Hosseini",
+        "givenName": "Parviez"
+      },
+      {
+        "@id": "_:1adaec0c-2644-44a8-8dbc-b74c7d4e6862",
+        "@type": "Person",
+        "familyName": "Zambrana-Torrelio",
+        "givenName": "Carlos"
+      },
+      {
+        "@id": "_:515df899-5062-48ab-a3fa-2b6bddbfd5ec",
+        "@type": "Person",
+        "familyName": "Ross",
+        "givenName": "Noam"
+      },
+      {
+        "@id": "_:c7e59cd0-4c3e-41ae-a7b3-be409794c556",
+        "@type": "Person",
+        "additionalName": "L.",
+        "familyName": "Bogich",
+        "givenName": "Tiffany"
+      },
+      {
+        "@id": "_:3284f794-c3ab-4ab4-b395-4127cfdf9e47",
+        "@type": "Person",
+        "familyName": "Daszak",
+        "givenName": "Peter"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2017-06-29"
+    },
+    "identifier": "Oli17",
+    "isPartOf": {
+      "@id": "_:5d6bc422-ea77-40ea-9cb2-92aea46aaa36",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:d0d48ede-790c-4d25-9a18-b4486ad9345d",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:277e653c-8e41-475e-8cf2-306765a800d3",
+          "@type": "Periodical",
+          "name": "Nature"
+        },
+        "volumeNumber": 546
+      },
+      "issueNumber": 7660
+    },
+    "name": "Host and viral traits predict zoonotic spillover from mammals",
+    "pageEnd": 650,
+    "pageStart": 646,
+    "publisher": {
+      "@id": "_:4064907f-0961-40d0-a7ea-321957afdf37",
+      "@type": "Organization",
+      "name": "Springer-Nature"
+    }
+  },
+  {
+    "@id": "node:153312cc-1dfd-4124-b7c9-04301d94f35f",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1038/nature09575",
+    "author": [
+      {
+        "@id": "_:4bc5b2f1-18fa-4029-95f9-71f3ea1f8866",
+        "@type": "Person",
+        "familyName": "Keesing",
+        "givenName": "Felicia"
+      },
+      {
+        "@id": "_:591404be-b2ab-4206-aba6-a7c13127b6c9",
+        "@type": "Person",
+        "additionalName": "K.",
+        "familyName": "Belden",
+        "givenName": "Lisa"
+      },
+      {
+        "@id": "_:6af00e55-d0e3-4bed-b080-473dc959f3b0",
+        "@type": "Person",
+        "familyName": "Daszak",
+        "givenName": "Peter"
+      },
+      {
+        "@id": "_:ac4d3d07-258e-426d-8db0-757089e51555",
+        "@type": "Person",
+        "familyName": "Dobson",
+        "givenName": "Andrew"
+      },
+      {
+        "@id": "_:66066b98-133a-495d-900d-1ab3e1b70ebe",
+        "@type": "Person",
+        "additionalName": "Drew",
+        "familyName": "Harvell",
+        "givenName": "C."
+      },
+      {
+        "@id": "_:001e8640-1f39-4920-bda2-f80985342d4b",
+        "@type": "Person",
+        "additionalName": "D.",
+        "familyName": "Holt",
+        "givenName": "Robert"
+      },
+      {
+        "@id": "_:8b0d631e-75d4-4a1a-be85-79dcaa03c487",
+        "@type": "Person",
+        "familyName": "Hudson",
+        "givenName": "Peter"
+      },
+      {
+        "@id": "_:b8c85ea6-4156-4a81-a2f4-c2ef9c840d80",
+        "@type": "Person",
+        "familyName": "Jolles",
+        "givenName": "Anna"
+      },
+      {
+        "@id": "_:92eda0ea-5cf6-46cb-a6ae-efdcbecbda0a",
+        "@type": "Person",
+        "additionalName": "E.",
+        "familyName": "Jones",
+        "givenName": "Kate"
+      },
+      {
+        "@id": "_:740615c6-7112-4f82-9174-38bc3b677ee6",
+        "@type": "Person",
+        "additionalName": "E.",
+        "familyName": "Mitchell",
+        "givenName": "Charles,"
+      },
+      {
+        "@id": "_:20c67bb5-d754-4f58-8fc5-89b0a9715c4f",
+        "@type": "Person",
+        "additionalName": "S.",
+        "familyName": "Myers",
+        "givenName": "Samuel"
+      },
+      {
+        "@id": "_:0d3b55b4-b1b3-4665-b09f-94f328091487",
+        "@type": "Person",
+        "familyName": "Bogich",
+        "givenName": "T."
+      },
+      {
+        "@id": "_:41625476-2feb-4b40-bd92-3481bfcb7b5a",
+        "@type": "Person",
+        "additionalName": "S.",
+        "familyName": "Ostfeld",
+        "givenName": "Richard"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2010-12-01"
+    },
+    "identifier": "Kee10",
+    "isPartOf": {
+      "@id": "_:6d5be399-6a66-45ce-8908-331844b856e9",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:df9ba648-2ec4-49a5-b27e-c44d34825137",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:27643231-a63e-499a-b2a7-17dba5fa294c",
+          "@type": "Periodical",
+          "name": "Nature"
+        },
+        "volumeNumber": 468
+      },
+      "issueNumber": 7324
+    },
+    "name": "Impacts of biodiversity on the emergence and transmission of infectious diseases",
+    "pageEnd": 652,
+    "pageStart": 647,
+    "publisher": {
+      "@id": "_:4064907f-0961-40d0-a7ea-321957afdf37",
+      "@type": "Organization",
+      "name": "Springer-Nature"
+    }
+  },
+  {
+    "@id": "node:8c2dcc16-c8fe-43e5-917b-66dbb4ba27a1",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1056/NEJMoa1411100",
+    "author": [
+      {
+        "@id": "_:45566755-b229-4f52-bcc7-a031a3dc038b",
+        "@type": "Organization",
+        "name": "WHO Ebola Response Team"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2014-10-16"
+    },
+    "identifier": "WHO14",
+    "isPartOf": {
+      "@id": "_:c3b16dc2-538a-44f7-98ba-bd260e14b9a6",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:0f9188ca-296f-4f2d-8927-a026e1643e82",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:5c65375d-7976-49cf-91ec-2df0d9584653",
+          "@type": "Periodical",
+          "name": "The New England Journal of Medicine"
+        },
+        "volumeNumber": 371
+      },
+      "issueNumber": 16
+    },
+    "name": "Ebola virus disease in West Africa—the first 9 months of the epidemic and forward projections.",
+    "pageEnd": 1495,
+    "pageStart": 1481
+  },
+  {
+    "@id": "node:c2811dff-af50-42d8-8018-a4c749c61df5",
+    "@type": "Report",
+    "author": [
+      {
+        "@id": "_:4c7fdabd-8a81-48c2-8f2f-70e8f5f7e22a",
+        "@type": "Organization",
+        "name": "WHO Commission on Social Determinants of Health; World Health Organization"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2008
+    },
+    "identifier": "WHO08",
+    "inSupportOf": "Commission on Social Determinants of Health final report",
+    "isbn": "9789241563703 ",
+    "name": "Closing the gap in a generation: health equity through action on the social determinants of health",
+    "publisher": {
+      "@id": "_:37cb97b3-ef38-48b4-b95a-022f0c73539c",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:38d5f81e-632c-4c88-8a0c-931b7eabac0a",
+        "@type": "PostalAddress",
+        "addressLocality": "Geneva"
+      },
+      "name": "World Health Organization"
+    },
+    "url": "http://apps.who.int/iris/bitstream/10665/43943/1/9789241563703_eng.pdf"
+  },
+  {
+    "@id": "node:771d8ce4-ea75-4cf7-bc97-686b9a94d93a",
+    "@type": "Report",
+    "alternateName": "Bayesian Inference",
+    "author": [
+      {
+        "@id": "_:46890334-b387-4846-b3b6-66200ccc09b8",
+        "@type": "Person",
+        "familyName": "Dureau",
+        "givenName": "J"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2013
+    },
+    "identifier": "Dur13",
+    "inSupportOf": "PhD Thesis",
+    "name": "Bayesian Inference for Indirectly Observed Stochastic Processes, Applications to Epidemic Modelling",
+    "publisher": {
+      "@id": "_:36a6b6be-54f8-4ca7-ab84-91ac900a8835",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:633c3b39-12e5-4b21-8f35-680a57dae706",
+        "@type": "PostalAddress",
+        "addressLocality": "London"
+      },
+      "name": "London School of Economics and Political Science",
+      "parentOrganization": "London School of Economics and Political Science"
+    }
+  },
+  {
+    "@id": "node:4532586f-987d-4f18-8089-420bd74d1f8a",
+    "@type": "ScholarlyArticle",
+    "doi": "10.1109/VETECS.2000.851605",
+    "author": [
+      {
+        "@id": "_:79db59d7-d62c-41e7-a7c3-8dd66b06e807",
+        "@type": "Person",
+        "additionalName": "D. S.",
+        "familyName": "Jayalath",
+        "givenName": "A."
+      },
+      {
+        "@id": "_:33856ce4-9a93-4992-98ce-abdf89542a9b",
+        "@type": "Person",
+        "familyName": "Tellambura",
+        "givenName": "Chintha"
+      },
+      {
+        "@id": "_:67968a14-7143-4571-9e3c-79d071dae4ad",
+        "@type": "Person",
+        "familyName": "Wu",
+        "givenName": "H."
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2000
+    },
+    "identifier": "Jay00",
+    "isPartOf": {
+      "@id": "_:61e82862-97a5-4b87-a2dd-e087a086b063",
+      "@type": "PublicationVolume",
+      "isPartOf": {
+        "@id": "_:f8d6c148-6be2-46d4-b289-0ad502b00b9f",
+        "@type": "Periodical",
+        "name": "Vehicular Technology Conference Proceedings"
+      },
+      "volumeNumber": 3
+    },
+    "name": "Reduced complexity PTS and new phase sequences for SLM to reduce PAP of an OFDM signal",
+    "pageEnd": 1917,
+    "pageStart": 1914,
+    "publisher": {
+      "@id": "_:91536496-d64d-4661-8a58-dd82d6a93542",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:d4a4fa3f-64c0-4e97-a600-446f8b6789c8",
+        "@type": "PostalAddress",
+        "addressLocality": "Tokyo"
+      },
+      "name": "IEEE"
+    }
+  },
+  {
+    "@id": "node:db77c428-1e83-4b45-b8bd-aecdc7612f9e",
+    "@type": "WebPage",
+    "author": [
+      {
+        "@id": "_:fb08d1e2-6e2b-43ff-9c9a-ceed3ed342cd",
+        "@type": "Organization",
+        "name": "CDC"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2017-12-08"
+    },
+    "identifier": "Cen171",
+    "name": "Influenza (Flu)",
+    "potentialAction": [
+      {
+        "@id": "_:4042f6a0-633c-45dc-a895-f42985e5e976",
+        "@type": "ViewAction",
+        "actionStatus": "CompletedActionStatus",
+        "endTime": {
+          "@type": "xsd:date",
+          "@value": "2017-12-10"
+        }
+      }
+    ],
+    "producer": [
+      {
+        "@id": "_:52231044-b6aa-4ba8-9278-2c69343fbfa1",
+        "@type": "Organization",
+        "name": "CDC"
+      }
+    ],
+    "url": "https://www.cdc.gov/flu/index.htm"
+  },
+  {
+    "@id": "node:b4d3e650-1478-480e-8c26-d5008a8d7636",
+    "@type": "DigitalDocument",
+    "author": [
+      {
+        "@id": "_:9438a202-d784-4a25-9d18-7436ce2311df",
+        "@type": "Person",
+        "familyName": "Schlossbert",
+        "givenName": "Tatiana"
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2017-07-11"
+    },
+    "identifier": "Sch17",
+    "isPartOf": {
+      "@id": "_:7f6a8878-5b09-437f-8641-6d42b2fbc77f",
+      "@type": "WebPage",
+      "resourceOf": "graph:e60fae92-fb79-4da8-943a-0b585383135b",
+      "dateCreated": "2018-12-27T02:54:54.554Z",
+      "name": "The New York Times"
+    },
+    "name": "Era of ‘Biological Annihilation’ Is Underway, Scientists Warn",
+    "potentialAction": [
+      {
+        "@id": "_:12fcbe39-26d8-4880-959e-e92701082e75",
+        "@type": "ViewAction",
+        "actionStatus": "CompletedActionStatus",
+        "endTime": {
+          "@type": "xsd:date",
+          "@value": "2017-12-10"
+        }
+      }
+    ],
+    "url": "https://www.nytimes.com/2017/07/11/climate/mass-extinction-animal-species.html?_r=0"
+  },
+  {
+    "@id": "node:34c0f8b8-898c-48a3-b7e3-b1cdd8286fd9",
+    "@type": "Interview",
+    "compiler": {
+      "@id": "_:fa3eb70e-ad8f-48e8-be9d-0f5dd227b7f5",
+      "@type": "Person",
+      "familyName": "Bock",
+      "givenName": "C."
+    },
+    "interviewee": {
+      "@id": "_:36da94f5-8605-4547-83a5-8a82d22e39da",
+      "@type": "Person",
+      "familyName": "Amis",
+      "givenName": "Kingsley"
+    },
+    "interviewer": {
+      "@id": "_:b55c67cc-a562-4191-bb25-e21635ddedec",
+      "@type": "Person",
+      "familyName": "Salawak",
+      "givenName": "Dale"
+    },
+    "broadcaster": {
+      "@id": "_:acfbacb3-7d04-4e7f-9dc1-2858c81386b2",
+      "@type": "Organization",
+      "name": "NBC"
+    },
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "1984-06-21"
+    },
+    "editor": [
+      {
+        "@id": "_:81a2c65e-7c80-4c3a-bb82-fb2493a6ab95",
+        "@type": "Person",
+        "familyName": "Gaitskill",
+        "givenName": "M."
+      }
+    ],
+    "identifier": "Ami84",
+    "isPartOf": {
+      "@id": "_:f53aae27-4c06-40a0-8632-15d1d1f310da",
+      "@type": "BroadcastEvent",
+      "name": "Interviews with Britain’s Angry Young Men"
+    },
+    "isbn": "0893701599",
+    "location": {
+      "@id": "_:0dea8f2b-8685-4a0e-a6f9-0198fa8c9459",
+      "@type": "RadioStation",
+      "name": "CNBC"
+    },
+    "name": "Mimic and Moralist",
+    "pageEnd": 50,
+    "pageStart": 129,
+    "producer": [
+      {
+        "@id": "_:21c771cf-1d37-4064-810f-7a64055821ad",
+        "@type": "Person",
+        "familyName": "Salawak",
+        "givenName": "Dale"
+      }
+    ],
+    "publisher": {
+      "@id": "_:8f2fac4c-f9c9-43fc-bb0c-051163b95a7a",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:dfcc8620-128b-460f-8ee0-c413f86ada1e",
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "New York",
+        "addressRegion": "NY"
+      },
+      "name": "Wiley"
+    },
+    "translator": {
+      "@id": "_:89a5bc08-d572-4bf5-ad28-41fdacd51dd6",
+      "@type": "Person",
+      "familyName": "Sony",
+      "givenName": "Roger"
+    }
+  },
+  {
+    "@id": "node:4c076b61-33ee-4566-be72-e8bdffb299bc",
+    "@type": "Legislation",
+    "counsel": {
+      "@id": "_:083d096d-534f-4800-8b86-779c92a26c36",
+      "@type": "Person",
+      "familyName": "Black",
+      "givenName": "H."
+    },
+    "legislationIdentifier": 299,
+    "legislationType": "case",
+    "reporter": {
+      "@id": "_:a1c3aa7d-93ed-45c3-b17c-6d7f682fd846",
+      "@type": "Person",
+      "additionalName": "D.",
+      "familyName": "Nelson",
+      "givenName": "Michael"
+    },
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2000-11-03"
+    },
+    "identifier": "NW200",
+    "location": {
+      "@id": "_:6119c281-d9c1-413f-a2ad-6f110b893449",
+      "@type": "Courthouse",
+      "name": "Nebraska Supreme Court"
+    },
+    "name": "Beachy v. Becerra"
+  },
+  {
+    "@id": "node:74ba34d7-06bc-4f40-ab5e-8c5a1d023c83",
+    "@type": "Patent",
+    "inventor": {
+      "@id": "_:34148817-fafe-49c4-8f86-d84e6e63fa6c",
+      "@type": "Person",
+      "additionalName": "Kirk",
+      "familyName": "Christensen",
+      "givenName": "Godtfred"
+    },
+    "patentNumber": "3,597,875",
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "1971-08-10"
+    },
+    "editor": [
+      {
+        "@id": "_:fdbd741a-d9e9-46c1-8605-e46c1702f005",
+        "@type": "Person",
+        "familyName": "Interlego",
+        "givenName": "J."
+      }
+    ],
+    "identifier": "Chr71",
+    "name": "Toy building set"
+  },
+  {
+    "@id": "node:71f66d4f-9409-4aca-85ee-d54d00f21599",
+    "@type": "Event",
+    "writer": [
+      {
+        "@id": "_:658d943a-0693-44c1-a12e-32d8d946153f",
+        "@type": "Person",
+        "familyName": "Daniels",
+        "givenName": "G."
+      },
+      {
+        "@id": "_:cb87e732-4696-4245-895c-2d83277f5c05",
+        "@type": "Person",
+        "familyName": "Schur",
+        "givenName": "M."
+      }
+    ],
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2009-04-09"
+    },
+    "director": {
+      "@id": "_:a6724b5f-6320-42ae-92ca-0e42938854ed",
+      "@type": "Person",
+      "familyName": "Klein",
+      "givenName": "H."
+    },
+    "identifier": "Dan09",
+    "location": {
+      "@id": "_:75dae896-2e3c-4457-9401-e6ea3a8aefc2",
+      "@type": "PerformingArtsTheater",
+      "name": "Universal Media Studios"
+    },
+    "name": "94 Meetings",
+    "performer": {
+      "@id": "_:4bccb486-daf3-4619-b4d2-abe0e9cc9c65",
+      "@type": "Person",
+      "familyName": "Poehler",
+      "givenName": "A."
+    },
+    "producer": [
+      {
+        "@id": "_:bacff986-2f5a-4051-8ca3-7ce3672f0ff6",
+        "@type": "Organization",
+        "name": "Deedle-Dee Productions;"
+      }
+    ]
+  },
+  {
+    "@id": "node:b4c12357-3e28-4924-be3c-83d1b6f2ac3a",
+    "@type": "VisualArtwork",
+    "artist": {
+      "@id": "_:46c5472f-43bf-4424-9ded-fe75a449076f",
+      "@type": "Person",
+      "familyName": "Goya",
+      "givenName": "Francisco"
+    },
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 1800
+    },
+    "identifier": "Goy00",
+    "isPartOf": {
+      "@id": "_:b2667465-31ec-4876-8024-f3bb65d223ad",
+      "@type": "Book",
+      "resourceOf": "graph:e60fae92-fb79-4da8-943a-0b585383135b",
+      "dateCreated": "2018-12-27T02:54:54.554Z",
+      "name": "Gardener's Art through the Ages"
+    },
+    "name": "The Family of Charles IV",
+    "pageStart": 939,
+    "publisher": {
+      "@id": "_:b582770b-46bb-4e1c-86e0-2a7642f82fc8",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:42a6bf3a-ac21-4c84-9579-bfa2d0792752",
+        "@type": "PostalAddress",
+        "addressCountry": "Spain",
+        "addressLocality": "Madrid"
+      },
+      "name": "Harcourt Brace",
+      "parentOrganization": "Museo del Prado"
+    }
+  },
+  {
+    "@id": "node:995c50e6-95cf-43ae-94f9-536ab429b68c",
+    "@type": "MusicRecording",
+    "conductor": {
+      "@id": "_:796fe8a4-9d57-48c5-b091-158f18bf8e0c",
+      "@type": "Person",
+      "familyName": "Slatkin",
+      "givenName": "L."
+    },
+    "recordingNumber": 114,
+    "alternateName": "Symphony",
+    "artist": {
+      "@id": "_:79873d52-d135-4c08-8a18-35b6b78cd152",
+      "@type": "Person",
+      "familyName": "Bernstein",
+      "givenName": "L."
+    },
+    "composer": {
+      "@id": "_:b9899dc3-110d-4583-9c34-cab06049ef01",
+      "@type": "Person",
+      "familyName": "Bernstein",
+      "givenName": "L."
+    },
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 2017
+    },
+    "encodingFormat": "Compact Disc",
+    "identifier": "Ber17",
+    "isPartOf": {
+      "@id": "_:7f5c7b69-9c08-40e4-908c-1f864658a712",
+      "@type": "MusicAlbum",
+      "resourceOf": "graph:e60fae92-fb79-4da8-943a-0b585383135b",
+      "dateCreated": "2018-12-27T02:54:54.554Z",
+      "name": "Something's coming: Bernstein's Philharmonic"
+    },
+    "name": "Symphony No. 3, Kaddish",
+    "performer": [
+      {
+        "@id": "_:eb6beeb3-bcfe-4aaf-9a0e-529e7f1869db",
+        "@type": "Person",
+        "familyName": "Irons",
+        "givenName": "J."
+      },
+      {
+        "@id": "_:10a1226f-ba32-4ad9-95ee-8ee59f5637e2",
+        "@type": "Person",
+        "familyName": "Phelps",
+        "givenName": "C."
+      },
+      {
+        "@id": "_:83fb85f2-62ed-4a06-bf81-6cace8c34870",
+        "@type": "Person",
+        "familyName": "Brey",
+        "givenName": "C."
+      },
+      {
+        "@id": "_:3614c4c7-34df-4b01-87a1-0b5d8c1a6c86",
+        "@type": "Person",
+        "familyName": "Wilson",
+        "givenName": "T."
+      }
+    ],
+    "producer": [
+      {
+        "@id": "_:c4dc6205-f9f5-47ee-9579-3d4ef4f569e6",
+        "@type": "Organization",
+        "name": "New York Philharmonic"
+      }
+    ]
+  },
+  {
+    "@id": "node:73529572-8cec-4902-b309-dd52e72f58e4",
+    "@type": "Movie",
+    "distributor": {
+      "@id": "_:7dea5de6-70e6-4793-a584-604b77871c4c",
+      "@type": "Organization",
+      "name": "Gramercy Pictures (I)"
+    },
+    "writer": {
+      "@id": "_:13c40f7b-25d4-4141-94fa-3b65dabed964",
+      "@type": "Person",
+      "familyName": "McQuarrie",
+      "givenName": "C."
+    },
+    "datePublished": {
+      "@type": "xsd:gYear",
+      "@value": 1995
+    },
+    "director": {
+      "@id": "_:62ef0751-cfd8-4de9-bfaa-6282247ec445",
+      "@type": "Person",
+      "familyName": "Singer",
+      "givenName": "Bryan"
+    },
+    "encodingFormat": "Screenplay",
+    "identifier": "McQ95",
+    "name": "The Usual Suspects",
+    "performer": [
+      {
+        "@id": "_:1c1ea58a-87bc-4835-a9eb-e0e6df12c219",
+        "@type": "Person",
+        "familyName": "Spacey",
+        "givenName": "K."
+      },
+      {
+        "@id": "_:1b0fd91e-aa28-4158-98d3-0d5c4b4588c0",
+        "@type": "Person",
+        "familyName": "Byrne",
+        "givenName": "G."
+      },
+      {
+        "@id": "_:55bba66a-ed88-44d2-8dab-a56f000ae775",
+        "@type": "Person",
+        "familyName": "Palminteri",
+        "givenName": "C."
+      },
+      {
+        "@id": "_:aee6d481-3357-49c2-9cec-bc29172cb192",
+        "@type": "Person",
+        "familyName": "Baldwin",
+        "givenName": "S."
+      },
+      {
+        "@id": "_:614e44f5-1414-47d4-b4eb-97f25ca7e1fe",
+        "@type": "Person",
+        "familyName": "del Toro",
+        "givenName": "B."
+      }
+    ],
+    "producer": [
+      {
+        "@id": "_:9dcd6ea8-6d9c-4423-a10d-a8801e579f39",
+        "@type": "Organization",
+        "name": "Polygram"
+      }
+    ]
+  },
+  {
+    "@id": "_:41cbca1c-9198-4336-8398-7e90befcd420",
+    "@type": "TargetRole",
+    "hasSelector": {
+      "@id": "_:e936adf0-b222-43ef-90d6-d4fba2c6255a",
+      "@type": "Selector",
+      "name": "E6091"
+    },
+    "citation": [
+      {
+        "@id": "node:6443a696-bbcf-4096-a4ae-c4b369ce3059",
+        "@type": "ScholarlyArticle",
+        "doi": "10.1073/pnas.1704949114",
+        "author": [
+          {
+            "@id": "_:808f486e-5b17-4aa9-bab8-d5b2e62fc68a",
+            "@type": "Person",
+            "familyName": "Ceballos",
+            "givenName": "Gerardo"
+          },
+          {
+            "@id": "_:fd3090ba-072a-4ed0-be67-819e262fdcd1",
+            "@type": "Person",
+            "additionalName": "R.",
+            "familyName": "Ehrlich",
+            "givenName": "Paul"
+          },
+          {
+            "@id": "_:1236e079-9e6c-4ac4-adbb-f38eb06e14e4",
+            "@type": "Person",
+            "familyName": "Dirzo",
+            "givenName": "Rodolfo"
+          }
+        ],
+        "datePublished": {
+          "@type": "xsd:date",
+          "@value": "2017-05-23"
+        },
+        "identifier": "Ceb17",
+        "isPartOf": {
+          "@id": "_:f23be890-1556-47ce-9906-c24865ec8733",
+          "@type": "PublicationIssue",
+          "isPartOf": {
+            "@id": "_:a1146774-0c0b-4c2a-8c3a-0924f6c86f10",
+            "@type": "PublicationVolume",
+            "isPartOf": {
+              "@id": "_:907c32c9-13a7-4257-b0f5-b033ec4f08ec",
+              "@type": "Periodical",
+              "name": "PNAS"
+            },
+            "volumeNumber": 114
+          },
+          "issueNumber": 30
+        },
+        "name": "Biological annihilation via the ongoing sixth mass extinction signaled by vertebrate population losses and declines",
+        "pagination": "E6089-E6096",
+        "publisher": {
+          "@id": "_:2b01533b-4c8f-428b-99d7-343cbf1772b3",
+          "@type": "Organization",
+          "name": "National Academy of Sciences"
+        }
+      }
+    ],
+    "name": "Ceballos, Ehrlich, and Dirzo 2017, E6091"
+  },
+  {
+    "@id": "_:042075dd-8d7a-4e07-8ba4-ef03b6f97181",
+    "@type": "TargetRole",
+    "hasSelector": {
+      "@id": "_:0c5d6eda-8ffe-4a2e-8be1-d92b494a1f82",
+      "@type": "Selector",
+      "name": 324
+    },
+    "citation": [
+      {
+        "@id": "node:9a41a039-0bfe-4848-99e3-79e88f4d83d3",
+        "@type": "ScholarlyArticle",
+        "doi": "10.1126/science.1201010",
+        "author": [
+          {
+            "@id": "_:a07c82d6-78a8-4651-9399-4755bb965391",
+            "@type": "Person",
+            "additionalName": "Marm",
+            "familyName": "Kilpatrick",
+            "givenName": "A."
+          }
+        ],
+        "datePublished": {
+          "@type": "xsd:date",
+          "@value": "2011-10-21"
+        },
+        "identifier": "Kil11",
+        "isPartOf": {
+          "@id": "_:c3e37553-4842-48a8-9463-25a6bee77f95",
+          "@type": "PublicationIssue",
+          "isPartOf": {
+            "@id": "_:0a80396c-2df8-4330-8773-14f667d4e7e9",
+            "@type": "PublicationVolume",
+            "isPartOf": {
+              "@id": "_:842685b1-269b-491b-886e-ddd05983475b",
+              "@type": "Periodical",
+              "name": "Science"
+            },
+            "volumeNumber": 334
+          },
+          "issueNumber": 6054
+        },
+        "name": "Globalization, Land Use, and the Invasion of West Nile Virus",
+        "pageEnd": 327,
+        "pageStart": 323,
+        "publisher": {
+          "@id": "_:59496e2d-4204-4bd8-9317-42b1f734eef4",
+          "@type": "Organization",
+          "name": "American Association for the Advancement of Science"
+        },
+        "url": "http://science.sciencemag.org/content/334/6054/323"
+      }
+    ],
+    "name": "Kilpatrick 2011, 324"
+  },
+  {
+    "@id": "_:cfe56eb6-c19f-4da9-ac23-af6fb4ab6965",
+    "@type": "TargetRole",
+    "hasSelector": {
+      "@id": "_:d67feb8e-3309-4faa-902f-f4308d939788",
+      "@type": "Selector",
+      "name": "1-12"
+    },
+    "citation": [
+      {
+        "@id": "node:cb1f9675-4ee5-4fd7-b123-fed920fe847f",
+        "@type": "Book",
+        "author": [
+          {
+            "@id": "_:22265cdf-9e62-4e7c-bf41-66c3515998e7",
+            "@type": "Person",
+            "familyName": "de Saint-Exupéry",
+            "givenName": "Antoine"
+          }
+        ],
+        "bookEdition": "English Edition",
+        "datePublished": {
+          "@type": "xsd:gYear",
+          "@value": 2000
+        },
+        "identifier": "deS00",
+        "isbn": "0156012197",
+        "name": "The Little Prince",
+        "pageStart": 96,
+        "publisher": {
+          "@id": "_:cde6b2c6-c9dd-44d6-9240-26bc3f906b08",
+          "@type": "Organization",
+          "location": {
+            "@id": "_:411a570b-960f-47a6-9095-df66dbfe7dbc",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          },
+          "name": "Harcourt, Inc."
+        },
+        "translator": [
+          {
+            "@id": "_:9aa7588f-3f75-4e04-8986-dc7874e93906",
+            "@type": "Person",
+            "familyName": "Howard",
+            "givenName": "Richard"
+          },
+          {
+            "@id": "_:22bcf8c2-039a-4142-95ea-82f2f8fa4b35",
+            "@type": "Person",
+            "additionalName": "Marcos",
+            "familyName": "Barbosa",
+            "givenName": "Dom"
+          },
+          {
+            "@id": "_:24e8b885-3458-4268-a1fc-108abb2a41bb",
+            "@type": "Person",
+            "familyName": "Karakosta",
+            "givenName": "Melina"
+          }
+        ]
+      }
+    ],
+    "name": "de Saint-Exupéry 2000, 1-12"
+  },
+  {
+    "@id": "_:d79d7a43-83d7-4e48-a1e7-4a570b3f7e6f",
+    "@type": "TargetRole",
+    "hasSelector": {
+      "@id": "_:e418c0c8-ae9d-44f1-ae7c-20c26ebac7b3",
+      "@type": "Selector",
+      "name": "chap. 3"
+    },
+    "citation": [
+      {
+        "@id": "node:b6f0d6fe-7cdb-47cd-a6e4-d937f31b950a",
+        "@type": "Book",
+        "alternateName": "The dream machine",
+        "author": [
+          {
+            "@id": "_:07be50ee-8872-4d45-8fca-ba208eb76e1b",
+            "@type": "Person",
+            "additionalName": "Mitchell",
+            "familyName": "Waldrop",
+            "givenName": "M."
+          }
+        ],
+        "bookEdition": "1st edition",
+        "datePublished": {
+          "@type": "xsd:gYear",
+          "@value": 2002
+        },
+        "identifier": "Wal02",
+        "isbn": "014200135X",
+        "name": "The dream machine: JCR Licklider and the revolution that made computing personal",
+        "pageStart": 516,
+        "publisher": {
+          "@id": "_:73210bb9-65d5-425f-924d-83881542a30b",
+          "@type": "Organization",
+          "location": {
+            "@id": "_:240af8e7-2dfc-48ce-8e02-99176791de96",
+            "@type": "PostalAddress",
+            "addressCountry": "USA",
+            "addressLocality": "New York",
+            "addressRegion": "NY"
+          },
+          "name": "Penguin USA"
+        }
+      }
+    ],
+    "name": "Waldrop 2002, chap. 3"
+  },
+  {
+    "@id": "_:6ca66a1e-076f-44ff-9c53-9d054b2b59f6",
+    "@type": "TargetRole",
+    "hasSelector": {
+      "@id": "_:4e407ce8-7729-413f-9bfe-b25111414bba",
+      "@type": "Selector",
+      "name": "chap. 10, doc. 19"
+    },
+    "citation": [
+      {
+        "@id": "node:49a4d888-64fc-46f3-9828-1623104b9640",
+        "@type": "Book",
+        "bookEdition": "Web Edition",
+        "datePublished": {
+          "@type": "xsd:gYear",
+          "@value": 1987
+        },
+        "editor": [
+          {
+            "@id": "_:94c98de1-252a-49c1-b464-4892b40362f7",
+            "@type": "Person",
+            "additionalName": "B",
+            "familyName": "Kurland",
+            "givenName": "Philip"
+          },
+          {
+            "@id": "_:9d13c470-e88f-47b2-ad25-2cfeb9fc70ee",
+            "@type": "Person",
+            "familyName": "Lerner",
+            "givenName": "Ralph"
+          }
+        ],
+        "identifier": "Kur87",
+        "name": "The Founders’ Constitution",
+        "publisher": {
+          "@id": "_:ced37b12-db50-493d-8490-ec6e30865ed6",
+          "@type": "Organization",
+          "location": {
+            "@id": "_:e7b6f6c8-b409-4a59-8e7b-0bb87fdfa600",
+            "@type": "PostalAddress",
+            "addressLocality": "Chicago"
+          },
+          "name": "University of Chicago Press"
+        },
+        "url": "http://press-pubs.uchicago.edu/founders/"
+      }
+    ],
+    "name": "The Founders’ Constitution 1987, chap. 10, doc. 19"
+  },
+  {
+    "@id": "node:d4a82bf3-f90c-4f43-9954-e35e0abf4410",
+    "@type": "CreativeWork",
+    "alternateName": "Surfer Monthly",
+    "author": [
+      {
+        "@id": "_:187c0a7a-9e26-4d05-afb5-a1a1b779d35f",
+        "@type": "Person",
+        "familyName": "Smith",
+        "givenName": "Paul"
+      },
+      {
+        "@id": "_:8d848c02-e78c-47fd-971a-155a06d91602",
+        "@type": "Person",
+        "additionalName": "A",
+        "familyName": "Jones",
+        "givenName": "Karen"
+      }
+    ],
+    "bookEdition": 2,
+    "datePublished": {
+      "@type": "xsd:date",
+      "@value": "2018-01-02"
+    },
+    "editor": [
+      {
+        "@id": "_:b4d9bcd6-b34c-4b4e-8c4b-8208caeb9e7c",
+        "@type": "Person",
+        "familyName": "Slater",
+        "givenName": "Kelly"
+      }
+    ],
+    "encodingFormat": "Print",
+    "identifier": "Smi181",
+    "isPartOf": {
+      "@id": "_:0861d486-14f8-4e94-91ae-dd1cc00fb2e1",
+      "@type": "PublicationIssue",
+      "isPartOf": {
+        "@id": "_:8c8b297c-ddb9-4972-9643-218f9e4fe262",
+        "@type": "PublicationVolume",
+        "isPartOf": {
+          "@id": "_:0e832f1c-0903-4bb8-9331-f073f7c99a46",
+          "@type": "CreativeWork",
+          "resourceOf": "graph:e60fae92-fb79-4da8-943a-0b585383135b",
+          "dateCreated": "2018-12-27T02:54:54.554Z",
+          "name": "The Surfing Publication"
+        },
+        "volumeNumber": 17
+      },
+      "issueNumber": 1
+    },
+    "name": "A new wave",
+    "pageEnd": 20,
+    "pageStart": 1,
+    "publisher": {
+      "@id": "_:2e631815-73b5-4afe-9a36-15ae48005d06",
+      "@type": "Organization",
+      "location": {
+        "@id": "_:ae7a4f11-6ad2-4f96-bc6f-2ea228ff48d2",
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "addressLocality": "New York",
+        "addressRegion": "NY"
+      },
+      "name": "Adventure Works Press"
+    }
+  }
+]

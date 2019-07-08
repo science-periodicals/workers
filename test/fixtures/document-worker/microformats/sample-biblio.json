@@ -1,0 +1,968 @@
+[
+  {
+    "date": [
+      2001,
+      8
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_3201_eid0704_017402",
+    "id": "10.3201/eid0704.017402",
+    "title": "Crow Deaths as a Sentinel Surveillance System for West Nile Virus in the Northeastern United States, 1999",
+    "titles": [
+      "Crow Deaths as a Sentinel Surveillance System for West Nile Virus in the Northeastern United States, 1999"
+    ],
+    "volume": "7",
+    "pageStart": "615",
+    "pageEnd": "620",
+    "journalName": "Emerging Infectious Diseases",
+    "journalNames": [
+      "Emerging Infectious Diseases"
+    ],
+    "URL": "http://doi.org/10.3201/eid0704.017402",
+    "DOI": "10.3201/eid0704.017402",
+    "ISBN": [],
+    "ISSN": [],
+    "ISSN": [
+      "1080-6040",
+      "1080-6059"
+    ],
+    "issue": "4",
+    "authors": [
+      {
+        "givenName": "Millicent",
+        "familyName": "Eidson",
+        "name": "Millicent Eidson",
+        "type": "person"
+      },
+      {
+        "givenName": "Nicholas",
+        "familyName": "Komar",
+        "name": "Nicholas Komar",
+        "type": "person"
+      },
+      {
+        "givenName": "Faye",
+        "familyName": "Sorhage",
+        "name": "Faye Sorhage",
+        "type": "person"
+      },
+      {
+        "givenName": "Randall",
+        "familyName": "Nelson",
+        "name": "Randall Nelson",
+        "type": "person"
+      },
+      {
+        "givenName": "Tom",
+        "familyName": "Talbot",
+        "name": "Tom Talbot",
+        "type": "person"
+      },
+      {
+        "givenName": "Farzad",
+        "familyName": "Mostashari",
+        "name": "Farzad Mostashari",
+        "type": "person"
+      },
+      {
+        "givenName": "Robert",
+        "familyName": "McLean",
+        "name": "Robert McLean",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2001,
+      7,
+      29
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1098_rstb_2001_0888",
+    "id": "10.1098/rstb.2001.0888",
+    "title": "Risk factors for human disease emergence",
+    "titles": [
+      "Risk factors for human disease emergence"
+    ],
+    "volume": "356",
+    "pageStart": "983",
+    "pageEnd": "989",
+    "journalName": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "journalNames": [
+      "Philosophical Transactions of the Royal Society B: Biological Sciences"
+    ],
+    "URL": "http://doi.org/10.1098/rstb.2001.0888",
+    "DOI": "10.1098/rstb.2001.0888",
+    "ISBN": [],
+    "ISSN": [
+      "0962-8436",
+      "1471-2970"
+    ],
+    "issue": "1411",
+    "authors": [
+      {
+        "givenName": "L. H.",
+        "familyName": "Taylor",
+        "name": "L. H. Taylor",
+        "type": "person"
+      },
+      {
+        "givenName": "S. M.",
+        "familyName": "Latham",
+        "name": "S. M. Latham",
+        "type": "person"
+      },
+      {
+        "givenName": "M. E. J.",
+        "familyName": "woolhouse",
+        "name": "M. E. J. woolhouse",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2008,
+      2,
+      21
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1038_nature06536",
+    "id": "10.1038/nature06536",
+    "title": "Global trends in emerging infectious diseases",
+    "titles": [
+      "Global trends in emerging infectious diseases"
+    ],
+    "volume": "451",
+    "pageStart": "990",
+    "pageEnd": "993",
+    "journalName": "Nature",
+    "journalNames": [
+      "Nature"
+    ],
+    "URL": "http://doi.org/10.1038/nature06536",
+    "DOI": "10.1038/nature06536",
+    "ISBN": [],
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issue": "7181",
+    "authors": [
+      {
+        "givenName": "Kate E.",
+        "familyName": "Jones",
+        "name": "Kate E. Jones",
+        "type": "person"
+      },
+      {
+        "givenName": "Nikkita G.",
+        "familyName": "Patel",
+        "name": "Nikkita G. Patel",
+        "type": "person"
+      },
+      {
+        "givenName": "Marc A.",
+        "familyName": "Levy",
+        "name": "Marc A. Levy",
+        "type": "person"
+      },
+      {
+        "givenName": "Adam",
+        "familyName": "Storeygard",
+        "name": "Adam Storeygard",
+        "type": "person"
+      },
+      {
+        "givenName": "Deborah",
+        "familyName": "Balk",
+        "name": "Deborah Balk",
+        "type": "person"
+      },
+      {
+        "givenName": "John L.",
+        "familyName": "Gittleman",
+        "name": "John L. Gittleman",
+        "type": "person"
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Daszak",
+        "name": "Peter Daszak",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2005,
+      12
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_3201_eid1112_050997",
+    "id": "10.3201/eid1112.050997",
+    "title": "Host Range and Emerging and Reemerging Pathogens",
+    "titles": [
+      "Host Range and Emerging and Reemerging Pathogens"
+    ],
+    "volume": "11",
+    "pageStart": "1842",
+    "pageEnd": "1847",
+    "journalName": "Emerging Infectious Diseases",
+    "journalNames": [
+      "Emerging Infectious Diseases"
+    ],
+    "URL": "http://doi.org/10.3201/eid1112.050997",
+    "DOI": "10.3201/eid1112.050997",
+    "ISBN": [],
+    "ISSN": [
+      "1080-6040",
+      "1080-6059"
+    ],
+    "issue": "12",
+    "authors": [
+      {
+        "givenName": "Mark E.J.",
+        "familyName": "Woolhouse",
+        "name": "Mark E.J. Woolhouse",
+        "type": "person"
+      },
+      {
+        "givenName": "Sonya",
+        "familyName": "Gowtage-Sequeria",
+        "name": "Sonya Gowtage-Sequeria",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [],
+    "accessed": [],
+    "type": "WEB_DOCUMENT",
+    "ISBN": [],
+    "ISSN": [],
+    "tag": "http___www1_usaid_gov_press_releases_2009_pr091021_1_html",
+    "titles": [],
+    "journalNames": [],
+    "URL": "http://www1.usaid.gov/press/releases/2009/pr091021_1.html",
+    "authors": [],
+    "contributors": [],
+    "comment": "USAID. 2009. \"USAID launches Emerging Pandemic Threats program.\" Accessed July 2, 2012. http://www1.usaid.gov/press/releases/2009/pr091021_1.html."
+  },
+  {
+    "date": [ 1994, 3],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "DOI": "10.1002/hep.1840190341",
+    "ISBN": [],
+    "ISSN": [
+      "0270-9139",
+      "1527-3350"
+    ],
+    "URL": "http://doi.org/10.1002/hep.1840190341",
+    "tag": "10_1002_hep_1840190341",
+    "title": "Emerging viruses. Edited by S.S. Morse, 317 pp. New York: Oxford University Press, 1993. $39.95",
+    "titles": [
+      "Emerging viruses. Edited by S.S. Morse, 317 pp. New York: Oxford University Press, 1993. $39.95"
+    ],
+    "issue": "3",
+    "volume": "19",
+    "journalName": "Hepatology",
+    "journalNames": [
+      "Hepatology"
+    ],
+    "pageEnd": "798",
+    "pageStart": "798",
+    "authors": [
+      {
+        "familyName": "Koff",
+        "givenName": "Raymond S.",
+        "name": "Raymond S. Koff",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2001,
+      7,
+      29
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1098_rstb_2001_0889",
+    "id": "10.1098/rstb.2001.0889",
+    "title": "Diseases of humans and their domestic mammals: pathogen characteristics, host range and the risk of emergence",
+    "titles": [
+      "Diseases of humans and their domestic mammals: pathogen characteristics, host range and the risk of emergence"
+    ],
+    "volume": "356",
+    "pageStart": "991",
+    "pageEnd": "999",
+    "journalName": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+    "journalNames": [
+      "Philosophical Transactions of the Royal Society B: Biological Sciences"
+    ],
+    "URL": "http://doi.org/10.1098/rstb.2001.0889",
+    "DOI": "10.1098/rstb.2001.0889",
+    "ISBN": [],
+    "ISSN": [
+      "0962-8436",
+      "1471-2970"
+    ],
+    "issue": "1411",
+    "authors": [
+      {
+        "givenName": "S.",
+        "familyName": "Cleaveland",
+        "name": "S. Cleaveland",
+        "type": "person"
+      },
+      {
+        "givenName": "M. K.",
+        "familyName": "Laurenson",
+        "name": "M. K. Laurenson",
+        "type": "person"
+      },
+      {
+        "givenName": "L. H.",
+        "familyName": "Taylor",
+        "name": "L. H. Taylor",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2008,
+      2,
+      21
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1038_nature06536",
+    "id": "10.1038/nature06536",
+    "title": "Global trends in emerging infectious diseases",
+    "titles": [
+      "Global trends in emerging infectious diseases"
+    ],
+    "volume": "451",
+    "pageStart": "990",
+    "pageEnd": "993",
+    "journalName": "Nature",
+    "journalNames": [
+      "Nature"
+    ],
+    "URL": "http://doi.org/10.1038/nature06536",
+    "DOI": "10.1038/nature06536",
+    "ISBN": [],
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issue": "7181",
+    "authors": [
+      {
+        "givenName": "Kate E.",
+        "familyName": "Jones",
+        "name": "Kate E. Jones",
+        "type": "person"
+      },
+      {
+        "givenName": "Nikkita G.",
+        "familyName": "Patel",
+        "name": "Nikkita G. Patel",
+        "type": "person"
+      },
+      {
+        "givenName": "Marc A.",
+        "familyName": "Levy",
+        "name": "Marc A. Levy",
+        "type": "person"
+      },
+      {
+        "givenName": "Adam",
+        "familyName": "Storeygard",
+        "name": "Adam Storeygard",
+        "type": "person"
+      },
+      {
+        "givenName": "Deborah",
+        "familyName": "Balk",
+        "name": "Deborah Balk",
+        "type": "person"
+      },
+      {
+        "givenName": "John L.",
+        "familyName": "Gittleman",
+        "name": "John L. Gittleman",
+        "type": "person"
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Daszak",
+        "name": "Peter Daszak",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2007,
+      1,
+      13
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1007_s10914_006_9022_6",
+    "id": "10.1007/s10914-006-9022-6",
+    "title": "A New ‘Age of Discovery’ for Mammals Mammal Species of the World: A Taxonomic and Geographic Reference, 3rd Edition. Don E. Wilson and DeeAnn M. Reeder (eds.).",
+    "titles": [
+      "A New ‘Age of Discovery’ for Mammals Mammal Species of the World: A Taxonomic and Geographic Reference, 3rd Edition. Don E. Wilson and DeeAnn M. Reeder (eds.)."
+    ],
+    "volume": "14",
+    "pageStart": "67",
+    "pageEnd": "69",
+    "journalName": "Journal of Mammalian Evolution",
+    "journalNames": [
+      "Journal of Mammalian Evolution"
+    ],
+    "URL": "http://doi.org/10.1007/s10914-006-9022-6",
+    "DOI": "10.1007/s10914-006-9022-6",
+    "ISBN": [],
+    "ISSN": [
+      "1064-7554",
+      "1573-7055"
+    ],
+    "issue": "1",
+    "authors": [
+      {
+        "givenName": "B. D.",
+        "familyName": "Patterson",
+        "name": "B. D. Patterson",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2001,
+      1,
+      1
+    ],
+    "accessed": [],
+    "type": "BOOK",
+    "tag": "10_1002_9780470344880",
+    "id": "10.1002/9780470344880",
+    "title": "Infectious Diseases of Wild Mammals",
+    "titles": [
+      "Infectious Diseases of Wild Mammals"
+    ],
+    "journalNames": [],
+    "URL": "http://doi.org/10.1002/9780470344880",
+    "DOI": "10.1002/9780470344880",
+    "ISSN": [],
+    "ISBN": [
+      "9780470344880",
+      "9780813825564"
+    ],
+    "authors": [],
+    "contributors": []
+  },
+  {
+    "date": [
+      1993
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1093_biomet_80_1_27",
+    "id": "10.1093/biomet/80.1.27",
+    "title": "Bias reduction of maximum likelihood estimates",
+    "titles": [
+      "Bias reduction of maximum likelihood estimates"
+    ],
+    "volume": "80",
+    "pageStart": "27",
+    "pageEnd": "38",
+    "journalName": "Biometrika",
+    "journalNames": [
+      "Biometrika"
+    ],
+    "URL": "http://doi.org/10.1093/biomet/80.1.27",
+    "DOI": "10.1093/biomet/80.1.27",
+    "ISBN": [],
+    "ISSN": [
+      "0006-3444",
+      "1464-3510"
+    ],
+    "issue": "1",
+    "authors": [
+      {
+        "givenName": "DAVID",
+        "familyName": "FIRTH",
+        "name": "DAVID FIRTH",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [],
+    "accessed": [],
+    "type": "WEB_DOCUMENT",
+    "ISBN": [],
+    "ISSN": [],
+    "tag": "http___www_ncbi_nlm_nih_gov_nuccore_KJ501319",
+    "titles": [],
+    "journalNames": [],
+    "URL": "http://www.ncbi.nlm.nih.gov/nuccore/KJ501319",
+    "authors": [],
+    "contributors": [],
+    "comment": "Genbank (West Nile virus isolate WNV-1/US/BID-V6481/2002, complete genome [Accession number KJ501319.1]; Accessed on October 1, 2012), http://www.ncbi.nlm.nih.gov/nuccore/KJ501319"
+  },
+  {
+    "date": [
+      2006,
+      8
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1016_j_biocon_2006_05_002",
+    "id": "10.1016/j.biocon.2006.05.002",
+    "title": "Pathogens as drivers of population declines: The importance of systematic monitoring in great apes and other threatened mammals",
+    "titles": [
+      "Pathogens as drivers of population declines: The importance of systematic monitoring in great apes and other threatened mammals"
+    ],
+    "volume": "131",
+    "pageStart": "325",
+    "pageEnd": "337",
+    "journalName": "Biological Conservation",
+    "journalNames": [
+      "Biological Conservation"
+    ],
+    "URL": "http://doi.org/10.1016/j.biocon.2006.05.002",
+    "DOI": "10.1016/j.biocon.2006.05.002",
+    "ISBN": [],
+    "ISSN": [
+      "0006-3207"
+    ],
+    "issue": "2",
+    "authors": [
+      {
+        "givenName": "Fabian H.",
+        "familyName": "Leendertz",
+        "name": "Fabian H. Leendertz",
+        "type": "person"
+      },
+      {
+        "givenName": "Georg",
+        "familyName": "Pauli",
+        "name": "Georg Pauli",
+        "type": "person"
+      },
+      {
+        "givenName": "Kerstin",
+        "familyName": "Maetz-Rensing",
+        "name": "Kerstin Maetz-Rensing",
+        "type": "person"
+      },
+      {
+        "givenName": "Wayne",
+        "familyName": "Boardman",
+        "name": "Wayne Boardman",
+        "type": "person"
+      },
+      {
+        "givenName": "Charles",
+        "familyName": "Nunn",
+        "name": "Charles Nunn",
+        "type": "person"
+      },
+      {
+        "givenName": "Heinz",
+        "familyName": "Ellerbrok",
+        "name": "Heinz Ellerbrok",
+        "type": "person"
+      },
+      {
+        "givenName": "Siv Aina",
+        "familyName": "Jensen",
+        "name": "Siv Aina Jensen",
+        "type": "person"
+      },
+      {
+        "givenName": "Sandra",
+        "familyName": "Junglen",
+        "name": "Sandra Junglen",
+        "type": "person"
+      },
+      {
+        "givenName": "Boesch",
+        "familyName": "Christophe",
+        "name": "Boesch Christophe",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2005,
+      12
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_3201_eid1112_040789",
+    "id": "10.3201/eid1112.040789",
+    "title": "Bushmeat Hunting, Deforestation, and Prediction of Zoonotic Disease",
+    "titles": [
+      "Bushmeat Hunting, Deforestation, and Prediction of Zoonotic Disease"
+    ],
+    "volume": "11",
+    "pageStart": "1822",
+    "pageEnd": "1827",
+    "journalName": "Emerging Infectious Diseases",
+    "journalNames": [
+      "Emerging Infectious Diseases"
+    ],
+    "URL": "http://doi.org/10.3201/eid1112.040789",
+    "DOI": "10.3201/eid1112.040789",
+    "ISBN": [],
+    "ISSN": [
+      "1080-6040",
+      "1080-6059"
+    ],
+    "issue": "12",
+    "authors": [
+      {
+        "givenName": "Nathan D.",
+        "familyName": "Wolfe",
+        "name": "Nathan D. Wolfe",
+        "type": "person"
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Daszak",
+        "name": "Peter Daszak",
+        "type": "person"
+      },
+      {
+        "givenName": "A. Marm",
+        "familyName": "Kilpatrick",
+        "name": "A. Marm Kilpatrick",
+        "type": "person"
+      },
+      {
+        "givenName": "Donald S.",
+        "familyName": "Burke",
+        "name": "Donald S. Burke",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      1998,
+      6
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_3201_eid0402_980202",
+    "id": "10.3201/eid0402.980202",
+    "title": "Wild Primate Populations in Emerging Infectious Disease Research: The Missing Link?",
+    "titles": [
+      "Wild Primate Populations in Emerging Infectious Disease Research: The Missing Link?"
+    ],
+    "volume": "4",
+    "pageStart": "149",
+    "pageEnd": "158",
+    "journalName": "Emerging Infectious Diseases",
+    "journalNames": [
+      "Emerging Infectious Diseases"
+    ],
+    "URL": "http://doi.org/10.3201/eid0402.980202",
+    "DOI": "10.3201/eid0402.980202",
+    "ISBN": [],
+    "ISSN": [
+      "1080-6040"
+    ],
+    "issue": "2",
+    "authors": [
+      {
+        "givenName": "Nathan",
+        "familyName": "Wolfe",
+        "name": "Nathan Wolfe",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "DOI": "10.20506/rst.19.1.1202",
+    "ISBN": [],
+    "ISSN": [
+      "0253-1933"
+    ],
+    "URL": "http://doi.org/10.20506/rst.19.1.1202",
+    "accessed": [],
+    "tag": "_1d99980d_c46e_11e5_8ae2_d50202dc58a5",
+    "authors": [
+      {
+        "familyName": "MHOD NOR",
+        "givenName": "M.N.",
+        "name": "M.N. MHOD NOR",
+        "type": "person"
+      },
+      {
+        "familyName": "GAN",
+        "givenName": "C.H.",
+        "name": "C.H. GAN",
+        "type": "person"
+      },
+      {
+        "familyName": "ONG",
+        "givenName": "B.L.",
+        "name": "B.L. ONG",
+        "type": "person"
+      }
+    ],
+    "contributors": [],
+    "date": [
+      2000,
+      4,
+      1
+    ],
+    "id": "10.20506/rst.19.1.1202",
+    "issue": "1",
+    "journalName": "Revue Scientifique et Technique de l'OIE",
+    "journalNames": [
+      "Revue Scientifique et Technique de l'OIE"
+    ],
+    "pageEnd": "165",
+    "pageStart": "160",
+    "tag": "10_20506_rst_19_1_1202",
+    "title": "Nipah virus infection of pigs in peninsular Malaysia",
+    "titles": [
+      "Nipah virus infection of pigs in peninsular Malaysia"
+    ],
+    "type": "JOURNAL_ARTICLE",
+    "volume": "19"
+  },
+  {
+    "date": [],
+    "accessed": [],
+    "type": "UNKNOWN",
+    "ISBN": [],
+    "ISSN": [],
+    "tag": "_1d99980e_c46e_11e5_8ae2_d50202dc58a5",
+    "titles": [],
+    "journalNames": [],
+    "authors": [],
+    "contributors": [],
+    "comment": "Selvey, Linda A., Rachel M. Wells, Joseph G. McCormack, Anthony J. Ansford, Keith Murray, Russell J. Rogers, Peter S. Lavercombe, Paul Selleck, and John W. Sheridan. 1995. \"Infection of humans and horses by a newly described morbillivirus.\" The Medical Journal of Australia 162(12): 642-645."
+  },
+  {
+    "date": [
+      2004,
+      1,
+      16
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1126_science_1092528",
+    "id": "10.1126/science.1092528",
+    "title": "Multiple Ebola Virus Transmission Events and Rapid Decline of Central African Wildlife",
+    "titles": [
+      "Multiple Ebola Virus Transmission Events and Rapid Decline of Central African Wildlife"
+    ],
+    "volume": "303",
+    "pageStart": "387",
+    "pageEnd": "390",
+    "journalName": "Science",
+    "journalNames": [
+      "Science"
+    ],
+    "URL": "http://doi.org/10.1126/science.1092528",
+    "DOI": "10.1126/science.1092528",
+    "ISBN": [],
+    "ISSN": [
+      "0036-8075",
+      "1095-9203"
+    ],
+    "issue": "5656",
+    "authors": [
+      {
+        "givenName": "E. M.",
+        "familyName": "Leroy",
+        "name": "E. M. Leroy",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2008,
+      2,
+      21
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1038_nature06536",
+    "id": "10.1038/nature06536",
+    "title": "Global trends in emerging infectious diseases",
+    "titles": [
+      "Global trends in emerging infectious diseases"
+    ],
+    "volume": "451",
+    "pageStart": "990",
+    "pageEnd": "993",
+    "journalName": "Nature",
+    "journalNames": [
+      "Nature"
+    ],
+    "URL": "http://doi.org/10.1038/nature06536",
+    "DOI": "10.1038/nature06536",
+    "ISBN": [],
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issue": "7181",
+    "authors": [
+      {
+        "givenName": "Kate E.",
+        "familyName": "Jones",
+        "name": "Kate E. Jones",
+        "type": "person"
+      },
+      {
+        "givenName": "Nikkita G.",
+        "familyName": "Patel",
+        "name": "Nikkita G. Patel",
+        "type": "person"
+      },
+      {
+        "givenName": "Marc A.",
+        "familyName": "Levy",
+        "name": "Marc A. Levy",
+        "type": "person"
+      },
+      {
+        "givenName": "Adam",
+        "familyName": "Storeygard",
+        "name": "Adam Storeygard",
+        "type": "person"
+      },
+      {
+        "givenName": "Deborah",
+        "familyName": "Balk",
+        "name": "Deborah Balk",
+        "type": "person"
+      },
+      {
+        "givenName": "John L.",
+        "familyName": "Gittleman",
+        "name": "John L. Gittleman",
+        "type": "person"
+      },
+      {
+        "givenName": "Peter",
+        "familyName": "Daszak",
+        "name": "Peter Daszak",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [
+      2012,
+      8,
+      23
+    ],
+    "accessed": [],
+    "type": "JOURNAL_ARTICLE",
+    "tag": "10_1111_j_1461_0248_2012_01858_x",
+    "id": "10.1111/j.1461-0248.2012.01858.x",
+    "title": "Phylogenetic host specificity and understanding parasite sharing in primates",
+    "titles": [
+      "Phylogenetic host specificity and understanding parasite sharing in primates"
+    ],
+    "volume": "15",
+    "pageStart": "1370",
+    "pageEnd": "1377",
+    "journalName": "Ecology Letters",
+    "journalNames": [
+      "Ecology Letters"
+    ],
+    "URL": "http://doi.org/10.1111/j.1461-0248.2012.01858.x",
+    "DOI": "10.1111/j.1461-0248.2012.01858.x",
+    "ISBN": [],
+    "ISSN": [
+      "1461-023X"
+    ],
+    "issue": "12",
+    "authors": [
+      {
+        "givenName": "Natalie",
+        "familyName": "Cooper",
+        "name": "Natalie Cooper",
+        "type": "person"
+      },
+      {
+        "givenName": "Randi",
+        "familyName": "Griffin",
+        "name": "Randi Griffin",
+        "type": "person"
+      },
+      {
+        "givenName": "Mathias",
+        "familyName": "Franz",
+        "name": "Mathias Franz",
+        "type": "person"
+      },
+      {
+        "givenName": "Moshood",
+        "familyName": "Omotayo",
+        "name": "Moshood Omotayo",
+        "type": "person"
+      },
+      {
+        "givenName": "Charles L.",
+        "familyName": "Nunn",
+        "name": "Charles L. Nunn",
+        "type": "person"
+      }
+    ],
+    "contributors": []
+  },
+  {
+    "date": [],
+    "accessed": [],
+    "type": "WEB_DOCUMENT",
+    "ISBN": [],
+    "ISSN": [],
+    "tag": "http___www_cfsph_iastate_edu_DiseaseInfo_disease_php_name_rabies",
+    "titles": [],
+    "journalNames": [],
+    "URL": "http://www.cfsph.iastate.edu/DiseaseInfo/disease.php?name=rabies",
+    "authors": [],
+    "contributors": [],
+    "comment": "The Center for Food Security and Public Health; Institute for International Cooperation in Animal Biologics; World Organisation for Animal Health. 2009. \"Rabies Factsheet.\" Accessed July 2, 2012. http://www.cfsph.iastate.edu/DiseaseInfo/disease.php?name=rabies"
+  }
+]
