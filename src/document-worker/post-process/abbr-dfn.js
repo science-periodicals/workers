@@ -52,10 +52,19 @@ export default function abbrDfn(ctx, cb) {
           });
 
         // create a regexp ORing all the aKeys:
-        // '( (?:\\bkey1\\b) | (?:\\bkey2\\b) )' ...
+        // /((?:\b(?<![/.-\\])key\b(?![/.-\\])))/;
+        // Note we exclude / . -  in order to not turn part of URL or slugs into <abbr />
+
+        const negLookBehind = '(?<![/.-])';
+        const negLookAhead = '(?![/.-])';
+
         let abbrRx =
           aKeys.length &&
-          new RegExp('((?:\\b' + aKeys.join('\\b)|(?:\\b') + '\\b))');
+          new RegExp(
+            `((?:\\b${negLookBehind}` +
+              aKeys.join(`\\b${negLookAhead})|(?:\\b${negLookBehind}`) +
+              `\\b${negLookAhead}))`
+          );
 
         let excl = ['pre'];
 

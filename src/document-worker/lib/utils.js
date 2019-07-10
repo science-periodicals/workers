@@ -322,7 +322,9 @@ export function cleanUpHtml($node) {
       .filter(Boolean)
       .join('; ');
     $el.setAttribute('style', style);
-    $el.removeAttribute('data-style');
+    // Note: we do NOT remove the `data-style` attribute as `cleanUpHtml` can be
+    // called several times on the same element, removing the `data-style`
+    // attribute would result in losing the `style` one on the second call
   });
 
   return $node;

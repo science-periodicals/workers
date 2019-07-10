@@ -39,9 +39,10 @@ describe('DOCX: Citation errors with unbookmarked abbreviations', function() {
     );
   });
 
-  it('should have correct citations when there are no bookmarked abbreviations (https://github.com/scienceai/workers/issues/55)', () => {
+  it('should have correct citations when there are no bookmarked abbreviations', () => {
     // check the json for the correct citation (and year)
-    // we check that because of https://github.com/scienceai/workers/issues/55
+    // we test that as abbreviation section without at least one bookmarked
+    // abbreviation used to cause citation error (missing 0 in the citation year)
     assert.equal(
       framed.citation[0].datePublished['@value'].match(/^[0-9]{4}/),
       '2011'

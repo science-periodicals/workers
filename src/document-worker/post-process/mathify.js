@@ -118,8 +118,11 @@ export default function mathify(ctx, callback) {
             }
           }
 
+          // Note: we used `data-style` instead of `style` so it doesn't get
+          // cleaned up. `data-style` will be turn into `style` further downstream
+          // (post cleanup).
           span.setAttribute('data-style', spanStyle.join('; '));
-          //
+
           mel.parentNode.replaceChild(span, mel);
         }
       );

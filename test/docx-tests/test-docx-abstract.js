@@ -32,6 +32,13 @@ describe('DOCX: Abstract', function() {
       );
 
       assert(abstract);
+
+      // check that inline math style are preserved
+      assert(
+        abstract.text['@value'].includes('style=') &&
+          abstract.text['@value'].includes('data-style=')
+      );
+
       assert(structuredAbstract);
       assert(impactStatement);
       assert(plainLanguageSummary);
