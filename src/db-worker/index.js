@@ -8,8 +8,7 @@ import {
   schema,
   getUrlTemplateCtx,
   getAgentId,
-  setId,
-  getMetaActionParticipants
+  setId
 } from '@scipe/librarian';
 import { getId, arrayify } from '@scipe/jsonld';
 import { Worker } from '../';
