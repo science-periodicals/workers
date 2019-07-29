@@ -73,6 +73,7 @@ export default function(ctx, callback) {
 
         superEvent.emitEndedEvent();
         ctx.emitEvent = emitEvent;
+
         callback(null, ctx);
       });
     }
