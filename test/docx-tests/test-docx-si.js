@@ -1,9 +1,7 @@
-const path = require('path');
-const assert = require('assert');
-const {
-  processDocx,
-  frame
-} = require('../../src/document-worker/lib/test-utils');
+import path from 'path';
+import assert from 'assert';
+import { getId } from '@scipe/jsonld';
+import { processDocx, frame } from '../../src/document-worker/lib/test-utils';
 
 const docx = path.join(
   path.dirname(__dirname),
@@ -85,12 +83,13 @@ describe('DOCX: Supporting Information', function() {
     ];
 
     const resources = framedResource.hasPart;
-
     expected.forEach(data => {
       const resource = resources.find(
         resource => resource.alternateName === data.alternateName
       );
+
       assert(resource);
+      assert(getId(resource).startsWith('node:'));
       assert(resource.isSupportingResource);
       assert.equal(resource['@type'], data['@type']);
     });

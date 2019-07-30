@@ -110,9 +110,10 @@ export default function extractExternal(ctx, callback) {
     } else if (/code|software|application/i.test(tc)) {
       // SoftwareSourceCode
       externalResource = store.createSoftwareSourceCode(
-        Object.assign({ codeSampleType: 'external' }, externalResourceParams, {
+        Object.assign({ codeSampleType: 'external' }, externalResourceParams),
+        {
           curiePrefix: 'node'
-        })
+        }
       );
       externalResource.addEncoding(
         store.createSoftwareSourceCodeObject(externalEncodingParams, {
