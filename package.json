@@ -88,7 +88,7 @@
     "is-url": "^1.2.4",
     "jsdom": "^13.2.0",
     "list-of-programming-languages": "^2.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mathjax-node-page": "^3.2.0",
     "mime-types": "^2.1.24",
     "mmmagic": "^0.5.3",
