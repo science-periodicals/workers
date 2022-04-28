@@ -74,7 +74,7 @@
     "@scipe/jsonld": "^1.0.0",
     "@scipe/librarian": "^1.0.0",
     "@scipe/ontology": "^23.0.0",
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "bunyan": "^1.8.12",
     "clone": "^2.1.2",
     "colors": "^1.3.3",
