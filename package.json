@@ -86,7 +86,7 @@
     "fs-extra": "^7.0.1",
     "gm": "^1.23.1",
     "is-url": "^1.2.4",
-    "jsdom": "^13.2.0",
+    "jsdom": "^16.5.0",
     "list-of-programming-languages": "^2.0.2",
     "lodash": "^4.17.15",
     "mathjax-node-page": "^3.2.0",
